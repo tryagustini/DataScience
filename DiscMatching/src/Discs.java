@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
@@ -13,71 +14,26 @@ public class Discs{
 
 class Disc{
 	@XmlElement
-	private int id;
+	public int id;
 	
 	@XmlElement
-	private String cid;
+	public String cid;
 	
 	@XmlElement
-	private String artist;
+	public String artist;
 	
 	@XmlElement
-	private String dtitle;
+	public String dtitle;
+	
 	
 	@XmlElement
-	private String category;
+	public String category;
 	
 	@XmlElement
-	private Tracks tracks;
+	public Tracks tracks;
 	
-	private int getID() {
-		return id;
-	}
+	public HashMap<Integer,Double> probability;	
 
-	private void setID(int id) {
-		this.id = id;
-	}
-
-	private String getCID() {
-		return cid;
-	}
-
-	private void setCID(String cid) {
-		this.cid = cid;
-	}
-	
-	private String getArtist() {
-		return artist;
-	}
-
-	private void setArtist(String artist) {
-		this.artist = artist;
-	}
-
-	private String getDtitle() {
-		return dtitle;
-	}
-	
-	private void setDtitle(String dtitle) {
-		this.dtitle = dtitle;
-	}
-
-	private String getCategory() {
-		return category;
-	}
-	
-	private void setCategory(String category) {
-		this.category = category;
-	}
-	
-	private Tracks getTracks() {
-		return tracks;
-	}
-	
-	private void setTracks(Tracks tracks) {
-		this.tracks = tracks;
-	}
-	
 	@Override
 	public String toString() {
 		return "Disc [ID=" +id +", cid=" +cid +", artist=" +artist +", dititle=" +dtitle 
