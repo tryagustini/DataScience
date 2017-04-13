@@ -25,14 +25,13 @@ class Disc{
 	@XmlElement
 	public String dtitle;
 	
-	
 	@XmlElement
 	public String category;
 	
 	@XmlElement
 	public Tracks tracks;
 	
-	public HashMap<Integer,Double> probability;	
+	public double probability;	
 
 	@Override
 	public String toString() {
