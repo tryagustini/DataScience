@@ -126,9 +126,7 @@ public class Main {
 					if(isFirstRecord){
 						isFirstRecord = false;
 						String proba = "["+uniquePartition+"=1";
-						for (int i = 1; i < pairs.size();i++){
-							proba+= " or "+uniquePartition2+"="+(i);
-						}
+						proba+= " or "+uniquePartition2+"="+1;
 						proba+="]";
 						id = d.id;
 						writer.println("final_disc_dtitle("+d.id+",\""+d.dtitle+"\")"+proba+".");
@@ -154,9 +152,9 @@ public class Main {
 						int i = 1;
 						for (Disc d :pairs ) {		
 							if(i==1 && pairs.size()>1){
-								writer.println("@p("+uniquePartition+"="+i+")="+ (Precision.round(1-pairs.get(i).probability,2))+"." );
+								writer.println("@p("+uniquePartition+"="+i+")="+ (Precision.round(pairs.get(i).probability,2))+"." );
 							}else{
-								writer.println("@p("+uniquePartition+"="+i+")="+Precision.round(d.probability, 2)+".");
+								writer.println("@p("+uniquePartition+"="+i+")="+Precision.round(1-d.probability, 2)+".");
 							}
 							i++;
 						}

@@ -1,2032 +1,2032 @@
-final_disc_id(2619)[PYF=1 or PYF=2 or PYF=3].
-final_disc_id(6174)[PYF=2].
-final_disc_id(4520)[PYF=3].
-final_disc_dtitle(2619,"Psalms")[PYF=1 or KBW=1 or KBW=2].
-final_disc_dtitle(2619,"Psalms")[PYF=1 and KBW=2].
-final_disc_dtitle(2619,"Psalms")[PYF=1 and KBW=3].
-final_disc_dtitle(6174,"Psalms")[PYF=2].
-final_disc_dtitle(4520,"Psalms")[PYF=3].
-@uniform PYF.
-@uniform KBW.
-
-final_disc_id(1828)[PFC=1 or PFC=2].
-final_disc_id(2110)[PFC=2].
-final_disc_dtitle(1828,"'n ons geluk")[PFC=1 or CER=1].
-final_disc_dtitle(1828,"Een Ons Geluk")[PFC=1 and CER=2].
-final_disc_dtitle(2110,"Een Ons Geluk")[PFC=2].
-@p(PFC=1)=0.19.
-@p(PFC=2)=0.81.
-@uniform CER.
-
-final_disc_id(2366)[AYA=1 or AYA=2].
-final_disc_id(2367)[AYA=2].
-final_disc_dtitle(2366,"the mainstreet sword")[AYA=1 or FDS=1].
-final_disc_dtitle(2366,"The Mainstreet Sword")[AYA=1 and FDS=2].
-final_disc_dtitle(2367,"The Mainstreet Sword")[AYA=2].
-@p(AYA=1)=0.2.
-@p(AYA=2)=0.8.
-@uniform FDS.
-
-final_disc_id(2187)[TAC=1 or TAC=2].
-final_disc_id(2418)[TAC=2].
-final_disc_dtitle(2187,"ÎçÒ¹³¡")[TAC=1 or QIP=1].
-final_disc_dtitle(2187,"ÎçÒ¹³¡")[TAC=1 and QIP=2].
-final_disc_dtitle(2418,"ÎçÒ¹³¡")[TAC=2].
-@p(TAC=1)=0.0.
-@p(TAC=2)=1.0.
-@uniform QIP.
-
-final_disc_id(1866)[QJM=1].
-final_disc_dtitle(1866,"Modern Worship Shema (½¦¸¶)")[QJM=1].
-@uniform QJM.
-
-final_disc_id(2530)[BYF=1].
-final_disc_dtitle(2530,"Shema")[BYF=1].
-@uniform BYF.
-
-final_disc_id(2577)[UWA=1 or UWA=2 or UWA=3 or UWA=4 or UWA=5].
-final_disc_id(2581)[UWA=2].
-final_disc_id(5477)[UWA=3].
-final_disc_id(8368)[UWA=4].
-final_disc_id(9076)[UWA=5].
-final_disc_dtitle(2577,"Defenestration")[UWA=1 or OYN=1 or OYN=2 or OYN=3 or OYN=4].
-final_disc_dtitle(2577,"Defenestration")[UWA=1 and OYN=2].
-final_disc_dtitle(2577,"Disintegration")[UWA=1 and OYN=3].
-final_disc_dtitle(2577,"Disintegration")[UWA=1 and OYN=4].
-final_disc_dtitle(2577,"Disintegration")[UWA=1 and OYN=5].
-final_disc_dtitle(2581,"Defenestration")[UWA=2].
-final_disc_dtitle(5477,"Disintegration")[UWA=3].
-final_disc_dtitle(8368,"Disintegration")[UWA=4].
-final_disc_dtitle(9076,"Disintegration")[UWA=5].
-@uniform UWA.
-@uniform OYN.
-
-final_disc_id(2890)[VHE=1].
-final_disc_dtitle(2890,"Vaya Con Dios")[VHE=1].
-@uniform VHE.
-
-final_disc_id(2891)[OQL=1].
-final_disc_dtitle(2891,"En Espanol (Disk 1)")[OQL=1].
-@uniform OQL.
-
-final_disc_id(2957)[MPB=1 or MPB=2 or MPB=3 or MPB=4 or MPB=5 or MPB=6 or MPB=7 or MPB=8 or MPB=9].
-final_disc_id(3106)[MPB=2].
-final_disc_id(3722)[MPB=3].
-final_disc_id(6719)[MPB=4].
-final_disc_id(4851)[MPB=5].
-final_disc_id(7708)[MPB=6].
-final_disc_id(8453)[MPB=7].
-final_disc_id(7599)[MPB=8].
-final_disc_id(10293)[MPB=9].
-final_disc_dtitle(2957,"The Moment")[MPB=1 or KBQ=1 or KBQ=2 or KBQ=3 or KBQ=4 or KBQ=5 or KBQ=6 or KBQ=7 or KBQ=8].
-final_disc_dtitle(2957,"The Moment")[MPB=1 and KBQ=2].
-final_disc_dtitle(2957,"The Bends")[MPB=1 and KBQ=3].
-final_disc_dtitle(2957,"The Bends")[MPB=1 and KBQ=4].
-final_disc_dtitle(2957,"The Heat")[MPB=1 and KBQ=5].
-final_disc_dtitle(2957,"The Heat")[MPB=1 and KBQ=6].
-final_disc_dtitle(2957,"The Bends")[MPB=1 and KBQ=7].
-final_disc_dtitle(2957,"The Mix")[MPB=1 and KBQ=8].
-final_disc_dtitle(2957,"The MIX")[MPB=1 and KBQ=9].
-final_disc_dtitle(3106,"The Moment")[MPB=2].
-final_disc_dtitle(3722,"The Bends")[MPB=3].
-final_disc_dtitle(6719,"The Bends")[MPB=4].
-final_disc_dtitle(4851,"The Heat")[MPB=5].
-final_disc_dtitle(7708,"The Heat")[MPB=6].
-final_disc_dtitle(8453,"The Bends")[MPB=7].
-final_disc_dtitle(7599,"The Mix")[MPB=8].
-final_disc_dtitle(10293,"The MIX")[MPB=9].
-@uniform MPB.
-@uniform KBQ.
-
-final_disc_id(3096)[HIM=1 or HIM=2].
-final_disc_id(3123)[HIM=2].
-final_disc_dtitle(3096,"The Philosopher Kings")[HIM=1 or TUB=1].
-final_disc_dtitle(3096,"the Philosopher Kings")[HIM=1 and TUB=2].
-final_disc_dtitle(3123,"the Philosopher Kings")[HIM=2].
-@p(HIM=1)=0.03.
-@p(HIM=2)=0.97.
-@uniform TUB.
-
-final_disc_id(2813)[KQE=1 or KQE=2].
-final_disc_id(3155)[KQE=2].
-final_disc_dtitle(2813,"Out of Here")[KQE=1 or LUL=1].
-final_disc_dtitle(2813,"Out Of Here")[KQE=1 and LUL=2].
-final_disc_dtitle(3155,"Out Of Here")[KQE=2].
-@p(KQE=1)=0.04.
-@p(KQE=2)=0.96.
-@uniform LUL.
-
-final_disc_id(3086)[EZF=1 or EZF=2].
-final_disc_id(3215)[EZF=2].
-final_disc_dtitle(3086,"Under The Boardwalk")[EZF=1 or GTQ=1].
-final_disc_dtitle(3086,"Under The Boardwalk")[EZF=1 and GTQ=2].
-final_disc_dtitle(3215,"Under The Boardwalk")[EZF=2].
-@p(EZF=1)=0.0.
-@p(EZF=2)=1.0.
-@uniform GTQ.
-
-final_disc_id(2139)[CRX=1 or CRX=2 or CRX=3 or CRX=4].
-final_disc_id(3296)[CRX=2].
-final_disc_id(1838)[CRX=3].
-final_disc_id(7934)[CRX=4].
-final_disc_dtitle(2139,"Greatest Hits Vol 1")[CRX=1 or KSJ=1 or KSJ=2 or KSJ=3].
-final_disc_dtitle(2139,"Greatest Hits")[CRX=1 and KSJ=2].
-final_disc_dtitle(2139,"Greatest Hits (CD1)")[CRX=1 and KSJ=3].
-final_disc_dtitle(2139,"Greatest Hits Disc 1")[CRX=1 and KSJ=4].
-final_disc_dtitle(3296,"Greatest Hits")[CRX=2].
-final_disc_dtitle(1838,"Greatest Hits (CD1)")[CRX=3].
-final_disc_dtitle(7934,"Greatest Hits Disc 1")[CRX=4].
-@uniform CRX.
-@uniform KSJ.
-
-final_disc_id(7201)[YWR=1 or YWR=2].
-final_disc_id(8536)[YWR=2].
-final_disc_dtitle(7201,"Reload")[YWR=1 or PQE=1].
-final_disc_dtitle(7201,"Reload")[YWR=1 and PQE=2].
-final_disc_dtitle(8536,"Reload")[YWR=2].
-@p(YWR=1)=0.0.
-@p(YWR=2)=1.0.
-@uniform PQE.
-
-final_disc_id(2004)[ILR=1 or ILR=2].
-final_disc_id(3710)[ILR=2].
-final_disc_dtitle(2004,"�?í ¹ìïõíá �?áëéüðáéäï")[ILR=1 or OYW=1].
-final_disc_dtitle(2004,"�?í Þìïõíá ðáëéüðáéäï")[ILR=1 and OYW=2].
-final_disc_dtitle(3710,"�?í Þìïõíá ðáëéüðáéäï")[ILR=2].
-@p(ILR=1)=0.09.
-@p(ILR=2)=0.91.
-@uniform OYW.
-
-final_disc_id(3529)[SNA=1 or SNA=2].
-final_disc_id(4114)[SNA=2].
-final_disc_dtitle(3529,"Agua De Luna")[SNA=1 or AIA=1].
-final_disc_dtitle(3529,"Agua De Luna")[SNA=1 and AIA=2].
-final_disc_dtitle(4114,"Agua De Luna")[SNA=2].
-@p(SNA=1)=0.0.
-@p(SNA=2)=1.0.
-@uniform AIA.
-
-final_disc_id(3125)[MLL=1].
-final_disc_dtitle(3125,"Vespertine")[MLL=1].
-@uniform MLL.
-
-final_disc_id(4140)[III=1].
-final_disc_dtitle(4140,"Bjork - Vespertine")[III=1].
-@uniform III.
-
-final_disc_id(3539)[YFG=1 or YFG=2 or YFG=3].
-final_disc_id(4190)[YFG=2].
-final_disc_id(8424)[YFG=3].
-final_disc_dtitle(3539,"Aquarius")[YFG=1 or PIS=1 or PIS=2].
-final_disc_dtitle(3539,"Aquarius")[YFG=1 and PIS=2].
-final_disc_dtitle(3539,"Aqualung")[YFG=1 and PIS=3].
-final_disc_dtitle(4190,"Aquarius")[YFG=2].
-final_disc_dtitle(8424,"Aqualung")[YFG=3].
-@uniform YFG.
-@uniform PIS.
-
-final_disc_id(3678)[RGL=1 or RGL=2 or RGL=3].
-final_disc_id(4266)[RGL=2].
-final_disc_id(6690)[RGL=3].
-final_disc_dtitle(3678,"The Kick Inside")[RGL=1 or HPP=1 or HPP=2].
-final_disc_dtitle(3678,"The Kick Inside")[RGL=1 and HPP=2].
-final_disc_dtitle(3678,"The Kick Inside")[RGL=1 and HPP=3].
-final_disc_dtitle(4266,"The Kick Inside")[RGL=2].
-final_disc_dtitle(6690,"The Kick Inside")[RGL=3].
-@uniform RGL.
-@uniform HPP.
-
-final_disc_id(4271)[HQW=1].
-final_disc_dtitle(4271,"James Taylor Greatest Hits")[HQW=1].
-@uniform HQW.
-
-final_disc_id(4297)[HXV=1 or HXV=2 or HXV=3 or HXV=4 or HXV=5 or HXV=6].
-final_disc_id(4306)[HXV=2].
-final_disc_id(6272)[HXV=3].
-final_disc_id(7460)[HXV=4].
-final_disc_id(8636)[HXV=5].
-final_disc_id(8578)[HXV=6].
-final_disc_dtitle(4297,"Let Go")[HXV=1 or QXG=1 or QXG=2 or QXG=3 or QXG=4 or QXG=5].
-final_disc_dtitle(4297,"Let Go")[HXV=1 and QXG=2].
-final_disc_dtitle(4297,"Let It Be")[HXV=1 and QXG=3].
-final_disc_dtitle(4297,"Let It Be")[HXV=1 and QXG=4].
-final_disc_dtitle(4297,"Let Go")[HXV=1 and QXG=5].
-final_disc_dtitle(4297,"Let It Be")[HXV=1 and QXG=6].
-final_disc_dtitle(4306,"Let Go")[HXV=2].
-final_disc_dtitle(6272,"Let It Be")[HXV=3].
-final_disc_dtitle(7460,"Let It Be")[HXV=4].
-final_disc_dtitle(8636,"Let Go")[HXV=5].
-final_disc_dtitle(8578,"Let It Be")[HXV=6].
-@uniform HXV.
-@uniform QXG.
-
-final_disc_id(3670)[QDM=1 or QDM=2 or QDM=3 or QDM=4].
-final_disc_id(4441)[QDM=2].
-final_disc_id(8151)[QDM=3].
-final_disc_id(7515)[QDM=4].
-final_disc_dtitle(3670,"Nevermind")[QDM=1 or AAZ=1 or AAZ=2 or AAZ=3].
-final_disc_dtitle(3670,"Nevermind")[QDM=1 and AAZ=2].
-final_disc_dtitle(3670,"Nevermind")[QDM=1 and AAZ=3].
-final_disc_dtitle(3670,"Nevermind")[QDM=1 and AAZ=4].
-final_disc_dtitle(4441,"Nevermind")[QDM=2].
-final_disc_dtitle(8151,"Nevermind")[QDM=3].
-final_disc_dtitle(7515,"Nevermind")[QDM=4].
-@uniform QDM.
-@uniform AAZ.
-
-final_disc_id(3222)[LMQ=1 or LMQ=2].
-final_disc_id(4451)[LMQ=2].
-final_disc_dtitle(3222,"DREAM")[LMQ=1 or ZLP=1].
-final_disc_dtitle(3222,"DREAM")[LMQ=1 and ZLP=2].
-final_disc_dtitle(4451,"DREAM")[LMQ=2].
-@p(LMQ=1)=0.0.
-@p(LMQ=2)=1.0.
-@uniform ZLP.
-
-final_disc_id(3395)[GBL=1].
-final_disc_dtitle(3395,"The Crystal Method - Tweekend")[GBL=1].
-@uniform GBL.
-
-final_disc_id(4563)[AFK=1 or AFK=2].
-final_disc_id(5122)[AFK=2].
-final_disc_dtitle(4563,"tweekend")[AFK=1 or OTP=1].
-final_disc_dtitle(4563,"Tweekend")[AFK=1 and OTP=2].
-final_disc_dtitle(5122,"Tweekend")[AFK=2].
-@p(AFK=1)=0.08.
-@p(AFK=2)=0.92.
-@uniform OTP.
-
-final_disc_id(2026)[DIX=1].
-final_disc_dtitle(2026,"Goddamnit!")[DIX=1].
-@uniform DIX.
-
-final_disc_id(4601)[PDM=1 or PDM=2].
-final_disc_id(8410)[PDM=2].
-final_disc_dtitle(4601,"From Here to Infirmiry")[PDM=1 or GKV=1].
-final_disc_dtitle(4601,"From Here To Infirmary")[PDM=1 and GKV=2].
-final_disc_dtitle(8410,"From Here To Infirmary")[PDM=2].
-@p(PDM=1)=0.03.
-@p(PDM=2)=0.97.
-@uniform GKV.
-
-final_disc_id(3185)[XCP=1 or XCP=2].
-final_disc_id(4631)[XCP=2].
-final_disc_dtitle(3185,"The Original Glenn Miller Reunion 1954")[XCP=1 or LGO=1].
-final_disc_dtitle(3185,"The Original Reunion Of The Glenn Miller Band")[XCP=1 and LGO=2].
-final_disc_dtitle(4631,"The Original Reunion Of The Glenn Miller Band")[XCP=2].
-@p(XCP=1)=0.15.
-@p(XCP=2)=0.85.
-@uniform LGO.
-
-final_disc_id(2823)[EAW=1 or EAW=2].
-final_disc_id(4684)[EAW=2].
-final_disc_dtitle(2823,"The Jazzmasters4")[EAW=1 or SPL=1].
-final_disc_dtitle(2823,"The Jazzmasters 4")[EAW=1 and SPL=2].
-final_disc_dtitle(4684,"The Jazzmasters 4")[EAW=2].
-@p(EAW=1)=0.0.
-@p(EAW=2)=1.0.
-@uniform SPL.
-
-final_disc_id(4709)[TZG=1 or TZG=2].
-final_disc_id(4710)[TZG=2].
-final_disc_dtitle(4709,"globe")[TZG=1 or MAN=1].
-final_disc_dtitle(4709,"globe")[TZG=1 and MAN=2].
-final_disc_dtitle(4710,"globe")[TZG=2].
-@p(TZG=1)=0.0.
-@p(TZG=2)=1.0.
-@uniform MAN.
-
-final_disc_id(4179)[MUU=1 or MUU=2 or MUU=3].
-final_disc_id(4732)[MUU=2].
-final_disc_id(4911)[MUU=3].
-final_disc_dtitle(4179,"Justified")[MUU=1 or JZU=1 or JZU=2].
-final_disc_dtitle(4179,"Justified")[MUU=1 and JZU=2].
-final_disc_dtitle(4179,"Justified")[MUU=1 and JZU=3].
-final_disc_dtitle(4732,"Justified")[MUU=2].
-final_disc_dtitle(4911,"Justified")[MUU=3].
-@uniform MUU.
-@uniform JZU.
-
-final_disc_id(2252)[TTY=1 or TTY=2].
-final_disc_id(4733)[TTY=2].
-final_disc_dtitle(2252,"Ìóðçèëêè +")[TTY=1 or GRG=1].
-final_disc_dtitle(2252,"Ìóðçèëêè +")[TTY=1 and GRG=2].
-final_disc_dtitle(4733,"Ìóðçèëêè +")[TTY=2].
-@p(TTY=1)=0.0.
-@p(TTY=2)=1.0.
-@uniform GRG.
-
-final_disc_id(5238)[MSP=1 or MSP=2].
-final_disc_id(8297)[MSP=2].
-final_disc_dtitle(5238,"Ultrasonica")[MSP=1 or UPU=1].
-final_disc_dtitle(5238,"Ultrasónica")[MSP=1 and UPU=2].
-final_disc_dtitle(8297,"Ultrasónica")[MSP=2].
-@p(MSP=1)=0.03.
-@p(MSP=2)=0.97.
-@uniform UPU.
-
-final_disc_id(4588)[GIZ=1 or GIZ=2].
-final_disc_id(4774)[GIZ=2].
-final_disc_dtitle(4588,"Dimension Intrusion")[GIZ=1 or JNQ=1].
-final_disc_dtitle(4588,"Dimension Intrusion")[GIZ=1 and JNQ=2].
-final_disc_dtitle(4774,"Dimension Intrusion")[GIZ=2].
-@p(GIZ=1)=0.0.
-@p(GIZ=2)=1.0.
-@uniform JNQ.
-
-final_disc_id(4145)[OAU=1 or OAU=2].
-final_disc_id(4886)[OAU=2].
-final_disc_dtitle(4145,"La Realtà, la Lealtà e lo Scontro")[OAU=1 or NBB=1].
-final_disc_dtitle(4145,"La realtà la lealtà e lo scont")[OAU=1 and NBB=2].
-final_disc_dtitle(4886,"La realtà la lealtà e lo scont")[OAU=2].
-@p(OAU=1)=0.13.
-@p(OAU=2)=0.87.
-@uniform NBB.
-
-final_disc_id(4291)[NWE=1 or NWE=2].
-final_disc_id(4905)[NWE=2].
-final_disc_dtitle(4291,"Britney")[NWE=1 or PMU=1].
-final_disc_dtitle(4291,"Britney")[NWE=1 and PMU=2].
-final_disc_dtitle(4905,"Britney")[NWE=2].
-@p(NWE=1)=0.0.
-@p(NWE=2)=1.0.
-@uniform PMU.
-
-final_disc_id(2317)[APX=1 or APX=2].
-final_disc_id(4988)[APX=2].
-final_disc_dtitle(2317,"Vømmøl'n")[APX=1 or PAV=1].
-final_disc_dtitle(2317,"V mm l'n")[APX=1 and PAV=2].
-final_disc_dtitle(4988,"V mm l'n")[APX=2].
-@p(APX=1)=0.15.
-@p(APX=2)=0.85.
-@uniform PAV.
-
-final_disc_id(5921)[ICY=1 or ICY=2].
-final_disc_id(8423)[ICY=2].
-final_disc_dtitle(5921,"Tribal Voice")[ICY=1 or TCJ=1].
-final_disc_dtitle(5921,"Tribal Voice")[ICY=1 and TCJ=2].
-final_disc_dtitle(8423,"Tribal Voice")[ICY=2].
-@p(ICY=1)=0.0.
-@p(ICY=2)=1.0.
-@uniform TCJ.
-
-final_disc_id(6354)[VEQ=1].
-final_disc_dtitle(6354,"Aqualung (24K Gold Disc)")[VEQ=1].
-@uniform VEQ.
-
-final_disc_id(5010)[JIQ=1 or JIQ=2].
-final_disc_id(5205)[JIQ=2].
-final_disc_dtitle(5010,"Elvenmusic")[JIQ=1 or USE=1].
-final_disc_dtitle(5010,"Elvenmusic")[JIQ=1 and USE=2].
-final_disc_dtitle(5205,"Elvenmusic")[JIQ=2].
-@p(JIQ=1)=0.0.
-@p(JIQ=2)=1.0.
-@uniform USE.
-
-final_disc_id(7540)[CRU=1 or CRU=2 or CRU=3].
-final_disc_id(8823)[CRU=2].
-final_disc_id(7542)[CRU=3].
-final_disc_dtitle(7540,"Mental Jewelry")[CRU=1 or BBZ=1 or BBZ=2].
-final_disc_dtitle(7540,"Mental Jewelry")[CRU=1 and BBZ=2].
-final_disc_dtitle(7540,"Mental Jewelry")[CRU=1 and BBZ=3].
-final_disc_dtitle(8823,"Mental Jewelry")[CRU=2].
-final_disc_dtitle(7542,"Mental Jewelry")[CRU=3].
-@uniform CRU.
-@uniform BBZ.
-
-final_disc_id(7769)[GRQ=1].
-final_disc_dtitle(7769,"NEVERMIND")[GRQ=1].
-@uniform GRQ.
-
-final_disc_id(5394)[EBF=1 or EBF=2].
-final_disc_id(5418)[EBF=2].
-final_disc_dtitle(5394,"Maroon")[EBF=1 or GMF=1].
-final_disc_dtitle(5394,"Maroon")[EBF=1 and GMF=2].
-final_disc_dtitle(5418,"Maroon")[EBF=2].
-@p(EBF=1)=0.0.
-@p(EBF=2)=1.0.
-@uniform GMF.
-
-final_disc_id(2440)[AUZ=1 or AUZ=2].
-final_disc_id(5443)[AUZ=2].
-final_disc_dtitle(2440,"A Letra A")[AUZ=1 or UJY=1].
-final_disc_dtitle(2440,"A Letra A")[AUZ=1 and UJY=2].
-final_disc_dtitle(5443,"A Letra A")[AUZ=2].
-@p(AUZ=1)=0.0.
-@p(AUZ=2)=1.0.
-@uniform UJY.
-
-final_disc_id(2771)[OUZ=1 or OUZ=2].
-final_disc_id(5458)[OUZ=2].
-final_disc_dtitle(2771,"Munia")[OUZ=1 or BJK=1].
-final_disc_dtitle(2771,"Munia/The Tail")[OUZ=1 and BJK=2].
-final_disc_dtitle(5458,"Munia/The Tail")[OUZ=2].
-@p(OUZ=1)=0.14.
-@p(OUZ=2)=0.86.
-@uniform BJK.
-
-final_disc_id(4384)[WQV=1 or WQV=2 or WQV=3].
-final_disc_id(5657)[WQV=2].
-final_disc_id(5681)[WQV=3].
-final_disc_dtitle(4384,"Dreamland")[WQV=1 or MEP=1 or MEP=2].
-final_disc_dtitle(4384,"Dreamland")[WQV=1 and MEP=2].
-final_disc_dtitle(4384,"Dreamland [BVCP-993]")[WQV=1 and MEP=3].
-final_disc_dtitle(5657,"Dreamland")[WQV=2].
-final_disc_dtitle(5681,"Dreamland [BVCP-993]")[WQV=3].
-@uniform WQV.
-@uniform MEP.
-
-final_disc_id(4676)[GZA=1 or GZA=2 or GZA=3].
-final_disc_id(5746)[GZA=2].
-final_disc_id(8097)[GZA=3].
-final_disc_dtitle(4676,"Whoa, Nelly!")[GZA=1 or KFZ=1 or KFZ=2].
-final_disc_dtitle(4676,"Whoa, Nelly!")[GZA=1 and KFZ=2].
-final_disc_dtitle(4676,"Whoa Nelly")[GZA=1 and KFZ=3].
-final_disc_dtitle(5746,"Whoa, Nelly!")[GZA=2].
-final_disc_dtitle(8097,"Whoa Nelly")[GZA=3].
-@uniform GZA.
-@uniform KFZ.
-
-final_disc_id(3931)[FDE=1 or FDE=2].
-final_disc_id(5754)[FDE=2].
-final_disc_dtitle(3931,"Hormonally Yours")[FDE=1 or MPA=1].
-final_disc_dtitle(3931,"Hormonally Yours")[FDE=1 and MPA=2].
-final_disc_dtitle(5754,"Hormonally Yours")[FDE=2].
-@p(FDE=1)=0.0.
-@p(FDE=2)=1.0.
-@uniform MPA.
-
-final_disc_id(5780)[QGE=1].
-final_disc_dtitle(5780,"chant")[QGE=1].
-@uniform QGE.
-
-final_disc_id(5782)[XKM=1].
-final_disc_dtitle(5782,"instrumental")[XKM=1].
-@uniform XKM.
-
-final_disc_id(4975)[PVC=1 or PVC=2].
-final_disc_id(5889)[PVC=2].
-final_disc_dtitle(4975,"It's Christmas")[PVC=1 or IZF=1].
-final_disc_dtitle(4975,"It's Christmas")[PVC=1 and IZF=2].
-final_disc_dtitle(5889,"It's Christmas")[PVC=2].
-@p(PVC=1)=0.0.
-@p(PVC=2)=1.0.
-@uniform IZF.
-
-final_disc_id(5371)[BZS=1 or BZS=2].
-final_disc_id(5959)[BZS=2].
-final_disc_dtitle(5371,"Rocket in the Pocket")[BZS=1 or MEW=1].
-final_disc_dtitle(5371,"Rocket in the Pocket")[BZS=1 and MEW=2].
-final_disc_dtitle(5959,"Rocket in the Pocket")[BZS=2].
-@p(BZS=1)=0.0.
-@p(BZS=2)=1.0.
-@uniform MEW.
-
-final_disc_id(4613)[KRN=1 or KRN=2].
-final_disc_id(6116)[KRN=2].
-final_disc_dtitle(4613,"A Christmas to Remember")[KRN=1 or BSS=1].
-final_disc_dtitle(4613,"A Christmas To Remember")[KRN=1 and BSS=2].
-final_disc_dtitle(6116,"A Christmas To Remember")[KRN=2].
-@p(KRN=1)=0.01.
-@p(KRN=2)=0.99.
-@uniform BSS.
-
-final_disc_id(7211)[GNI=1 or GNI=2].
-final_disc_id(7614)[GNI=2].
-final_disc_dtitle(7211,"House of Blues, Chicago '97")[GNI=1 or LJS=1].
-final_disc_dtitle(7211,"House of Blues, 11-1-97")[GNI=1 and LJS=2].
-final_disc_dtitle(7614,"House of Blues, 11-1-97")[GNI=2].
-@p(GNI=1)=0.07.
-@p(GNI=2)=0.93.
-@uniform LJS.
-
-final_disc_id(3134)[XTE=1].
-final_disc_dtitle(3134,"Metallica")[XTE=1].
-@uniform XTE.
-
-final_disc_id(6210)[YZW=1].
-final_disc_dtitle(6210,"METALLICA")[YZW=1].
-@uniform YZW.
-
-final_disc_id(3757)[TXQ=1 or TXQ=2].
-final_disc_id(6377)[TXQ=2].
-final_disc_dtitle(3757,"The singles 86-98 CD 2")[TXQ=1 or ZTC=1].
-final_disc_dtitle(3757,"The Singles 86>98 (Disc 2)")[TXQ=1 and ZTC=2].
-final_disc_dtitle(6377,"The Singles 86>98 (Disc 2)")[TXQ=2].
-@p(TXQ=1)=0.19.
-@p(TXQ=2)=0.81.
-@uniform ZTC.
-
-final_disc_id(4358)[SIQ=1 or SIQ=2].
-final_disc_id(6398)[SIQ=2].
-final_disc_dtitle(4358,"Vol.2... Hard Knock Life")[SIQ=1 or UGD=1].
-final_disc_dtitle(4358,"Vol.2...Hard Knock Life")[SIQ=1 and UGD=2].
-final_disc_dtitle(6398,"Vol.2...Hard Knock Life")[SIQ=2].
-@p(SIQ=1)=0.06.
-@p(SIQ=2)=0.94.
-@uniform UGD.
-
-final_disc_id(6663)[DMZ=1 or DMZ=2].
-final_disc_id(6665)[DMZ=2].
-final_disc_dtitle(6663,"Is This It?")[DMZ=1 or BFX=1].
-final_disc_dtitle(6663,"Is This It?")[DMZ=1 and BFX=2].
-final_disc_dtitle(6665,"Is This It?")[DMZ=2].
-@p(DMZ=1)=0.0.
-@p(DMZ=2)=1.0.
-@uniform BFX.
-
-final_disc_id(5542)[LGT=1 or LGT=2].
-final_disc_id(6695)[LGT=2].
-final_disc_dtitle(5542,"The Band Geek Mafia")[LGT=1 or IMH=1].
-final_disc_dtitle(5542,"Band Geek Mafia")[LGT=1 and IMH=2].
-final_disc_dtitle(6695,"Band Geek Mafia")[LGT=2].
-@p(LGT=1)=0.18.
-@p(LGT=2)=0.82.
-@uniform IMH.
-
-final_disc_id(4481)[QJP=1 or QJP=2].
-final_disc_id(6716)[QJP=2].
-final_disc_dtitle(4481,"Salt Peter")[QJP=1 or FWW=1].
-final_disc_dtitle(4481,"Salt Peter")[QJP=1 and FWW=2].
-final_disc_dtitle(6716,"Salt Peter")[QJP=2].
-@p(QJP=1)=0.0.
-@p(QJP=2)=1.0.
-@uniform FWW.
-
-final_disc_id(4124)[ECU=1 or ECU=2 or ECU=3].
-final_disc_id(6737)[ECU=2].
-final_disc_id(7722)[ECU=3].
-final_disc_dtitle(4124,"No Angel - 192")[ECU=1 or VTR=1 or VTR=2].
-final_disc_dtitle(4124,"No Angel")[ECU=1 and VTR=2].
-final_disc_dtitle(4124,"No Angel")[ECU=1 and VTR=3].
-final_disc_dtitle(6737,"No Angel")[ECU=2].
-final_disc_dtitle(7722,"No Angel")[ECU=3].
-@uniform ECU.
-@uniform VTR.
-
-final_disc_id(6547)[HHA=1 or HHA=2].
-final_disc_id(6741)[HHA=2].
-final_disc_dtitle(6547,"Sleepwalking")[HHA=1 or UOK=1].
-final_disc_dtitle(6547,"Sleepwalking")[HHA=1 and UOK=2].
-final_disc_dtitle(6741,"Sleepwalking")[HHA=2].
-@p(HHA=1)=0.0.
-@p(HHA=2)=1.0.
-@uniform UOK.
-
-final_disc_id(5426)[UDQ=1 or UDQ=2 or UDQ=3].
-final_disc_id(7869)[UDQ=2].
-final_disc_id(10361)[UDQ=3].
-final_disc_dtitle(5426,"ANThology")[UDQ=1 or GMR=1 or GMR=2].
-final_disc_dtitle(5426,"ANThology")[UDQ=1 and GMR=2].
-final_disc_dtitle(5426,"Anthology")[UDQ=1 and GMR=3].
-final_disc_dtitle(7869,"ANThology")[UDQ=2].
-final_disc_dtitle(10361,"Anthology")[UDQ=3].
-@uniform UDQ.
-@uniform GMR.
-
-final_disc_id(6761)[EZN=1].
-final_disc_dtitle(6761,"anthology")[EZN=1].
-@uniform EZN.
-
-final_disc_id(4876)[ASN=1].
-final_disc_dtitle(4876,"International DeeJay Gigolos CD Five")[ASN=1].
-@uniform ASN.
-
-final_disc_id(6762)[KPX=1].
-final_disc_dtitle(6762,"various Artists CD 1")[KPX=1].
-@uniform KPX.
-
-final_disc_id(3976)[BBE=1 or BBE=2].
-final_disc_id(6776)[BBE=2].
-final_disc_dtitle(3976,"Jay-Z: MTV Unplugged")[BBE=1 or XBF=1].
-final_disc_dtitle(3976,"MTV Unplugged")[BBE=1 and XBF=2].
-final_disc_dtitle(6776,"MTV Unplugged")[BBE=2].
-@p(BBE=1)=0.17.
-@p(BBE=2)=0.83.
-@uniform XBF.
-
-final_disc_id(3851)[XWM=1 or XWM=2].
-final_disc_id(6855)[XWM=2].
-final_disc_dtitle(3851,"Træk din kat i halen")[XWM=1 or JNA=1].
-final_disc_dtitle(3851,"Træk Din Kat I Halen")[XWM=1 and JNA=2].
-final_disc_dtitle(6855,"Træk Din Kat I Halen")[XWM=2].
-@p(XWM=1)=0.1.
-@p(XWM=2)=0.9.
-@uniform JNA.
-
-final_disc_id(6925)[UFM=1 or UFM=2].
-final_disc_id(6926)[UFM=2].
-final_disc_dtitle(6925,"High 'n' Dry")[UFM=1 or LKS=1].
-final_disc_dtitle(6925,"High 'n' dry")[UFM=1 and LKS=2].
-final_disc_dtitle(6926,"High 'n' dry")[UFM=2].
-@p(UFM=1)=0.01.
-@p(UFM=2)=0.99.
-@uniform LKS.
-
-final_disc_id(4184)[HXP=1 or HXP=2].
-final_disc_id(6950)[HXP=2].
-final_disc_dtitle(4184,"beautifulgarbage")[HXP=1 or SXP=1].
-final_disc_dtitle(4184,"Beautifulgarbage")[HXP=1 and SXP=2].
-final_disc_dtitle(6950,"Beautifulgarbage")[HXP=2].
-@p(HXP=1)=0.04.
-@p(HXP=2)=0.96.
-@uniform SXP.
-
-final_disc_id(6506)[LGA=1 or LGA=2].
-final_disc_id(6952)[LGA=2].
-final_disc_dtitle(6506,"Living In The Present Future")[LGA=1 or IDD=1].
-final_disc_dtitle(6506,"Living In The Present Future (Japan edit)")[LGA=1 and IDD=2].
-final_disc_dtitle(6952,"Living In The Present Future (Japan edit)")[LGA=2].
-@p(LGA=1)=0.03.
-@p(LGA=2)=0.97.
-@uniform IDD.
-
-final_disc_id(3356)[FRJ=1 or FRJ=2].
-final_disc_id(6955)[FRJ=2].
-final_disc_dtitle(3356,"Bunkka")[FRJ=1 or XCX=1].
-final_disc_dtitle(3356,"Bunkka")[FRJ=1 and XCX=2].
-final_disc_dtitle(6955,"Bunkka")[FRJ=2].
-@p(FRJ=1)=0.0.
-@p(FRJ=2)=1.0.
-@uniform XCX.
-
-final_disc_id(3383)[TWO=1 or TWO=2].
-final_disc_id(6969)[TWO=2].
-final_disc_dtitle(3383,"Los paraísos desiertos")[TWO=1 or ONL=1].
-final_disc_dtitle(3383,"Los paraisos desiertos")[TWO=1 and ONL=2].
-final_disc_dtitle(6969,"Los paraisos desiertos")[TWO=2].
-@p(TWO=1)=0.06.
-@p(TWO=2)=0.94.
-@uniform ONL.
-
-final_disc_id(4490)[INX=1 or INX=2].
-final_disc_id(7121)[INX=2].
-final_disc_dtitle(4490,"Small Change")[INX=1 or ZMQ=1].
-final_disc_dtitle(4490,"Small Change")[INX=1 and ZMQ=2].
-final_disc_dtitle(7121,"Small Change")[INX=2].
-@p(INX=1)=0.0.
-@p(INX=2)=1.0.
-@uniform ZMQ.
-
-final_disc_id(2807)[RGZ=1 or RGZ=2].
-final_disc_id(7064)[RGZ=2].
-final_disc_dtitle(2807,"Schizophonic")[RGZ=1 or RER=1].
-final_disc_dtitle(2807,"Schizophonic!")[RGZ=1 and RER=2].
-final_disc_dtitle(7064,"Schizophonic!")[RGZ=2].
-@p(RGZ=1)=0.0.
-@p(RGZ=2)=1.0.
-@uniform RER.
-
-final_disc_id(5185)[NLD=1 or NLD=2].
-final_disc_id(7072)[NLD=2].
-final_disc_dtitle(5185,"The Height Of Callousness")[NLD=1 or FNP=1].
-final_disc_dtitle(5185,"The Height Of Callousnes")[NLD=1 and FNP=2].
-final_disc_dtitle(7072,"The Height Of Callousnes")[NLD=2].
-@p(NLD=1)=0.0.
-@p(NLD=2)=1.0.
-@uniform FNP.
-
-final_disc_id(1818)[UFT=1 or UFT=2].
-final_disc_id(7075)[UFT=2].
-final_disc_dtitle(1818,"the wall disc 1")[UFT=1 or BED=1].
-final_disc_dtitle(1818,"The Wall (Disc 1)")[UFT=1 and BED=2].
-final_disc_dtitle(7075,"The Wall (Disc 1)")[UFT=2].
-@p(UFT=1)=0.16.
-@p(UFT=2)=0.84.
-@uniform BED.
-
-final_disc_id(4348)[CSV=1 or CSV=2].
-final_disc_id(7170)[CSV=2].
-final_disc_dtitle(4348,"Joe's Garage (Disk 1)")[CSV=1 or ONT=1].
-final_disc_dtitle(4348,"Joe's Garage (Disc I)")[CSV=1 and ONT=2].
-final_disc_dtitle(7170,"Joe's Garage (Disc I)")[CSV=2].
-@p(CSV=1)=0.01.
-@p(CSV=2)=0.99.
-@uniform ONT.
-
-final_disc_id(4178)[VNS=1 or VNS=2 or VNS=3].
-final_disc_id(7199)[VNS=2].
-final_disc_id(8683)[VNS=3].
-final_disc_dtitle(4178,"Next World")[VNS=1 or GTD=1 or GTD=2].
-final_disc_dtitle(4178,"Next World")[VNS=1 and GTD=2].
-final_disc_dtitle(4178,"Next World")[VNS=1 and GTD=3].
-final_disc_dtitle(7199,"Next World")[VNS=2].
-final_disc_dtitle(8683,"Next World")[VNS=3].
-@uniform VNS.
-@uniform GTD.
-
-final_disc_id(7037)[IVZ=1 or IVZ=2].
-final_disc_id(7237)[IVZ=2].
-final_disc_dtitle(7037,"Once In A Livetime - Disc 1")[IVZ=1 or CUV=1].
-final_disc_dtitle(7037,"Once In A Livetime (Disc 1)")[IVZ=1 and CUV=2].
-final_disc_dtitle(7237,"Once In A Livetime (Disc 1)")[IVZ=2].
-@p(IVZ=1)=0.02.
-@p(IVZ=2)=0.98.
-@uniform CUV.
-
-final_disc_id(2406)[CEP=1 or CEP=2].
-final_disc_id(7291)[CEP=2].
-final_disc_dtitle(2406,"Alice non lo sa")[CEP=1 or TQQ=1].
-final_disc_dtitle(2406,"Alice non lo sa")[CEP=1 and TQQ=2].
-final_disc_dtitle(7291,"Alice non lo sa")[CEP=2].
-@p(CEP=1)=0.0.
-@p(CEP=2)=1.0.
-@uniform TQQ.
-
-final_disc_id(6316)[COJ=1 or COJ=2].
-final_disc_id(7311)[COJ=2].
-final_disc_dtitle(6316,"Use Your Brain")[COJ=1 or JWY=1].
-final_disc_dtitle(6316,"Use Your Brain")[COJ=1 and JWY=2].
-final_disc_dtitle(7311,"Use Your Brain")[COJ=2].
-@p(COJ=1)=0.0.
-@p(COJ=2)=1.0.
-@uniform JWY.
-
-final_disc_id(5052)[KKY=1].
-final_disc_dtitle(5052,"la era de la boludez")[KKY=1].
-@uniform KKY.
-
-final_disc_id(7347)[ZVF=1].
-final_disc_dtitle(7347,"La Era De La Boludez")[ZVF=1].
-@uniform ZVF.
-
-final_disc_id(6948)[CLL=1 or CLL=2].
-final_disc_id(7365)[CLL=2].
-final_disc_dtitle(6948,"Songs From Another Season")[CLL=1 or PFO=1].
-final_disc_dtitle(6948,"Songs from Another Season")[CLL=1 and PFO=2].
-final_disc_dtitle(7365,"Songs from Another Season")[CLL=2].
-@p(CLL=1)=0.02.
-@p(CLL=2)=0.98.
-@uniform PFO.
-
-final_disc_id(7404)[DVO=1 or DVO=2].
-final_disc_id(7405)[DVO=2].
-final_disc_dtitle(7404,"Mad Season")[DVO=1 or ESX=1].
-final_disc_dtitle(7404,"Mad Season")[DVO=1 and ESX=2].
-final_disc_dtitle(7405,"Mad Season")[DVO=2].
-@p(DVO=1)=0.0.
-@p(DVO=2)=1.0.
-@uniform ESX.
-
-final_disc_id(6423)[TNM=1].
-final_disc_dtitle(6423,"8-16-02 Houston, TX - The Woodlands - Disc 1")[TNM=1].
-@uniform TNM.
-
-final_disc_id(7428)[QWH=1].
-final_disc_dtitle(7428,"Sin City Flames(Disc 1)")[QWH=1].
-@uniform QWH.
-
-final_disc_id(6811)[WDT=1].
-final_disc_dtitle(6811,"Speak Of The Devil")[WDT=1].
-@uniform WDT.
-
-final_disc_id(7429)[INT=1].
-final_disc_dtitle(7429,"Talk Of The Devil")[INT=1].
-@uniform INT.
-
-final_disc_id(7061)[ZJC=1 or ZJC=2].
-final_disc_id(7469)[ZJC=2].
-final_disc_dtitle(7061,"ALL")[ZJC=1 or NQN=1].
-final_disc_dtitle(7061,"ALL")[ZJC=1 and NQN=2].
-final_disc_dtitle(7469,"ALL")[ZJC=2].
-@p(ZJC=1)=0.0.
-@p(ZJC=2)=1.0.
-@uniform NQN.
-
-final_disc_id(7288)[MXE=1 or MXE=2].
-final_disc_id(7483)[MXE=2].
-final_disc_dtitle(7288,"We've Cum For Your Children (Wanted:  The Goodman   Tapes)")[MXE=1 or CCX=1].
-final_disc_dtitle(7288,"We've Cum For Your Children (Wanted:  The Goodman Tapes)")[MXE=1 and CCX=2].
-final_disc_dtitle(7483,"We've Cum For Your Children (Wanted:  The Goodman Tapes)")[MXE=2].
-@p(MXE=1)=0.0.
-@p(MXE=2)=1.0.
-@uniform CCX.
-
-final_disc_id(5204)[LJQ=1].
-final_disc_dtitle(5204,"Foo Fighters")[LJQ=1].
-@uniform LJQ.
-
-final_disc_id(7514)[EET=1].
-final_disc_dtitle(7514,"The Colour and the Shape")[EET=1].
-@uniform EET.
-
-final_disc_id(6339)[IVS=1 or IVS=2].
-final_disc_id(7517)[IVS=2].
-final_disc_dtitle(6339,"A Date With The Smithereens")[IVS=1 or UWV=1].
-final_disc_dtitle(6339,"A Date With The Smithereens")[IVS=1 and UWV=2].
-final_disc_dtitle(7517,"A Date With The Smithereens")[IVS=2].
-@p(IVS=1)=0.0.
-@p(IVS=2)=1.0.
-@uniform UWV.
-
-final_disc_id(4282)[QHZ=1 or QHZ=2].
-final_disc_id(7549)[QHZ=2].
-final_disc_dtitle(4282,"El viaje de Copperpot")[QHZ=1 or QLA=1].
-final_disc_dtitle(4282,"'El Viaje de Copperton'")[QHZ=1 and QLA=2].
-final_disc_dtitle(7549,"'El Viaje de Copperton'")[QHZ=2].
-@p(QHZ=1)=0.11.
-@p(QHZ=2)=0.89.
-@uniform QLA.
-
-final_disc_id(5574)[OMS=1 or OMS=2].
-final_disc_id(7562)[OMS=2].
-final_disc_dtitle(5574,"Savage Garden")[OMS=1 or BIA=1].
-final_disc_dtitle(5574,"Savage Garden")[OMS=1 and BIA=2].
-final_disc_dtitle(7562,"Savage Garden")[OMS=2].
-@p(OMS=1)=0.0.
-@p(OMS=2)=1.0.
-@uniform BIA.
-
-final_disc_id(6788)[JNO=1].
-final_disc_dtitle(6788,"A Little South Of Sanity - Disc 1")[JNO=1].
-@uniform JNO.
-
-final_disc_id(7563)[GBO=1].
-final_disc_dtitle(7563,"a little south of sanity")[GBO=1].
-@uniform GBO.
-
-final_disc_id(6620)[IEY=1 or IEY=2 or IEY=3].
-final_disc_id(7622)[IEY=2].
-final_disc_id(8349)[IEY=3].
-final_disc_dtitle(6620,"We can't dance")[IEY=1 or GJY=1 or GJY=2].
-final_disc_dtitle(6620,"We Can't Dance")[IEY=1 and GJY=2].
-final_disc_dtitle(6620,"We Can't Dance")[IEY=1 and GJY=3].
-final_disc_dtitle(7622,"We Can't Dance")[IEY=2].
-final_disc_dtitle(8349,"We Can't Dance")[IEY=3].
-@uniform IEY.
-@uniform GJY.
-
-final_disc_id(4586)[FHY=1 or FHY=2].
-final_disc_id(7633)[FHY=2].
-final_disc_dtitle(4586,"Power Department")[FHY=1 or APQ=1].
-final_disc_dtitle(4586,"Popwer Department")[FHY=1 and APQ=2].
-final_disc_dtitle(7633,"Popwer Department")[FHY=2].
-@p(FHY=1)=0.07.
-@p(FHY=2)=0.93.
-@uniform APQ.
-
-final_disc_id(4419)[IJD=1 or IJD=2].
-final_disc_id(7644)[IJD=2].
-final_disc_dtitle(4419,"Surrealistic Pillow")[IJD=1 or GTB=1].
-final_disc_dtitle(4419,"Surrealistic Pillow")[IJD=1 and GTB=2].
-final_disc_dtitle(7644,"Surrealistic Pillow")[IJD=2].
-@p(IJD=1)=0.0.
-@p(IJD=2)=1.0.
-@uniform GTB.
-
-final_disc_id(6858)[DEQ=1 or DEQ=2 or DEQ=3 or DEQ=4 or DEQ=5 or DEQ=6].
-final_disc_id(7653)[DEQ=2].
-final_disc_id(7852)[DEQ=3].
-final_disc_id(8029)[DEQ=4].
-final_disc_id(10230)[DEQ=5].
-final_disc_id(10383)[DEQ=6].
-final_disc_dtitle(6858,"Hibrid Theory")[DEQ=1 or LWD=1 or LWD=2 or LWD=3 or LWD=4 or LWD=5].
-final_disc_dtitle(6858,"Hybrid Theroy")[DEQ=1 and LWD=2].
-final_disc_dtitle(6858,"Hybrid Theory")[DEQ=1 and LWD=3].
-final_disc_dtitle(6858,"Hybrid Theory")[DEQ=1 and LWD=4].
-final_disc_dtitle(6858,"Hybrid theory")[DEQ=1 and LWD=5].
-final_disc_dtitle(6858,"Hybrid Theory")[DEQ=1 and LWD=6].
-final_disc_dtitle(7653,"Hybrid Theroy")[DEQ=2].
-final_disc_dtitle(7852,"Hybrid Theory")[DEQ=3].
-final_disc_dtitle(8029,"Hybrid Theory")[DEQ=4].
-final_disc_dtitle(10230,"Hybrid theory")[DEQ=5].
-final_disc_dtitle(10383,"Hybrid Theory")[DEQ=6].
-@uniform DEQ.
-@uniform LWD.
-
-final_disc_id(6722)[QCW=1 or QCW=2].
-final_disc_id(7707)[QCW=2].
-final_disc_dtitle(6722,"What Comes Naturally")[QCW=1 or LJX=1].
-final_disc_dtitle(6722,"What Comes Naturally")[QCW=1 and LJX=2].
-final_disc_dtitle(7707,"What Comes Naturally")[QCW=2].
-@p(QCW=1)=0.0.
-@p(QCW=2)=1.0.
-@uniform LJX.
-
-final_disc_id(7346)[QNG=1 or QNG=2].
-final_disc_id(7719)[QNG=2].
-final_disc_dtitle(7346,"Classics Volume 4")[QNG=1 or SCP=1].
-final_disc_dtitle(7346,"Classics Volume 4")[QNG=1 and SCP=2].
-final_disc_dtitle(7719,"Classics Volume 4")[QNG=2].
-@p(QNG=1)=0.0.
-@p(QNG=2)=1.0.
-@uniform SCP.
-
-final_disc_id(6944)[CRG=1 or CRG=2].
-final_disc_id(9868)[CRG=2].
-final_disc_dtitle(6944,"The will to live")[CRG=1 or EYT=1].
-final_disc_dtitle(6944,"The will to live")[CRG=1 and EYT=2].
-final_disc_dtitle(9868,"The will to live")[CRG=2].
-@p(CRG=1)=0.0.
-@p(CRG=2)=1.0.
-@uniform EYT.
-
-final_disc_id(7731)[FAU=1].
-final_disc_dtitle(7731,"the will to live(live 2 cd) - cd 1")[FAU=1].
-@uniform FAU.
-
-final_disc_id(7361)[DZK=1 or DZK=2].
-final_disc_id(7750)[DZK=2].
-final_disc_dtitle(7361,"Blue")[DZK=1 or NWW=1].
-final_disc_dtitle(7361,"Blue")[DZK=1 and NWW=2].
-final_disc_dtitle(7750,"Blue")[DZK=2].
-@p(DZK=1)=0.0.
-@p(DZK=2)=1.0.
-@uniform NWW.
-
-final_disc_id(7192)[IWO=1].
-final_disc_dtitle(7192,"Meltdown")[IWO=1].
-@uniform IWO.
-
-final_disc_id(7778)[HIO=1].
-final_disc_dtitle(7778,"'98 Live Meltdown (CD 1/2)")[HIO=1].
-@uniform HIO.
-
-final_disc_id(6802)[NYG=1 or NYG=2 or NYG=3 or NYG=4].
-final_disc_id(7794)[NYG=2].
-final_disc_id(8890)[NYG=3].
-final_disc_id(9063)[NYG=4].
-final_disc_dtitle(6802,"Ray Of Light")[NYG=1 or LCV=1 or LCV=2 or LCV=3].
-final_disc_dtitle(6802,"Ray of Light")[NYG=1 and LCV=2].
-final_disc_dtitle(6802,"Ray of Light")[NYG=1 and LCV=3].
-final_disc_dtitle(6802,"Ray Of Light")[NYG=1 and LCV=4].
-final_disc_dtitle(7794,"Ray of Light")[NYG=2].
-final_disc_dtitle(8890,"Ray of Light")[NYG=3].
-final_disc_dtitle(9063,"Ray Of Light")[NYG=4].
-@uniform NYG.
-@uniform LCV.
-
-final_disc_id(6992)[RGI=1 or RGI=2].
-final_disc_id(7802)[RGI=2].
-final_disc_dtitle(6992,"Perfect Best (Disc 1)")[RGI=1 or LBR=1].
-final_disc_dtitle(6992,"Perfect Best side 1")[RGI=1 and LBR=2].
-final_disc_dtitle(7802,"Perfect Best side 1")[RGI=2].
-@p(RGI=1)=0.05.
-@p(RGI=2)=0.95.
-@uniform LBR.
-
-final_disc_id(7161)[XRL=1 or XRL=2].
-final_disc_id(8131)[XRL=2].
-final_disc_dtitle(7161,"Left Of The Middle")[XRL=1 or NZQ=1].
-final_disc_dtitle(7161,"Left of the Middle")[XRL=1 and NZQ=2].
-final_disc_dtitle(8131,"Left of the Middle")[XRL=2].
-@p(XRL=1)=0.05.
-@p(XRL=2)=0.95.
-@uniform NZQ.
-
-final_disc_id(5324)[WIA=1 or WIA=2].
-final_disc_id(7847)[WIA=2].
-final_disc_dtitle(5324,"Tracy Chapman")[WIA=1 or ARU=1].
-final_disc_dtitle(5324,"Tracy Chapman")[WIA=1 and ARU=2].
-final_disc_dtitle(7847,"Tracy Chapman")[WIA=2].
-@p(WIA=1)=0.0.
-@p(WIA=2)=1.0.
-@uniform ARU.
-
-final_disc_id(8422)[AOT=1 or AOT=2].
-final_disc_id(7898)[AOT=2].
-final_disc_dtitle(8422,"Free all Angels")[AOT=1 or BNF=1].
-final_disc_dtitle(8422,"Free All Angels")[AOT=1 and BNF=2].
-final_disc_dtitle(7898,"Free All Angels")[AOT=2].
-@p(AOT=1)=0.05.
-@p(AOT=2)=0.95.
-@uniform BNF.
-
-final_disc_id(2950)[XUM=1].
-final_disc_dtitle(2950,"Donde Hay Musica")[XUM=1].
-@uniform XUM.
-
-final_disc_id(8135)[SYC=1].
-final_disc_dtitle(8135,"DOVE C'E MUSICA")[SYC=1].
-@uniform SYC.
-
-final_disc_id(6382)[YTF=1 or YTF=2 or YTF=3].
-final_disc_id(7920)[YTF=2].
-final_disc_id(8494)[YTF=3].
-final_disc_dtitle(6382,"Break The Cycle")[YTF=1 or HQY=1 or HQY=2].
-final_disc_dtitle(6382,"Break The Cycle")[YTF=1 and HQY=2].
-final_disc_dtitle(6382,"Break the Cycle")[YTF=1 and HQY=3].
-final_disc_dtitle(7920,"Break The Cycle")[YTF=2].
-final_disc_dtitle(8494,"Break the Cycle")[YTF=3].
-@uniform YTF.
-@uniform HQY.
-
-final_disc_id(3192)[MGN=1 or MGN=2].
-final_disc_id(7923)[MGN=2].
-final_disc_dtitle(3192,"The Sweetest Days")[MGN=1 or BVQ=1].
-final_disc_dtitle(3192,"The Sweetest Days")[MGN=1 and BVQ=2].
-final_disc_dtitle(7923,"The Sweetest Days")[MGN=2].
-@p(MGN=1)=0.0.
-@p(MGN=2)=1.0.
-@uniform BVQ.
-
-final_disc_id(6413)[OUD=1 or OUD=2].
-final_disc_id(7975)[OUD=2].
-final_disc_dtitle(6413,"The Book Of Taliesyn (Remaster)")[OUD=1 or BIU=1].
-final_disc_dtitle(6413,"The Book Of Taliesyn")[OUD=1 and BIU=2].
-final_disc_dtitle(7975,"The Book Of Taliesyn")[OUD=2].
-@p(OUD=1)=0.04.
-@p(OUD=2)=0.96.
-@uniform BIU.
-
-final_disc_id(4108)[CKE=1 or CKE=2].
-final_disc_id(7977)[CKE=2].
-final_disc_dtitle(4108,"200 Kmh In The Wrong Lane")[CKE=1 or LHB=1].
-final_disc_dtitle(4108,"200 KMpH In The Wrong Lane")[CKE=1 and LHB=2].
-final_disc_dtitle(7977,"200 KMpH In The Wrong Lane")[CKE=2].
-@p(CKE=1)=0.09.
-@p(CKE=2)=0.91.
-@uniform LHB.
-
-final_disc_id(7604)[BLR=1 or BLR=2 or BLR=3].
-final_disc_id(7980)[BLR=2].
-final_disc_id(9790)[BLR=3].
-final_disc_dtitle(7604,"Money For Nothing")[BLR=1 or FXU=1 or FXU=2].
-final_disc_dtitle(7604,"Money for Nothing")[BLR=1 and FXU=2].
-final_disc_dtitle(7604,"Money for nothing")[BLR=1 and FXU=3].
-final_disc_dtitle(7980,"Money for Nothing")[BLR=2].
-final_disc_dtitle(9790,"Money for nothing")[BLR=3].
-@uniform BLR.
-@uniform FXU.
-
-final_disc_id(8311)[UFN=1 or UFN=2].
-final_disc_id(8312)[UFN=2].
-final_disc_dtitle(8311,"Believe")[UFN=1 or YSX=1].
-final_disc_dtitle(8311,"Believe")[UFN=1 and YSX=2].
-final_disc_dtitle(8312,"Believe")[UFN=2].
-@p(UFN=1)=0.0.
-@p(UFN=2)=1.0.
-@uniform YSX.
-
-final_disc_id(6919)[ELB=1 or ELB=2].
-final_disc_id(8060)[ELB=2].
-final_disc_dtitle(6919,"Revolution ...Revolucion")[ELB=1 or YXM=1].
-final_disc_dtitle(6919,"Revolution... revolución")[ELB=1 and YXM=2].
-final_disc_dtitle(8060,"Revolution... revolución")[ELB=2].
-@p(ELB=1)=0.04.
-@p(ELB=2)=0.96.
-@uniform YXM.
-
-final_disc_id(2188)[GFE=1 or GFE=2].
-final_disc_id(8063)[GFE=2].
-final_disc_dtitle(2188,"Destrangis")[GFE=1 or TTM=1].
-final_disc_dtitle(2188,"destrangis")[GFE=1 and TTM=2].
-final_disc_dtitle(8063,"destrangis")[GFE=2].
-@p(GFE=1)=0.07.
-@p(GFE=2)=0.93.
-@uniform TTM.
-
-final_disc_id(7363)[VMZ=1 or VMZ=2].
-final_disc_id(8118)[VMZ=2].
-final_disc_dtitle(7363,"The Parkerilla")[VMZ=1 or VPP=1].
-final_disc_dtitle(7363,"The Parkerilla")[VMZ=1 and VPP=2].
-final_disc_dtitle(8118,"The Parkerilla")[VMZ=2].
-@p(VMZ=1)=0.0.
-@p(VMZ=2)=1.0.
-@uniform VPP.
-
-final_disc_id(8043)[TGM=1 or TGM=2].
-final_disc_id(8234)[TGM=2].
-final_disc_dtitle(8043,"The Pros and Cons of Hitch Hiking")[TGM=1 or EZD=1].
-final_disc_dtitle(8043,"The Pros and Cons of Hitch Hiking")[TGM=1 and EZD=2].
-final_disc_dtitle(8234,"The Pros and Cons of Hitch Hiking")[TGM=2].
-@p(TGM=1)=0.0.
-@p(TGM=2)=1.0.
-@uniform EZD.
-
-final_disc_id(8120)[XKK=1].
-final_disc_dtitle(8120,"hitchhiking to radio city CD2")[XKK=1].
-@uniform XKK.
-
-final_disc_id(7344)[DAJ=1 or DAJ=2].
-final_disc_id(8291)[DAJ=2].
-final_disc_dtitle(7344,"Loud Like Nature")[DAJ=1 or UJR=1].
-final_disc_dtitle(7344,"Loud Like Nature")[DAJ=1 and UJR=2].
-final_disc_dtitle(8291,"Loud Like Nature")[DAJ=2].
-@p(DAJ=1)=0.0.
-@p(DAJ=2)=1.0.
-@uniform UJR.
-
-final_disc_id(5360)[HCR=1 or HCR=2].
-final_disc_id(8430)[HCR=2].
-final_disc_dtitle(5360,"¿Dónde jugaran las niñas?")[HCR=1 or LPX=1].
-final_disc_dtitle(5360,"¿Donde Jugarán Las Niñas?")[HCR=1 and LPX=2].
-final_disc_dtitle(8430,"¿Donde Jugarán Las Niñas?")[HCR=2].
-@p(HCR=1)=0.18.
-@p(HCR=2)=0.82.
-@uniform LPX.
-
-final_disc_id(8260)[MTH=1 or MTH=2].
-final_disc_id(8445)[MTH=2].
-final_disc_dtitle(8260,"Live Killers     (CD1)")[MTH=1 or ZBD=1].
-final_disc_dtitle(8260,"Live killers Disc 1")[MTH=1 and ZBD=2].
-final_disc_dtitle(8445,"Live killers Disc 1")[MTH=2].
-@p(MTH=1)=0.15.
-@p(MTH=2)=0.85.
-@uniform ZBD.
-
-final_disc_id(7350)[MRM=1 or MRM=2].
-final_disc_id(8473)[MRM=2].
-final_disc_dtitle(7350,"Permanent Vacation")[MRM=1 or BGV=1].
-final_disc_dtitle(7350,"Permanent Vacation")[MRM=1 and BGV=2].
-final_disc_dtitle(8473,"Permanent Vacation")[MRM=2].
-@p(MRM=1)=0.0.
-@p(MRM=2)=1.0.
-@uniform BGV.
-
-final_disc_id(6314)[SRG=1 or SRG=2].
-final_disc_id(8464)[SRG=2].
-final_disc_dtitle(6314,"Lenny")[SRG=1 or RVP=1].
-final_disc_dtitle(6314,"Lenny")[SRG=1 and RVP=2].
-final_disc_dtitle(8464,"Lenny")[SRG=2].
-@p(SRG=1)=0.0.
-@p(SRG=2)=1.0.
-@uniform RVP.
-
-final_disc_id(6102)[FIK=1 or FIK=2].
-final_disc_id(9115)[FIK=2].
-final_disc_dtitle(6102,"Flip Your Wig")[FIK=1 or XVQ=1].
-final_disc_dtitle(6102,"Flip Your Wig")[FIK=1 and XVQ=2].
-final_disc_dtitle(9115,"Flip Your Wig")[FIK=2].
-@p(FIK=1)=0.0.
-@p(FIK=2)=1.0.
-@uniform XVQ.
-
-final_disc_id(6771)[XAP=1 or XAP=2].
-final_disc_id(8507)[XAP=2].
-final_disc_dtitle(6771,"Testify")[XAP=1 or AZP=1].
-final_disc_dtitle(6771,"Testify")[XAP=1 and AZP=2].
-final_disc_dtitle(8507,"Testify")[XAP=2].
-@p(XAP=1)=0.0.
-@p(XAP=2)=1.0.
-@uniform AZP.
-
-final_disc_id(8364)[LZS=1 or LZS=2].
-final_disc_id(8526)[LZS=2].
-final_disc_dtitle(8364,"Silence(jpn)")[LZS=1 or KFB=1].
-final_disc_dtitle(8364,"Silence")[LZS=1 and KFB=2].
-final_disc_dtitle(8526,"Silence")[LZS=2].
-@p(LZS=1)=0.06.
-@p(LZS=2)=0.94.
-@uniform KFB.
-
-final_disc_id(6756)[KIO=1 or KIO=2].
-final_disc_id(8537)[KIO=2].
-final_disc_dtitle(6756,"What it is to Burn")[KIO=1 or FHU=1].
-final_disc_dtitle(6756,"What It Is To Burn")[KIO=1 and FHU=2].
-final_disc_dtitle(8537,"What It Is To Burn")[KIO=2].
-@p(KIO=1)=0.08.
-@p(KIO=2)=0.92.
-@uniform FHU.
-
-final_disc_id(7606)[GSM=1 or GSM=2].
-final_disc_id(8538)[GSM=2].
-final_disc_dtitle(7606,"Viva Los Tioz")[GSM=1 or CTY=1].
-final_disc_dtitle(7606,"Viva Los Tioz")[GSM=1 and CTY=2].
-final_disc_dtitle(8538,"Viva Los Tioz")[GSM=2].
-@p(GSM=1)=0.0.
-@p(GSM=2)=1.0.
-@uniform CTY.
-
-final_disc_id(3475)[XFH=1 or XFH=2].
-final_disc_id(8592)[XFH=2].
-final_disc_dtitle(3475,"Hellbilly deluxe")[XFH=1 or FYZ=1].
-final_disc_dtitle(3475,"Hellbilly Deluxe")[XFH=1 and FYZ=2].
-final_disc_dtitle(8592,"Hellbilly Deluxe")[XFH=2].
-@p(XFH=1)=0.02.
-@p(XFH=2)=0.98.
-@uniform FYZ.
-
-final_disc_id(8274)[WMC=1 or WMC=2 or WMC=3].
-final_disc_id(8630)[WMC=2].
-final_disc_id(8805)[WMC=3].
-final_disc_dtitle(8274,"Laundry Service")[WMC=1 or CZH=1 or CZH=2].
-final_disc_dtitle(8274,"Laundry Service")[WMC=1 and CZH=2].
-final_disc_dtitle(8274,"Laundry Service")[WMC=1 and CZH=3].
-final_disc_dtitle(8630,"Laundry Service")[WMC=2].
-final_disc_dtitle(8805,"Laundry Service")[WMC=3].
-@uniform WMC.
-@uniform CZH.
-
-final_disc_id(2427)[OVS=1 or OVS=2 or OVS=3].
-final_disc_id(8640)[OVS=2].
-final_disc_id(10314)[OVS=3].
-final_disc_dtitle(2427,"No Need to Argue")[OVS=1 or GAE=1 or GAE=2].
-final_disc_dtitle(2427,"No Need To Argue")[OVS=1 and GAE=2].
-final_disc_dtitle(2427,"No Need To Argue")[OVS=1 and GAE=3].
-final_disc_dtitle(8640,"No Need To Argue")[OVS=2].
-final_disc_dtitle(10314,"No Need To Argue")[OVS=3].
-@uniform OVS.
-@uniform GAE.
-
-final_disc_id(8114)[WHV=1 or WHV=2].
-final_disc_id(8659)[WHV=2].
-final_disc_dtitle(8114,"Innuendo")[WHV=1 or YJO=1].
-final_disc_dtitle(8114,"Innuendo")[WHV=1 and YJO=2].
-final_disc_dtitle(8659,"Innuendo")[WHV=2].
-@p(WHV=1)=0.0.
-@p(WHV=2)=1.0.
-@uniform YJO.
-
-final_disc_id(8306)[IKQ=1 or IKQ=2].
-final_disc_id(8663)[IKQ=2].
-final_disc_dtitle(8306,"Wings Greatest")[IKQ=1 or NMV=1].
-final_disc_dtitle(8306,"Wings' Greatest")[IKQ=1 and NMV=2].
-final_disc_dtitle(8663,"Wings' Greatest")[IKQ=2].
-@p(IKQ=1)=0.01.
-@p(IKQ=2)=0.99.
-@uniform NMV.
-
-final_disc_id(5664)[KKW=1 or KKW=2].
-final_disc_id(8717)[KKW=2].
-final_disc_dtitle(5664,"The X Factor")[KKW=1 or XWG=1].
-final_disc_dtitle(5664,"The X Factor")[KKW=1 and XWG=2].
-final_disc_dtitle(8717,"The X Factor")[KKW=2].
-@p(KKW=1)=0.0.
-@p(KKW=2)=1.0.
-@uniform XWG.
-
-final_disc_id(4395)[SXB=1 or SXB=2].
-final_disc_id(8725)[SXB=2].
-final_disc_dtitle(4395,"Blazing Away")[SXB=1 or UYY=1].
-final_disc_dtitle(4395,"Blazing Away")[SXB=1 and UYY=2].
-final_disc_dtitle(8725,"Blazing Away")[SXB=2].
-@p(SXB=1)=0.0.
-@p(SXB=2)=1.0.
-@uniform UYY.
-
-final_disc_id(8224)[XBC=1 or XBC=2].
-final_disc_id(8754)[XBC=2].
-final_disc_dtitle(8224,"Days Like This")[XBC=1 or VKS=1].
-final_disc_dtitle(8224,"Days Like This")[XBC=1 and VKS=2].
-final_disc_dtitle(8754,"Days Like This")[XBC=2].
-@p(XBC=1)=0.0.
-@p(XBC=2)=1.0.
-@uniform VKS.
-
-final_disc_id(7671)[OKT=1 or OKT=2].
-final_disc_id(8759)[OKT=2].
-final_disc_dtitle(7671,"Solid Pleasure")[OKT=1 or AMJ=1].
-final_disc_dtitle(7671,"Solid Pleasure")[OKT=1 and AMJ=2].
-final_disc_dtitle(8759,"Solid Pleasure")[OKT=2].
-@p(OKT=1)=0.0.
-@p(OKT=2)=1.0.
-@uniform AMJ.
-
-final_disc_id(5731)[CPZ=1 or CPZ=2].
-final_disc_id(8779)[CPZ=2].
-final_disc_dtitle(5731,"Closing Time")[CPZ=1 or QSS=1].
-final_disc_dtitle(5731,"Closing Time")[CPZ=1 and QSS=2].
-final_disc_dtitle(8779,"Closing Time")[CPZ=2].
-@p(CPZ=1)=0.0.
-@p(CPZ=2)=1.0.
-@uniform QSS.
-
-final_disc_id(4843)[KZY=1 or KZY=2].
-final_disc_id(8794)[KZY=2].
-final_disc_dtitle(4843,"Bleed American")[KZY=1 or NAL=1].
-final_disc_dtitle(4843,"Bleed American")[KZY=1 and NAL=2].
-final_disc_dtitle(8794,"Bleed American")[KZY=2].
-@p(KZY=1)=0.0.
-@p(KZY=2)=1.0.
-@uniform NAL.
-
-final_disc_id(4292)[OIV=1 or OIV=2].
-final_disc_id(8795)[OIV=2].
-final_disc_dtitle(4292,"Amplified")[OIV=1 or TSN=1].
-final_disc_dtitle(4292,"Amplified")[OIV=1 and TSN=2].
-final_disc_dtitle(8795,"Amplified")[OIV=2].
-@p(OIV=1)=0.0.
-@p(OIV=2)=1.0.
-@uniform TSN.
-
-final_disc_id(7008)[VXI=1 or VXI=2].
-final_disc_id(8831)[VXI=2].
-final_disc_dtitle(7008,"Bounce")[VXI=1 or NJJ=1].
-final_disc_dtitle(7008,"Bounce")[VXI=1 and NJJ=2].
-final_disc_dtitle(8831,"Bounce")[VXI=2].
-@p(VXI=1)=0.0.
-@p(VXI=2)=1.0.
-@uniform NJJ.
-
-final_disc_id(8668)[XJT=1 or XJT=2].
-final_disc_id(8843)[XJT=2].
-final_disc_dtitle(8668,"Best Of Rockers 'N' Ballads")[XJT=1 or WOZ=1].
-final_disc_dtitle(8668,"Best Of Rockers 'N' Ballads")[XJT=1 and WOZ=2].
-final_disc_dtitle(8843,"Best Of Rockers 'N' Ballads")[XJT=2].
-@p(XJT=1)=0.0.
-@p(XJT=2)=1.0.
-@uniform WOZ.
-
-final_disc_id(5988)[ZZL=1 or ZZL=2].
-final_disc_id(8859)[ZZL=2].
-final_disc_dtitle(5988,"U Got 2 Know")[ZZL=1 or JVL=1].
-final_disc_dtitle(5988,"U Got 2 Know")[ZZL=1 and JVL=2].
-final_disc_dtitle(8859,"U Got 2 Know")[ZZL=2].
-@p(ZZL=1)=0.0.
-@p(ZZL=2)=1.0.
-@uniform JVL.
-
-final_disc_id(6562)[TLV=1 or TLV=2].
-final_disc_id(8870)[TLV=2].
-final_disc_dtitle(6562,"No Name Face")[TLV=1 or DBG=1].
-final_disc_dtitle(6562,"No Name Man")[TLV=1 and DBG=2].
-final_disc_dtitle(8870,"No Name Man")[TLV=2].
-@p(TLV=1)=0.05.
-@p(TLV=2)=0.95.
-@uniform DBG.
-
-final_disc_id(5830)[WTF=1 or WTF=2].
-final_disc_id(8888)[WTF=2].
-final_disc_dtitle(5830,"Time Machine")[WTF=1 or LER=1].
-final_disc_dtitle(5830,"Time Machine")[WTF=1 and LER=2].
-final_disc_dtitle(8888,"Time Machine")[WTF=2].
-@p(WTF=1)=0.0.
-@p(WTF=2)=1.0.
-@uniform LER.
-
-final_disc_id(3792)[AYP=1 or AYP=2].
-final_disc_id(8891)[AYP=2].
-final_disc_dtitle(3792,"Without You I'm Nothing")[AYP=1 or YNF=1].
-final_disc_dtitle(3792,"Without you I'm Nothing")[AYP=1 and YNF=2].
-final_disc_dtitle(8891,"Without you I'm Nothing")[AYP=2].
-@p(AYP=1)=0.02.
-@p(AYP=2)=0.98.
-@uniform YNF.
-
-final_disc_id(8718)[KBZ=1].
-final_disc_dtitle(8718,"Live at the United Center - 11/29/00")[KBZ=1].
-@uniform KBZ.
-
-final_disc_id(8908)[TKE=1].
-final_disc_dtitle(8908,"Live @ United Center, Chicago (29.11.2000) CD1")[TKE=1].
-@uniform TKE.
-
-final_disc_id(8559)[BNL=1 or BNL=2].
-final_disc_id(8917)[BNL=2].
-final_disc_dtitle(8559,"The Complete Woodstock Tapes [2]")[BNL=1 or WWO=1].
-final_disc_dtitle(8559,"Complete 1978 Woodstock Tapes #2")[BNL=1 and WWO=2].
-final_disc_dtitle(8917,"Complete 1978 Woodstock Tapes #2")[BNL=2].
-@p(BNL=1)=0.15.
-@p(BNL=2)=0.85.
-@uniform WWO.
-
-final_disc_id(5912)[SGA=1 or SGA=2].
-final_disc_id(8949)[SGA=2].
-final_disc_dtitle(5912,"Free Souls in a Trapped Environment")[SGA=1 or CNH=1].
-final_disc_dtitle(5912,"Free Souls in a Trapped Environment")[SGA=1 and CNH=2].
-final_disc_dtitle(8949,"Free Souls in a Trapped Environment")[SGA=2].
-@p(SGA=1)=0.0.
-@p(SGA=2)=1.0.
-@uniform CNH.
-
-final_disc_id(5577)[OSC=1 or OSC=2].
-final_disc_id(8990)[OSC=2].
-final_disc_dtitle(5577,"Ballbreaker")[OSC=1 or CEO=1].
-final_disc_dtitle(5577,"Ballbreaker")[OSC=1 and CEO=2].
-final_disc_dtitle(8990,"Ballbreaker")[OSC=2].
-@p(OSC=1)=0.0.
-@p(OSC=2)=1.0.
-@uniform CEO.
-
-final_disc_id(7525)[CBV=1 or CBV=2].
-final_disc_id(8995)[CBV=2].
-final_disc_dtitle(7525,"Version 2.0")[CBV=1 or EHA=1].
-final_disc_dtitle(7525,"Version 2.0")[CBV=1 and EHA=2].
-final_disc_dtitle(8995,"Version 2.0")[CBV=2].
-@p(CBV=1)=0.0.
-@p(CBV=2)=1.0.
-@uniform EHA.
-
-final_disc_id(5776)[KDM=1 or KDM=2].
-final_disc_id(9008)[KDM=2].
-final_disc_dtitle(5776,"Sirena")[KDM=1 or MRW=1].
-final_disc_dtitle(5776,"Sirena")[KDM=1 and MRW=2].
-final_disc_dtitle(9008,"Sirena")[KDM=2].
-@p(KDM=1)=0.0.
-@p(KDM=2)=1.0.
-@uniform MRW.
-
-final_disc_id(2571)[DNH=1 or DNH=2].
-final_disc_id(9019)[DNH=2].
-final_disc_dtitle(2571,"Simplemente")[DNH=1 or ZTI=1].
-final_disc_dtitle(2571,"Simplemente")[DNH=1 and ZTI=2].
-final_disc_dtitle(9019,"Simplemente")[DNH=2].
-@p(DNH=1)=0.0.
-@p(DNH=2)=1.0.
-@uniform ZTI.
-
-final_disc_id(7123)[CSQ=1 or CSQ=2].
-final_disc_id(9038)[CSQ=2].
-final_disc_dtitle(7123,"Fever")[CSQ=1 or IHN=1].
-final_disc_dtitle(7123,"Fever")[CSQ=1 and IHN=2].
-final_disc_dtitle(9038,"Fever")[CSQ=2].
-@p(CSQ=1)=0.0.
-@p(CSQ=2)=1.0.
-@uniform IHN.
-
-final_disc_id(8778)[BLN=1 or BLN=2].
-final_disc_id(9060)[BLN=2].
-final_disc_dtitle(8778,"Troublegum")[BLN=1 or IFF=1].
-final_disc_dtitle(8778,"Troublegum")[BLN=1 and IFF=2].
-final_disc_dtitle(9060,"Troublegum")[BLN=2].
-@p(BLN=1)=0.0.
-@p(BLN=2)=1.0.
-@uniform IFF.
-
-final_disc_id(6798)[HZY=1].
-final_disc_dtitle(6798,"Exciter Tour Live In L.A 2001 Disc 1")[HZY=1].
-@uniform HZY.
-
-final_disc_id(9068)[IZE=1].
-final_disc_dtitle(9068,"opening old wounds")[IZE=1].
-@uniform IZE.
-
-final_disc_id(8919)[AKF=1 or AKF=2].
-final_disc_id(9083)[AKF=2].
-final_disc_dtitle(8919,"Yesterday & Today Live")[AKF=1 or UJH=1].
-final_disc_dtitle(8919,"Yesterday & Today Live")[AKF=1 and UJH=2].
-final_disc_dtitle(9083,"Yesterday & Today Live")[AKF=2].
-@p(AKF=1)=0.0.
-@p(AKF=2)=1.0.
-@uniform UJH.
-
-final_disc_id(8301)[NUH=1 or NUH=2].
-final_disc_id(9114)[NUH=2].
-final_disc_dtitle(8301,"Warning")[NUH=1 or BCD=1].
-final_disc_dtitle(8301,"Warning")[NUH=1 and BCD=2].
-final_disc_dtitle(9114,"Warning")[NUH=2].
-@p(NUH=1)=0.0.
-@p(NUH=2)=1.0.
-@uniform BCD.
-
-final_disc_id(8609)[GLZ=1 or GLZ=2].
-final_disc_id(9130)[GLZ=2].
-final_disc_dtitle(8609,"More Sad Hits")[GLZ=1 or KOT=1].
-final_disc_dtitle(8609,"More Sad Hits")[GLZ=1 and KOT=2].
-final_disc_dtitle(9130,"More Sad Hits")[GLZ=2].
-@p(GLZ=1)=0.0.
-@p(GLZ=2)=1.0.
-@uniform KOT.
-
-final_disc_id(8265)[SZX=1 or SZX=2].
-final_disc_id(9149)[SZX=2].
-final_disc_dtitle(8265,"Upstairs At Eric's")[SZX=1 or EUM=1].
-final_disc_dtitle(8265,"Upstairs At Eric's")[SZX=1 and EUM=2].
-final_disc_dtitle(9149,"Upstairs At Eric's")[SZX=2].
-@p(SZX=1)=0.0.
-@p(SZX=2)=1.0.
-@uniform EUM.
-
-final_disc_id(6922)[PDV=1 or PDV=2].
-final_disc_id(9161)[PDV=2].
-final_disc_dtitle(6922,"Urban Solitude")[PDV=1 or HSV=1].
-final_disc_dtitle(6922,"Urban Solitude")[PDV=1 and HSV=2].
-final_disc_dtitle(9161,"Urban Solitude")[PDV=2].
-@p(PDV=1)=0.0.
-@p(PDV=2)=1.0.
-@uniform HSV.
-
-final_disc_id(7918)[JCM=1 or JCM=2].
-final_disc_id(9172)[JCM=2].
-final_disc_dtitle(7918,"Beat The Bastards")[JCM=1 or NTG=1].
-final_disc_dtitle(7918,"Beat The Bastards")[JCM=1 and NTG=2].
-final_disc_dtitle(9172,"Beat The Bastards")[JCM=2].
-@p(JCM=1)=0.0.
-@p(JCM=2)=1.0.
-@uniform NTG.
-
-final_disc_id(7094)[TLB=1 or TLB=2].
-final_disc_id(9189)[TLB=2].
-final_disc_dtitle(7094,"Somewhere Far Beyond *")[TLB=1 or VQW=1].
-final_disc_dtitle(7094,"Sowhere Far Beyond")[TLB=1 and VQW=2].
-final_disc_dtitle(9189,"Sowhere Far Beyond")[TLB=2].
-@p(TLB=1)=0.16.
-@p(TLB=2)=0.84.
-@uniform VQW.
-
-final_disc_id(6740)[XHZ=1 or XHZ=2].
-final_disc_id(9193)[XHZ=2].
-final_disc_dtitle(6740,"Long Distance")[XHZ=1 or BVF=1].
-final_disc_dtitle(6740,"Long distance")[XHZ=1 and BVF=2].
-final_disc_dtitle(9193,"Long distance")[XHZ=2].
-@p(XHZ=1)=0.03.
-@p(XHZ=2)=0.97.
-@uniform BVF.
-
-final_disc_id(3793)[PBP=1].
-final_disc_dtitle(3793,"outrospective remixes")[PBP=1].
-@uniform PBP.
-
-final_disc_id(9209)[JQO=1 or JQO=2].
-final_disc_id(4895)[JQO=2].
-final_disc_dtitle(9209,"Outrospective")[JQO=1 or ZOR=1].
-final_disc_dtitle(9209,"Outrospective")[JQO=1 and ZOR=2].
-final_disc_dtitle(4895,"Outrospective")[JQO=2].
-@p(JQO=1)=0.0.
-@p(JQO=2)=1.0.
-@uniform ZOR.
-
-final_disc_id(8344)[ZVB=1 or ZVB=2].
-final_disc_id(9229)[ZVB=2].
-final_disc_dtitle(8344,"Retro Active")[ZVB=1 or BRA=1].
-final_disc_dtitle(8344,"Retroactive")[ZVB=1 and BRA=2].
-final_disc_dtitle(9229,"Retroactive")[ZVB=2].
-@p(ZVB=1)=0.05.
-@p(ZVB=2)=0.95.
-@uniform BRA.
-
-final_disc_id(1823)[XTL=1].
-final_disc_dtitle(1823,"Carlos")[XTL=1].
-@uniform XTL.
-
-final_disc_id(9257)[AEF=1].
-final_disc_dtitle(9257,"Supernatura")[AEF=1].
-@uniform AEF.
-
-final_disc_id(5835)[DMQ=1 or DMQ=2].
-final_disc_id(9278)[DMQ=2].
-final_disc_dtitle(5835,"Halfway Between The Gutter And The Stars")[DMQ=1 or FCT=1].
-final_disc_dtitle(5835,"Halfway Between The Gutter And The Stars")[DMQ=1 and FCT=2].
-final_disc_dtitle(9278,"Halfway Between The Gutter And The Stars")[DMQ=2].
-@p(DMQ=1)=0.0.
-@p(DMQ=2)=1.0.
-@uniform FCT.
-
-final_disc_id(9327)[YNE=1 or YNE=2].
-final_disc_id(9412)[YNE=2].
-final_disc_dtitle(9327,"I've Got That Old Feeling")[YNE=1 or BHI=1].
-final_disc_dtitle(9327,"I've Got That Old Feeling")[YNE=1 and BHI=2].
-final_disc_dtitle(9412,"I've Got That Old Feeling")[YNE=2].
-@p(YNE=1)=0.0.
-@p(YNE=2)=1.0.
-@uniform BHI.
-
-final_disc_id(9333)[ENA=1 or ENA=2].
-final_disc_id(9450)[ENA=2].
-final_disc_dtitle(9333,"Come On Come On")[ENA=1 or ESS=1].
-final_disc_dtitle(9333,"Come On, Come On")[ENA=1 and ESS=2].
-final_disc_dtitle(9450,"Come On, Come On")[ENA=2].
-@p(ENA=1)=0.01.
-@p(ENA=2)=0.99.
-@uniform ESS.
-
-final_disc_id(9348)[VBU=1 or VBU=2].
-final_disc_id(9485)[VBU=2].
-final_disc_dtitle(9348,"I'm Already There")[VBU=1 or DZG=1].
-final_disc_dtitle(9348,"I'm Already There")[VBU=1 and DZG=2].
-final_disc_dtitle(9485,"I'm Already There")[VBU=2].
-@p(VBU=1)=0.0.
-@p(VBU=2)=1.0.
-@uniform DZG.
-
-final_disc_id(5392)[QHQ=1 or QHQ=2].
-final_disc_id(9486)[QHQ=2].
-final_disc_dtitle(5392,"Músicas para louvar ao Senhor")[QHQ=1 or OMM=1].
-final_disc_dtitle(5392,"musicas pra louvasr o senhor")[QHQ=1 and OMM=2].
-final_disc_dtitle(9486,"musicas pra louvasr o senhor")[QHQ=2].
-@p(QHQ=1)=0.16.
-@p(QHQ=2)=0.84.
-@uniform OMM.
-
-final_disc_id(9421)[UIF=1 or UIF=2].
-final_disc_id(9489)[UIF=2].
-final_disc_dtitle(9421,"If I Don't Stay The Night")[UIF=1 or BCO=1].
-final_disc_dtitle(9421,"If I Don't Stay The Night")[UIF=1 and BCO=2].
-final_disc_dtitle(9489,"If I Don't Stay The Night")[UIF=2].
-@p(UIF=1)=0.0.
-@p(UIF=2)=1.0.
-@uniform BCO.
-
-final_disc_id(1884)[TOV=1].
-final_disc_dtitle(1884,"Up a Lazy River")[TOV=1].
-@uniform TOV.
-
-final_disc_id(9542)[WYW=1].
-final_disc_dtitle(9542,"Leon Redbone/Up a Lazy River")[WYW=1].
-@uniform WYW.
-
-final_disc_id(6568)[JDH=1 or JDH=2].
-final_disc_id(9557)[JDH=2].
-final_disc_dtitle(6568,"Four")[JDH=1 or CVU=1].
-final_disc_dtitle(6568,"Four")[JDH=1 and CVU=2].
-final_disc_dtitle(9557,"Four")[JDH=2].
-@p(JDH=1)=0.0.
-@p(JDH=2)=1.0.
-@uniform CVU.
-
-final_disc_id(3990)[BWE=1 or BWE=2 or BWE=3].
-final_disc_id(8664)[BWE=2].
-final_disc_id(10000)[BWE=3].
-final_disc_dtitle(3990,"Millenium Classics 5")[BWE=1 or BQU=1 or BQU=2].
-final_disc_dtitle(3990,"Millennium")[BWE=1 and BQU=2].
-final_disc_dtitle(3990,"Millennium")[BWE=1 and BQU=3].
-final_disc_dtitle(8664,"Millennium")[BWE=2].
-final_disc_dtitle(10000,"Millennium")[BWE=3].
-@uniform BWE.
-@uniform BQU.
-
-final_disc_id(9601)[OXQ=1].
-final_disc_dtitle(9601,"Forever Classics")[OXQ=1].
-@uniform OXQ.
-
-final_disc_id(1858)[WEL=1 or WEL=2].
-final_disc_id(9637)[WEL=2].
-final_disc_dtitle(1858,"Ì¤ÃÎ")[WEL=1 or VQD=1].
-final_disc_dtitle(1858,"Ì¤ÃÎ")[WEL=1 and VQD=2].
-final_disc_dtitle(9637,"Ì¤ÃÎ")[WEL=2].
-@p(WEL=1)=0.0.
-@p(WEL=2)=1.0.
-@uniform VQD.
-
-final_disc_id(4508)[GAM=1 or GAM=2].
-final_disc_id(9662)[GAM=2].
-final_disc_dtitle(4508,"OK Computer")[GAM=1 or XXP=1].
-final_disc_dtitle(4508,"OK Computer")[GAM=1 and XXP=2].
-final_disc_dtitle(9662,"OK Computer")[GAM=2].
-@p(GAM=1)=0.0.
-@p(GAM=2)=1.0.
-@uniform XXP.
-
-final_disc_id(2781)[YWL=1 or YWL=2].
-final_disc_id(9669)[YWL=2].
-final_disc_dtitle(2781,"Compas")[YWL=1 or JEO=1].
-final_disc_dtitle(2781,"Compas")[YWL=1 and JEO=2].
-final_disc_dtitle(9669,"Compas")[YWL=2].
-@p(YWL=1)=0.0.
-@p(YWL=2)=1.0.
+final_disc_id(2619)[KXW=1 or KXW=2 or KXW=3].
+final_disc_id(6174)[KXW=2].
+final_disc_id(4520)[KXW=3].
+final_disc_dtitle(2619,"Psalms")[KXW=1 or ZWV=1].
+final_disc_dtitle(2619,"Psalms")[KXW=1 and ZWV=2].
+final_disc_dtitle(2619,"Psalms")[KXW=1 and ZWV=3].
+final_disc_dtitle(6174,"Psalms")[KXW=2].
+final_disc_dtitle(4520,"Psalms")[KXW=3].
+@uniform KXW.
+@uniform ZWV.
+
+final_disc_id(1828)[SXB=1 or SXB=2].
+final_disc_id(2110)[SXB=2].
+final_disc_dtitle(1828,"'n ons geluk")[SXB=1 or IVY=1].
+final_disc_dtitle(1828,"Een Ons Geluk")[SXB=1 and IVY=2].
+final_disc_dtitle(2110,"Een Ons Geluk")[SXB=2].
+@p(SXB=1)=0.81.
+@p(SXB=2)=0.19.
+@uniform IVY.
+
+final_disc_id(2366)[MFQ=1 or MFQ=2].
+final_disc_id(2367)[MFQ=2].
+final_disc_dtitle(2366,"the mainstreet sword")[MFQ=1 or DRV=1].
+final_disc_dtitle(2366,"The Mainstreet Sword")[MFQ=1 and DRV=2].
+final_disc_dtitle(2367,"The Mainstreet Sword")[MFQ=2].
+@p(MFQ=1)=0.8.
+@p(MFQ=2)=0.2.
+@uniform DRV.
+
+final_disc_id(2187)[SQA=1 or SQA=2].
+final_disc_id(2418)[SQA=2].
+final_disc_dtitle(2187,"ÎçÒ¹³¡")[SQA=1 or JEO=1].
+final_disc_dtitle(2187,"ÎçÒ¹³¡")[SQA=1 and JEO=2].
+final_disc_dtitle(2418,"ÎçÒ¹³¡")[SQA=2].
+@p(SQA=1)=1.0.
+@p(SQA=2)=0.0.
 @uniform JEO.
 
-final_disc_id(7134)[OWP=1 or OWP=2].
-final_disc_id(9695)[OWP=2].
-final_disc_dtitle(7134,"Sixteen Stone")[OWP=1 or QSX=1].
-final_disc_dtitle(7134,"Sixteen Stone")[OWP=1 and QSX=2].
-final_disc_dtitle(9695,"Sixteen Stone")[OWP=2].
-@p(OWP=1)=0.0.
-@p(OWP=2)=1.0.
-@uniform QSX.
+final_disc_id(1866)[JLZ=1].
+final_disc_dtitle(1866,"Modern Worship Shema (½¦¸¶)")[JLZ=1 or FIY=1].
+@uniform JLZ.
 
-final_disc_id(9614)[LKG=1 or LKG=2].
-final_disc_id(9678)[LKG=2].
-final_disc_dtitle(9614,"The Early Years")[LKG=1 or ALK=1].
-final_disc_dtitle(9614,"The Early Years")[LKG=1 and ALK=2].
-final_disc_dtitle(9678,"The Early Years")[LKG=2].
-@p(LKG=1)=0.0.
-@p(LKG=2)=1.0.
-@uniform ALK.
+final_disc_id(2530)[FIG=1].
+final_disc_dtitle(2530,"Shema")[FIG=1 or FEW=1].
+@uniform FIG.
 
-final_disc_id(6358)[LXE=1 or LXE=2].
-final_disc_id(9694)[LXE=2].
-final_disc_dtitle(6358,"Vulgar Display of Power")[LXE=1 or KHR=1].
-final_disc_dtitle(6358,"Vulgar Display Of Power")[LXE=1 and KHR=2].
-final_disc_dtitle(9694,"Vulgar Display Of Power")[LXE=2].
-@p(LXE=1)=0.02.
-@p(LXE=2)=0.98.
-@uniform KHR.
+final_disc_id(2577)[QNS=1 or QNS=2 or QNS=3 or QNS=4 or QNS=5].
+final_disc_id(2581)[QNS=2].
+final_disc_id(5477)[QNS=3].
+final_disc_id(8368)[QNS=4].
+final_disc_id(9076)[QNS=5].
+final_disc_dtitle(2577,"Defenestration")[QNS=1 or BBH=1].
+final_disc_dtitle(2577,"Defenestration")[QNS=1 and BBH=2].
+final_disc_dtitle(2577,"Disintegration")[QNS=1 and BBH=3].
+final_disc_dtitle(2577,"Disintegration")[QNS=1 and BBH=4].
+final_disc_dtitle(2577,"Disintegration")[QNS=1 and BBH=5].
+final_disc_dtitle(2581,"Defenestration")[QNS=2].
+final_disc_dtitle(5477,"Disintegration")[QNS=3].
+final_disc_dtitle(8368,"Disintegration")[QNS=4].
+final_disc_dtitle(9076,"Disintegration")[QNS=5].
+@uniform QNS.
+@uniform BBH.
 
-final_disc_id(9713)[WTQ=1 or WTQ=2].
-final_disc_id(9738)[WTQ=2].
-final_disc_dtitle(9713,"That's Me In The Bar")[WTQ=1 or UYB=1].
-final_disc_dtitle(9713,"That's Me In The Bar")[WTQ=1 and UYB=2].
-final_disc_dtitle(9738,"That's Me In The Bar")[WTQ=2].
-@p(WTQ=1)=0.0.
-@p(WTQ=2)=1.0.
-@uniform UYB.
+final_disc_id(2890)[QJW=1].
+final_disc_dtitle(2890,"Vaya Con Dios")[QJW=1 or KUE=1].
+@uniform QJW.
 
-final_disc_id(7605)[WXF=1 or WXF=2].
-final_disc_id(9762)[WXF=2].
-final_disc_dtitle(7605,"OPUS 21 DISK1")[WXF=1 or DCR=1].
-final_disc_dtitle(7605,"OPUS21 DISC1")[WXF=1 and DCR=2].
-final_disc_dtitle(9762,"OPUS21 DISC1")[WXF=2].
-@p(WXF=1)=0.08.
-@p(WXF=2)=0.92.
-@uniform DCR.
+final_disc_id(2891)[CNS=1].
+final_disc_dtitle(2891,"En Espanol (Disk 1)")[CNS=1 or QLF=1].
+@uniform CNS.
 
-final_disc_id(6374)[FDY=1].
-final_disc_dtitle(6374,"NOW")[FDY=1].
-@uniform FDY.
+final_disc_id(2957)[AAR=1 or AAR=2 or AAR=3 or AAR=4 or AAR=5 or AAR=6 or AAR=7 or AAR=8 or AAR=9].
+final_disc_id(3106)[AAR=2].
+final_disc_id(3722)[AAR=3].
+final_disc_id(6719)[AAR=4].
+final_disc_id(4851)[AAR=5].
+final_disc_id(7708)[AAR=6].
+final_disc_id(8453)[AAR=7].
+final_disc_id(7599)[AAR=8].
+final_disc_id(10293)[AAR=9].
+final_disc_dtitle(2957,"The Moment")[AAR=1 or YBY=1].
+final_disc_dtitle(2957,"The Moment")[AAR=1 and YBY=2].
+final_disc_dtitle(2957,"The Bends")[AAR=1 and YBY=3].
+final_disc_dtitle(2957,"The Bends")[AAR=1 and YBY=4].
+final_disc_dtitle(2957,"The Heat")[AAR=1 and YBY=5].
+final_disc_dtitle(2957,"The Heat")[AAR=1 and YBY=6].
+final_disc_dtitle(2957,"The Bends")[AAR=1 and YBY=7].
+final_disc_dtitle(2957,"The Mix")[AAR=1 and YBY=8].
+final_disc_dtitle(2957,"The MIX")[AAR=1 and YBY=9].
+final_disc_dtitle(3106,"The Moment")[AAR=2].
+final_disc_dtitle(3722,"The Bends")[AAR=3].
+final_disc_dtitle(6719,"The Bends")[AAR=4].
+final_disc_dtitle(4851,"The Heat")[AAR=5].
+final_disc_dtitle(7708,"The Heat")[AAR=6].
+final_disc_dtitle(8453,"The Bends")[AAR=7].
+final_disc_dtitle(7599,"The Mix")[AAR=8].
+final_disc_dtitle(10293,"The MIX")[AAR=9].
+@uniform AAR.
+@uniform YBY.
 
-final_disc_id(9777)[SWX=1].
-final_disc_dtitle(9777,"Now")[SWX=1].
-@uniform SWX.
+final_disc_id(3096)[CNM=1 or CNM=2].
+final_disc_id(3123)[CNM=2].
+final_disc_dtitle(3096,"The Philosopher Kings")[CNM=1 or FDV=1].
+final_disc_dtitle(3096,"the Philosopher Kings")[CNM=1 and FDV=2].
+final_disc_dtitle(3123,"the Philosopher Kings")[CNM=2].
+@p(CNM=1)=0.97.
+@p(CNM=2)=0.03.
+@uniform FDV.
 
-final_disc_id(7223)[JED=1].
-final_disc_dtitle(7223,"Out Of This World London 20-10-94 Disc 2")[JED=1].
-@uniform JED.
+final_disc_id(2813)[FLA=1 or FLA=2].
+final_disc_id(3155)[FLA=2].
+final_disc_dtitle(2813,"Out of Here")[FLA=1 or JCY=1].
+final_disc_dtitle(2813,"Out Of Here")[FLA=1 and JCY=2].
+final_disc_dtitle(3155,"Out Of Here")[FLA=2].
+@p(FLA=1)=0.96.
+@p(FLA=2)=0.04.
+@uniform JCY.
 
-final_disc_id(9793)[RQS=1].
-final_disc_dtitle(9793,"Pulse (2)")[RQS=1].
-@uniform RQS.
+final_disc_id(3086)[KOO=1 or KOO=2].
+final_disc_id(3215)[KOO=2].
+final_disc_dtitle(3086,"Under The Boardwalk")[KOO=1 or YYZ=1].
+final_disc_dtitle(3086,"Under The Boardwalk")[KOO=1 and YYZ=2].
+final_disc_dtitle(3215,"Under The Boardwalk")[KOO=2].
+@p(KOO=1)=1.0.
+@p(KOO=2)=0.0.
+@uniform YYZ.
 
-final_disc_id(7859)[WGI=1 or WGI=2].
-final_disc_id(9798)[WGI=2].
-final_disc_dtitle(7859,"Nebraska")[WGI=1 or ZYY=1].
-final_disc_dtitle(7859,"Nebraska")[WGI=1 and ZYY=2].
-final_disc_dtitle(9798,"Nebraska")[WGI=2].
-@p(WGI=1)=0.0.
-@p(WGI=2)=1.0.
-@uniform ZYY.
+final_disc_id(2139)[UNG=1 or UNG=2 or UNG=3 or UNG=4].
+final_disc_id(3296)[UNG=2].
+final_disc_id(1838)[UNG=3].
+final_disc_id(7934)[UNG=4].
+final_disc_dtitle(2139,"Greatest Hits Vol 1")[UNG=1 or BGO=1].
+final_disc_dtitle(2139,"Greatest Hits")[UNG=1 and BGO=2].
+final_disc_dtitle(2139,"Greatest Hits (CD1)")[UNG=1 and BGO=3].
+final_disc_dtitle(2139,"Greatest Hits Disc 1")[UNG=1 and BGO=4].
+final_disc_dtitle(3296,"Greatest Hits")[UNG=2].
+final_disc_dtitle(1838,"Greatest Hits (CD1)")[UNG=3].
+final_disc_dtitle(7934,"Greatest Hits Disc 1")[UNG=4].
+@uniform UNG.
+@uniform BGO.
 
-final_disc_id(9588)[NRE=1 or NRE=2].
-final_disc_id(9811)[NRE=2].
-final_disc_dtitle(9588,"Real Talk")[NRE=1 or QBZ=1].
-final_disc_dtitle(9588,"Real Talk")[NRE=1 and QBZ=2].
-final_disc_dtitle(9811,"Real Talk")[NRE=2].
-@p(NRE=1)=0.0.
-@p(NRE=2)=1.0.
-@uniform QBZ.
+final_disc_id(7201)[PRN=1 or PRN=2].
+final_disc_id(8536)[PRN=2].
+final_disc_dtitle(7201,"Reload")[PRN=1 or FFD=1].
+final_disc_dtitle(7201,"Reload")[PRN=1 and FFD=2].
+final_disc_dtitle(8536,"Reload")[PRN=2].
+@p(PRN=1)=1.0.
+@p(PRN=2)=0.0.
+@uniform FFD.
 
-final_disc_id(5025)[GBM=1 or GBM=2].
-final_disc_id(9863)[GBM=2].
-final_disc_dtitle(5025,"Na Pressão")[GBM=1 or ZHR=1].
-final_disc_dtitle(5025,"Na Pressao")[GBM=1 and ZHR=2].
-final_disc_dtitle(9863,"Na Pressao")[GBM=2].
-@p(GBM=1)=0.01.
-@p(GBM=2)=0.99.
-@uniform ZHR.
+final_disc_id(2004)[GUY=1 or GUY=2].
+final_disc_id(3710)[GUY=2].
+final_disc_dtitle(2004,"�?í ¹ìïõíá �?áëéüðáéäï")[GUY=1 or LFG=1].
+final_disc_dtitle(2004,"�?í Þìïõíá ðáëéüðáéäï")[GUY=1 and LFG=2].
+final_disc_dtitle(3710,"�?í Þìïõíá ðáëéüðáéäï")[GUY=2].
+@p(GUY=1)=0.91.
+@p(GUY=2)=0.09.
+@uniform LFG.
 
-final_disc_id(8370)[TWH=1].
-final_disc_dtitle(8370,"Ninteenninetyfour")[TWH=1].
-@uniform TWH.
+final_disc_id(3529)[ZPD=1 or ZPD=2].
+final_disc_id(4114)[ZPD=2].
+final_disc_dtitle(3529,"Agua De Luna")[ZPD=1 or ZKD=1].
+final_disc_dtitle(3529,"Agua De Luna")[ZPD=1 and ZKD=2].
+final_disc_dtitle(4114,"Agua De Luna")[ZPD=2].
+@p(ZPD=1)=1.0.
+@p(ZPD=2)=0.0.
+@uniform ZKD.
 
-final_disc_id(9876)[OLN=1].
-final_disc_dtitle(9876,"I Hear You Rockin'")[OLN=1].
-@uniform OLN.
+final_disc_id(3125)[RWG=1].
+final_disc_dtitle(3125,"Vespertine")[RWG=1 or OOW=1].
+@uniform RWG.
 
-final_disc_id(3159)[UUI=1 or UUI=2].
-final_disc_id(9969)[UUI=2].
-final_disc_dtitle(3159,"Nylon & Steel")[UUI=1 or GHS=1].
-final_disc_dtitle(3159,"Nylon & Steel")[UUI=1 and GHS=2].
-final_disc_dtitle(9969,"Nylon & Steel")[UUI=2].
-@p(UUI=1)=0.0.
-@p(UUI=2)=1.0.
-@uniform GHS.
+final_disc_id(4140)[YSA=1].
+final_disc_dtitle(4140,"Bjork - Vespertine")[YSA=1 or OSX=1].
+@uniform YSA.
 
-final_disc_id(3517)[BXM=1 or BXM=2].
-final_disc_id(10061)[BXM=2].
-final_disc_dtitle(3517,"Volle Kraft Voraus")[BXM=1 or FAF=1].
-final_disc_dtitle(3517,"Volle Kraft Voraus")[BXM=1 and FAF=2].
-final_disc_dtitle(10061,"Volle Kraft Voraus")[BXM=2].
-@p(BXM=1)=0.0.
-@p(BXM=2)=1.0.
-@uniform FAF.
+final_disc_id(3539)[LRG=1 or LRG=2 or LRG=3].
+final_disc_id(4190)[LRG=2].
+final_disc_id(8424)[LRG=3].
+final_disc_dtitle(3539,"Aquarius")[LRG=1 or NBJ=1].
+final_disc_dtitle(3539,"Aquarius")[LRG=1 and NBJ=2].
+final_disc_dtitle(3539,"Aqualung")[LRG=1 and NBJ=3].
+final_disc_dtitle(4190,"Aquarius")[LRG=2].
+final_disc_dtitle(8424,"Aqualung")[LRG=3].
+@uniform LRG.
+@uniform NBJ.
 
-final_disc_id(2819)[MFI=1 or MFI=2].
-final_disc_id(10064)[MFI=2].
-final_disc_dtitle(2819,"Promenade")[MFI=1 or YGL=1].
-final_disc_dtitle(2819,"Promenade")[MFI=1 and YGL=2].
-final_disc_dtitle(10064,"Promenade")[MFI=2].
-@p(MFI=1)=0.0.
-@p(MFI=2)=1.0.
-@uniform YGL.
+final_disc_id(3678)[DIQ=1 or DIQ=2 or DIQ=3].
+final_disc_id(4266)[DIQ=2].
+final_disc_id(6690)[DIQ=3].
+final_disc_dtitle(3678,"The Kick Inside")[DIQ=1 or SAR=1].
+final_disc_dtitle(3678,"The Kick Inside")[DIQ=1 and SAR=2].
+final_disc_dtitle(3678,"The Kick Inside")[DIQ=1 and SAR=3].
+final_disc_dtitle(4266,"The Kick Inside")[DIQ=2].
+final_disc_dtitle(6690,"The Kick Inside")[DIQ=3].
+@uniform DIQ.
+@uniform SAR.
 
-final_disc_id(4959)[VNY=1 or VNY=2].
-final_disc_id(10085)[VNY=2].
-final_disc_dtitle(4959,"Yoshiesque 2 (CD2)")[VNY=1 or UKP=1].
-final_disc_dtitle(4959,"Yoshiesque Two (Eastcoast)")[VNY=1 and UKP=2].
-final_disc_dtitle(10085,"Yoshiesque Two (Eastcoast)")[VNY=2].
-@p(VNY=1)=0.13.
-@p(VNY=2)=0.87.
-@uniform UKP.
+final_disc_id(4271)[VOD=1].
+final_disc_dtitle(4271,"James Taylor Greatest Hits")[VOD=1 or GHI=1].
+@uniform VOD.
 
-final_disc_id(8140)[OJP=1 or OJP=2].
-final_disc_id(10102)[OJP=2].
-final_disc_dtitle(8140,"Mellon Collie And The Infinite Sadness (CD1)")[OJP=1 or JCD=1].
-final_disc_dtitle(8140,"Mellon collie & the infinite sadness")[OJP=1 and JCD=2].
-final_disc_dtitle(10102,"Mellon collie & the infinite sadness")[OJP=2].
-@p(OJP=1)=0.18.
-@p(OJP=2)=0.82.
-@uniform JCD.
+final_disc_id(4297)[LHJ=1 or LHJ=2 or LHJ=3 or LHJ=4 or LHJ=5 or LHJ=6].
+final_disc_id(4306)[LHJ=2].
+final_disc_id(6272)[LHJ=3].
+final_disc_id(7460)[LHJ=4].
+final_disc_id(8636)[LHJ=5].
+final_disc_id(8578)[LHJ=6].
+final_disc_dtitle(4297,"Let Go")[LHJ=1 or ZNG=1].
+final_disc_dtitle(4297,"Let Go")[LHJ=1 and ZNG=2].
+final_disc_dtitle(4297,"Let It Be")[LHJ=1 and ZNG=3].
+final_disc_dtitle(4297,"Let It Be")[LHJ=1 and ZNG=4].
+final_disc_dtitle(4297,"Let Go")[LHJ=1 and ZNG=5].
+final_disc_dtitle(4297,"Let It Be")[LHJ=1 and ZNG=6].
+final_disc_dtitle(4306,"Let Go")[LHJ=2].
+final_disc_dtitle(6272,"Let It Be")[LHJ=3].
+final_disc_dtitle(7460,"Let It Be")[LHJ=4].
+final_disc_dtitle(8636,"Let Go")[LHJ=5].
+final_disc_dtitle(8578,"Let It Be")[LHJ=6].
+@uniform LHJ.
+@uniform ZNG.
 
-final_disc_id(7341)[SUF=1 or SUF=2].
-final_disc_id(10107)[SUF=2].
-final_disc_dtitle(7341,"Post Orgasmic Chill")[SUF=1 or JOV=1].
-final_disc_dtitle(7341,"Post Orgasmic Chill")[SUF=1 and JOV=2].
-final_disc_dtitle(10107,"Post Orgasmic Chill")[SUF=2].
-@p(SUF=1)=0.0.
-@p(SUF=2)=1.0.
-@uniform JOV.
+final_disc_id(3670)[XAD=1 or XAD=2 or XAD=3 or XAD=4].
+final_disc_id(4441)[XAD=2].
+final_disc_id(8151)[XAD=3].
+final_disc_id(7515)[XAD=4].
+final_disc_dtitle(3670,"Nevermind")[XAD=1 or NQU=1].
+final_disc_dtitle(3670,"Nevermind")[XAD=1 and NQU=2].
+final_disc_dtitle(3670,"Nevermind")[XAD=1 and NQU=3].
+final_disc_dtitle(3670,"Nevermind")[XAD=1 and NQU=4].
+final_disc_dtitle(4441,"Nevermind")[XAD=2].
+final_disc_dtitle(8151,"Nevermind")[XAD=3].
+final_disc_dtitle(7515,"Nevermind")[XAD=4].
+@uniform XAD.
+@uniform NQU.
 
-final_disc_id(7664)[OAZ=1].
-final_disc_dtitle(7664,"Reconstruction of the Fables")[OAZ=1].
-@uniform OAZ.
+final_disc_id(3222)[IWF=1 or IWF=2].
+final_disc_id(4451)[IWF=2].
+final_disc_dtitle(3222,"DREAM")[IWF=1 or AIP=1].
+final_disc_dtitle(3222,"DREAM")[IWF=1 and AIP=2].
+final_disc_dtitle(4451,"DREAM")[IWF=2].
+@p(IWF=1)=1.0.
+@p(IWF=2)=0.0.
+@uniform AIP.
 
-final_disc_id(10119)[DJU=1].
-final_disc_dtitle(10119,"Fables of the reconstruction")[DJU=1].
-@uniform DJU.
+final_disc_id(3395)[BOO=1].
+final_disc_dtitle(3395,"The Crystal Method - Tweekend")[BOO=1 or AZK=1].
+@uniform BOO.
 
-final_disc_id(5549)[SZN=1].
-final_disc_dtitle(5549,"United")[SZN=1].
-@uniform SZN.
+final_disc_id(4563)[CUQ=1 or CUQ=2].
+final_disc_id(5122)[CUQ=2].
+final_disc_dtitle(4563,"tweekend")[CUQ=1 or TXW=1].
+final_disc_dtitle(4563,"Tweekend")[CUQ=1 and TXW=2].
+final_disc_dtitle(5122,"Tweekend")[CUQ=2].
+@p(CUQ=1)=0.92.
+@p(CUQ=2)=0.08.
+@uniform TXW.
 
-final_disc_id(10133)[HFA=1].
-final_disc_dtitle(10133,"UNITED")[HFA=1].
-@uniform HFA.
+final_disc_id(2026)[UYS=1].
+final_disc_dtitle(2026,"Goddamnit!")[UYS=1 or KQA=1].
+@uniform UYS.
 
-final_disc_id(4804)[RRY=1].
-final_disc_dtitle(4804,"¯yczenia dla przyjació³")[RRY=1].
-@uniform RRY.
+final_disc_id(4601)[VHV=1 or VHV=2].
+final_disc_id(8410)[VHV=2].
+final_disc_dtitle(4601,"From Here to Infirmiry")[VHV=1 or KYG=1].
+final_disc_dtitle(4601,"From Here To Infirmary")[VHV=1 and KYG=2].
+final_disc_dtitle(8410,"From Here To Infirmary")[VHV=2].
+@p(VHV=1)=0.97.
+@p(VHV=2)=0.03.
+@uniform KYG.
 
-final_disc_id(10231)[WPT=1].
-final_disc_dtitle(10231,"Plyta 3 - Bulat")[WPT=1].
-@uniform WPT.
+final_disc_id(3185)[YHE=1 or YHE=2].
+final_disc_id(4631)[YHE=2].
+final_disc_dtitle(3185,"The Original Glenn Miller Reunion 1954")[YHE=1 or YUX=1].
+final_disc_dtitle(3185,"The Original Reunion Of The Glenn Miller Band")[YHE=1 and YUX=2].
+final_disc_dtitle(4631,"The Original Reunion Of The Glenn Miller Band")[YHE=2].
+@p(YHE=1)=0.85.
+@p(YHE=2)=0.15.
+@uniform YUX.
 
-final_disc_id(7367)[WDR=1 or WDR=2].
-final_disc_id(10240)[WDR=2].
-final_disc_dtitle(7367,"Middle Of Nowhere")[WDR=1 or TXV=1].
-final_disc_dtitle(7367,"Middle Of Nowhere")[WDR=1 and TXV=2].
-final_disc_dtitle(10240,"Middle Of Nowhere")[WDR=2].
-@p(WDR=1)=0.0.
-@p(WDR=2)=1.0.
-@uniform TXV.
+final_disc_id(2823)[CHS=1 or CHS=2].
+final_disc_id(4684)[CHS=2].
+final_disc_dtitle(2823,"The Jazzmasters4")[CHS=1 or OYC=1].
+final_disc_dtitle(2823,"The Jazzmasters 4")[CHS=1 and OYC=2].
+final_disc_dtitle(4684,"The Jazzmasters 4")[CHS=2].
+@p(CHS=1)=1.0.
+@p(CHS=2)=0.0.
+@uniform OYC.
 
-final_disc_id(6246)[MFT=1 or MFT=2].
-final_disc_id(10301)[MFT=2].
-final_disc_dtitle(6246,"In Existence")[MFT=1 or YUT=1].
-final_disc_dtitle(6246,"In Existence")[MFT=1 and YUT=2].
-final_disc_dtitle(10301,"In Existence")[MFT=2].
-@p(MFT=1)=0.0.
-@p(MFT=2)=1.0.
-@uniform YUT.
+final_disc_id(4709)[ZCH=1 or ZCH=2].
+final_disc_id(4710)[ZCH=2].
+final_disc_dtitle(4709,"globe")[ZCH=1 or CUJ=1].
+final_disc_dtitle(4709,"globe")[ZCH=1 and CUJ=2].
+final_disc_dtitle(4710,"globe")[ZCH=2].
+@p(ZCH=1)=1.0.
+@p(ZCH=2)=0.0.
+@uniform CUJ.
 
-final_disc_id(9807)[BDD=1].
-final_disc_dtitle(9807,"Christmas")[BDD=1].
-@uniform BDD.
+final_disc_id(4179)[BGB=1 or BGB=2 or BGB=3].
+final_disc_id(4732)[BGB=2].
+final_disc_id(4911)[BGB=3].
+final_disc_dtitle(4179,"Justified")[BGB=1 or VRB=1].
+final_disc_dtitle(4179,"Justified")[BGB=1 and VRB=2].
+final_disc_dtitle(4179,"Justified")[BGB=1 and VRB=3].
+final_disc_dtitle(4732,"Justified")[BGB=2].
+final_disc_dtitle(4911,"Justified")[BGB=3].
+@uniform BGB.
+@uniform VRB.
 
-final_disc_id(10312)[ILU=1].
-final_disc_dtitle(10312,"An All-4-One Chrismas")[ILU=1].
-@uniform ILU.
+final_disc_id(2252)[HZT=1 or HZT=2].
+final_disc_id(4733)[HZT=2].
+final_disc_dtitle(2252,"Ìóðçèëêè +")[HZT=1 or WJQ=1].
+final_disc_dtitle(2252,"Ìóðçèëêè +")[HZT=1 and WJQ=2].
+final_disc_dtitle(4733,"Ìóðçèëêè +")[HZT=2].
+@p(HZT=1)=1.0.
+@p(HZT=2)=0.0.
+@uniform WJQ.
 
-final_disc_id(7581)[VID=1 or VID=2].
-final_disc_id(10320)[VID=2].
-final_disc_dtitle(7581,"Portrait of an american family")[VID=1 or XVS=1].
-final_disc_dtitle(7581,"Portrait Of An American Family [MVCP-14]")[VID=1 and XVS=2].
-final_disc_dtitle(10320,"Portrait Of An American Family [MVCP-14]")[VID=2].
-@p(VID=1)=0.17.
-@p(VID=2)=0.83.
-@uniform XVS.
+final_disc_id(5238)[LOX=1 or LOX=2].
+final_disc_id(8297)[LOX=2].
+final_disc_dtitle(5238,"Ultrasonica")[LOX=1 or IDB=1].
+final_disc_dtitle(5238,"Ultrasónica")[LOX=1 and IDB=2].
+final_disc_dtitle(8297,"Ultrasónica")[LOX=2].
+@p(LOX=1)=0.97.
+@p(LOX=2)=0.03.
+@uniform IDB.
 
-final_disc_id(10253)[WVC=1 or WVC=2].
-final_disc_id(10368)[WVC=2].
-final_disc_dtitle(10253,"Shepherd Moons")[WVC=1 or MIS=1].
-final_disc_dtitle(10253,"Shepherd Moons")[WVC=1 and MIS=2].
-final_disc_dtitle(10368,"Shepherd Moons")[WVC=2].
-@p(WVC=1)=0.0.
-@p(WVC=2)=1.0.
-@uniform MIS.
+final_disc_id(4588)[RIP=1 or RIP=2].
+final_disc_id(4774)[RIP=2].
+final_disc_dtitle(4588,"Dimension Intrusion")[RIP=1 or ZEE=1].
+final_disc_dtitle(4588,"Dimension Intrusion")[RIP=1 and ZEE=2].
+final_disc_dtitle(4774,"Dimension Intrusion")[RIP=2].
+@p(RIP=1)=1.0.
+@p(RIP=2)=0.0.
+@uniform ZEE.
 
-final_disc_id(2707)[MWP=1 or MWP=2].
-final_disc_id(10414)[MWP=2].
-final_disc_dtitle(2707,"The Best Of Bruce Dickinson (DISC 1)")[MWP=1 or MID=1].
-final_disc_dtitle(2707,"The Best of Bruce Dickinson")[MWP=1 and MID=2].
-final_disc_dtitle(10414,"The Best of Bruce Dickinson")[MWP=2].
-@p(MWP=1)=0.16.
-@p(MWP=2)=0.84.
-@uniform MID.
+final_disc_id(4145)[VNU=1 or VNU=2].
+final_disc_id(4886)[VNU=2].
+final_disc_dtitle(4145,"La Realtà, la Lealtà e lo Scontro")[VNU=1 or KBQ=1].
+final_disc_dtitle(4145,"La realtà la lealtà e lo scont")[VNU=1 and KBQ=2].
+final_disc_dtitle(4886,"La realtà la lealtà e lo scont")[VNU=2].
+@p(VNU=1)=0.87.
+@p(VNU=2)=0.13.
+@uniform KBQ.
 
-final_disc_id(6162)[OBC=1 or OBC=2].
-final_disc_id(10449)[OBC=2].
-final_disc_dtitle(6162,"Homegrown")[OBC=1 or SJB=1].
-final_disc_dtitle(6162,"Homegrown")[OBC=1 and SJB=2].
-final_disc_dtitle(10449,"Homegrown")[OBC=2].
-@p(OBC=1)=0.0.
-@p(OBC=2)=1.0.
-@uniform SJB.
+final_disc_id(4291)[AFG=1 or AFG=2].
+final_disc_id(4905)[AFG=2].
+final_disc_dtitle(4291,"Britney")[AFG=1 or WTX=1].
+final_disc_dtitle(4291,"Britney")[AFG=1 and WTX=2].
+final_disc_dtitle(4905,"Britney")[AFG=2].
+@p(AFG=1)=1.0.
+@p(AFG=2)=0.0.
+@uniform WTX.
 
-final_disc_id(10578)[MME=1 or MME=2].
-final_disc_id(10628)[MME=2].
-final_disc_dtitle(10578,"String Quartets")[MME=1 or ILP=1].
-final_disc_dtitle(10578,"String Quartets -")[MME=1 and ILP=2].
-final_disc_dtitle(10628,"String Quartets -")[MME=2].
-@p(MME=1)=0.0.
-@p(MME=2)=1.0.
-@uniform ILP.
+final_disc_id(2317)[VKU=1 or VKU=2].
+final_disc_id(4988)[VKU=2].
+final_disc_dtitle(2317,"Vømmøl'n")[VKU=1 or QPE=1].
+final_disc_dtitle(2317,"V mm l'n")[VKU=1 and QPE=2].
+final_disc_dtitle(4988,"V mm l'n")[VKU=2].
+@p(VKU=1)=0.85.
+@p(VKU=2)=0.15.
+@uniform QPE.
 
-final_disc_id(7087)[JPX=1 or JPX=2].
-final_disc_id(10986)[JPX=2].
-final_disc_dtitle(7087,"Sehnsucht")[JPX=1 or MGB=1].
-final_disc_dtitle(7087,"Sehnsucht")[JPX=1 and MGB=2].
-final_disc_dtitle(10986,"Sehnsucht")[JPX=2].
-@p(JPX=1)=0.0.
-@p(JPX=2)=1.0.
-@uniform MGB.
+final_disc_id(5921)[ZJD=1 or ZJD=2].
+final_disc_id(8423)[ZJD=2].
+final_disc_dtitle(5921,"Tribal Voice")[ZJD=1 or OKA=1].
+final_disc_dtitle(5921,"Tribal Voice")[ZJD=1 and OKA=2].
+final_disc_dtitle(8423,"Tribal Voice")[ZJD=2].
+@p(ZJD=1)=1.0.
+@p(ZJD=2)=0.0.
+@uniform OKA.
 
-final_disc_id(9640)[BHT=1 or BHT=2].
-final_disc_id(10652)[BHT=2].
-final_disc_dtitle(9640,"December")[BHT=1 or QMT=1].
-final_disc_dtitle(9640,"December")[BHT=1 and QMT=2].
-final_disc_dtitle(10652,"December")[BHT=2].
-@p(BHT=1)=0.0.
-@p(BHT=2)=1.0.
-@uniform QMT.
+final_disc_id(6354)[ZUR=1].
+final_disc_dtitle(6354,"Aqualung (24K Gold Disc)")[ZUR=1 or PEN=1].
+@uniform ZUR.
 
-final_disc_id(10714)[IUG=1].
-final_disc_dtitle(10714,"L´Oe  uvre D´Orgue (Tome 3)")[IUG=1].
-@uniform IUG.
+final_disc_id(5010)[PNK=1 or PNK=2].
+final_disc_id(5205)[PNK=2].
+final_disc_dtitle(5010,"Elvenmusic")[PNK=1 or GYF=1].
+final_disc_dtitle(5010,"Elvenmusic")[PNK=1 and GYF=2].
+final_disc_dtitle(5205,"Elvenmusic")[PNK=2].
+@p(PNK=1)=1.0.
+@p(PNK=2)=0.0.
+@uniform GYF.
 
-final_disc_id(10715)[TDY=1].
-final_disc_dtitle(10715,"Bach, J.S., Organ Works (Disk 3)")[TDY=1].
-@uniform TDY.
+final_disc_id(7540)[MHM=1 or MHM=2 or MHM=3].
+final_disc_id(8823)[MHM=2].
+final_disc_id(7542)[MHM=3].
+final_disc_dtitle(7540,"Mental Jewelry")[MHM=1 or EWL=1].
+final_disc_dtitle(7540,"Mental Jewelry")[MHM=1 and EWL=2].
+final_disc_dtitle(7540,"Mental Jewelry")[MHM=1 and EWL=3].
+final_disc_dtitle(8823,"Mental Jewelry")[MHM=2].
+final_disc_dtitle(7542,"Mental Jewelry")[MHM=3].
+@uniform MHM.
+@uniform EWL.
 
-final_disc_id(10785)[SLT=1].
-final_disc_dtitle(10785,"Bocelli")[SLT=1].
-@uniform SLT.
+final_disc_id(7769)[AJX=1].
+final_disc_dtitle(7769,"NEVERMIND")[AJX=1 or WNO=1].
+@uniform AJX.
 
-final_disc_id(10833)[PMY=1].
-final_disc_dtitle(10833,"Sugar")[PMY=1].
-@uniform PMY.
+final_disc_id(5394)[UCA=1 or UCA=2].
+final_disc_id(5418)[UCA=2].
+final_disc_dtitle(5394,"Maroon")[UCA=1 or YST=1].
+final_disc_dtitle(5394,"Maroon")[UCA=1 and YST=2].
+final_disc_dtitle(5418,"Maroon")[UCA=2].
+@p(UCA=1)=1.0.
+@p(UCA=2)=0.0.
+@uniform YST.
 
-final_disc_id(11006)[LSK=1].
-final_disc_dtitle(11006,"Hollywood Film Classics")[LSK=1].
-@uniform LSK.
+final_disc_id(2440)[TEY=1 or TEY=2].
+final_disc_id(5443)[TEY=2].
+final_disc_dtitle(2440,"A Letra A")[TEY=1 or YQP=1].
+final_disc_dtitle(2440,"A Letra A")[TEY=1 and YQP=2].
+final_disc_dtitle(5443,"A Letra A")[TEY=2].
+@p(TEY=1)=1.0.
+@p(TEY=2)=0.0.
+@uniform YQP.
 
-final_disc_id(11008)[WSR=1].
-final_disc_dtitle(11008,"Disk #1")[WSR=1].
-@uniform WSR.
+final_disc_id(2771)[TFL=1 or TFL=2].
+final_disc_id(5458)[TFL=2].
+final_disc_dtitle(2771,"Munia")[TFL=1 or CVE=1].
+final_disc_dtitle(2771,"Munia/The Tail")[TFL=1 and CVE=2].
+final_disc_dtitle(5458,"Munia/The Tail")[TFL=2].
+@p(TFL=1)=0.86.
+@p(TFL=2)=0.14.
+@uniform CVE.
 
-final_disc_id(10938)[JJI=1 or JJI=2].
-final_disc_id(11125)[JJI=2].
-final_disc_dtitle(10938,"The Glory (????) of the Human Voice")[JJI=1 or QRE=1].
-final_disc_dtitle(10938,"The Glory (????) of the Human Voice")[JJI=1 and QRE=2].
-final_disc_dtitle(11125,"The Glory (????) of the Human Voice")[JJI=2].
-@p(JJI=1)=0.0.
-@p(JJI=2)=1.0.
-@uniform QRE.
+final_disc_id(4384)[UQA=1 or UQA=2 or UQA=3].
+final_disc_id(5657)[UQA=2].
+final_disc_id(5681)[UQA=3].
+final_disc_dtitle(4384,"Dreamland")[UQA=1 or OYP=1].
+final_disc_dtitle(4384,"Dreamland")[UQA=1 and OYP=2].
+final_disc_dtitle(4384,"Dreamland [BVCP-993]")[UQA=1 and OYP=3].
+final_disc_dtitle(5657,"Dreamland")[UQA=2].
+final_disc_dtitle(5681,"Dreamland [BVCP-993]")[UQA=3].
+@uniform UQA.
+@uniform OYP.
 
-final_disc_id(8901)[YKD=1 or YKD=2].
-final_disc_id(11150)[YKD=2].
-final_disc_dtitle(8901,"Live")[YKD=1 or XXG=1].
-final_disc_dtitle(8901,"Live")[YKD=1 and XXG=2].
-final_disc_dtitle(11150,"Live")[YKD=2].
-@p(YKD=1)=0.0.
-@p(YKD=2)=1.0.
-@uniform XXG.
+final_disc_id(4676)[CIE=1 or CIE=2 or CIE=3].
+final_disc_id(5746)[CIE=2].
+final_disc_id(8097)[CIE=3].
+final_disc_dtitle(4676,"Whoa, Nelly!")[CIE=1 or QIR=1].
+final_disc_dtitle(4676,"Whoa, Nelly!")[CIE=1 and QIR=2].
+final_disc_dtitle(4676,"Whoa Nelly")[CIE=1 and QIR=3].
+final_disc_dtitle(5746,"Whoa, Nelly!")[CIE=2].
+final_disc_dtitle(8097,"Whoa Nelly")[CIE=3].
+@uniform CIE.
+@uniform QIR.
 
-final_disc_id(5867)[DTH=1 or DTH=2].
-final_disc_id(11166)[DTH=2].
-final_disc_dtitle(5867,"Alma Brasileira")[DTH=1 or LTC=1].
-final_disc_dtitle(5867,"Alma Brasileira")[DTH=1 and LTC=2].
-final_disc_dtitle(11166,"Alma Brasileira")[DTH=2].
-@p(DTH=1)=0.0.
-@p(DTH=2)=1.0.
-@uniform LTC.
+final_disc_id(3931)[EHZ=1 or EHZ=2].
+final_disc_id(5754)[EHZ=2].
+final_disc_dtitle(3931,"Hormonally Yours")[EHZ=1 or UER=1].
+final_disc_dtitle(3931,"Hormonally Yours")[EHZ=1 and UER=2].
+final_disc_dtitle(5754,"Hormonally Yours")[EHZ=2].
+@p(EHZ=1)=1.0.
+@p(EHZ=2)=0.0.
+@uniform UER.
 
-final_disc_id(10983)[XLS=1 or XLS=2].
-final_disc_id(11174)[XLS=2].
-final_disc_dtitle(10983,"bilder einer ausstellung")[XLS=1 or ATR=1].
-final_disc_dtitle(10983,"Bilder einer Ausstellung")[XLS=1 and ATR=2].
-final_disc_dtitle(11174,"Bilder einer Ausstellung")[XLS=2].
-@p(XLS=1)=0.06.
-@p(XLS=2)=0.94.
-@uniform ATR.
+final_disc_id(5780)[PWT=1].
+final_disc_dtitle(5780,"chant")[PWT=1 or ODG=1].
+@uniform PWT.
 
-final_disc_id(11088)[BOY=1 or BOY=2].
-final_disc_id(11190)[BOY=2].
-final_disc_dtitle(11088,"Mozart: Greatest Hits")[BOY=1 or GNL=1].
-final_disc_dtitle(11088,"Mozart greatest hits")[BOY=1 and GNL=2].
-final_disc_dtitle(11190,"Mozart greatest hits")[BOY=2].
-@p(BOY=1)=0.06.
-@p(BOY=2)=0.94.
-@uniform GNL.
+final_disc_id(5782)[HBC=1].
+final_disc_dtitle(5782,"instrumental")[HBC=1 or RIN=1].
+@uniform HBC.
 
-final_disc_id(9838)[ARM=1].
-final_disc_dtitle(9838,"Notting Hill")[ARM=1].
-@uniform ARM.
+final_disc_id(4975)[YYY=1 or YYY=2].
+final_disc_id(5889)[YYY=2].
+final_disc_dtitle(4975,"It's Christmas")[YYY=1 or BUC=1].
+final_disc_dtitle(4975,"It's Christmas")[YYY=1 and BUC=2].
+final_disc_dtitle(5889,"It's Christmas")[YYY=2].
+@p(YYY=1)=1.0.
+@p(YYY=2)=0.0.
+@uniform BUC.
 
-final_disc_id(11388)[SEA=1].
-final_disc_dtitle(11388,"Music From Motion Picture")[SEA=1].
-@uniform SEA.
+final_disc_id(5371)[WAL=1 or WAL=2].
+final_disc_id(5959)[WAL=2].
+final_disc_dtitle(5371,"Rocket in the Pocket")[WAL=1 or TZT=1].
+final_disc_dtitle(5371,"Rocket in the Pocket")[WAL=1 and TZT=2].
+final_disc_dtitle(5959,"Rocket in the Pocket")[WAL=2].
+@p(WAL=1)=1.0.
+@p(WAL=2)=0.0.
+@uniform TZT.
 
-final_disc_id(5289)[PQY=1 or PQY=2].
-final_disc_id(11455)[PQY=2].
-final_disc_dtitle(5289,"KBS TV¸¸È­¿µÈ­ ³ë·¡¸ðÀ½")[PQY=1 or HGQ=1].
-final_disc_dtitle(5289,"KBS TV¸¸È­¿µÈ­ ³ë·¡¸ðÀ½")[PQY=1 and HGQ=2].
-final_disc_dtitle(11455,"KBS TV¸¸È­¿µÈ­ ³ë·¡¸ðÀ½")[PQY=2].
-@p(PQY=1)=0.0.
-@p(PQY=2)=1.0.
-@uniform HGQ.
+final_disc_id(4613)[PGA=1 or PGA=2].
+final_disc_id(6116)[PGA=2].
+final_disc_dtitle(4613,"A Christmas to Remember")[PGA=1 or IIX=1].
+final_disc_dtitle(4613,"A Christmas To Remember")[PGA=1 and IIX=2].
+final_disc_dtitle(6116,"A Christmas To Remember")[PGA=2].
+@p(PGA=1)=0.99.
+@p(PGA=2)=0.01.
+@uniform IIX.
 
-final_disc_id(5099)[BCV=1 or BCV=2].
-final_disc_id(11530)[BCV=2].
-final_disc_dtitle(5099,"The Haunted Mansion: 30th Anniversary")[BCV=1 or WSF=1].
-final_disc_dtitle(5099,"The Haunted Mansion: 30th Anniversary")[BCV=1 and WSF=2].
-final_disc_dtitle(11530,"The Haunted Mansion: 30th Anniversary")[BCV=2].
-@p(BCV=1)=0.0.
-@p(BCV=2)=1.0.
-@uniform WSF.
+final_disc_id(7211)[UNY=1 or UNY=2].
+final_disc_id(7614)[UNY=2].
+final_disc_dtitle(7211,"House of Blues, Chicago '97")[UNY=1 or IYQ=1].
+final_disc_dtitle(7211,"House of Blues, 11-1-97")[UNY=1 and IYQ=2].
+final_disc_dtitle(7614,"House of Blues, 11-1-97")[UNY=2].
+@p(UNY=1)=0.93.
+@p(UNY=2)=0.07.
+@uniform IYQ.
 
-final_disc_id(11531)[GTT=1].
-final_disc_dtitle(11531,"Black Album")[GTT=1].
-@uniform GTT.
+final_disc_id(3134)[MMY=1].
+final_disc_dtitle(3134,"Metallica")[MMY=1 or YGB=1].
+@uniform MMY.
 
-final_disc_id(11423)[DAR=1 or DAR=2].
-final_disc_id(11538)[DAR=2].
-final_disc_dtitle(11423,"King Kong Original Soundtrack")[DAR=1 or XWY=1].
-final_disc_dtitle(11423,"King Kong")[DAR=1 and XWY=2].
-final_disc_dtitle(11538,"King Kong")[DAR=2].
-@p(DAR=1)=0.16.
-@p(DAR=2)=0.84.
-@uniform XWY.
+final_disc_id(6210)[YON=1].
+final_disc_dtitle(6210,"METALLICA")[YON=1 or UEM=1].
+@uniform YON.
+
+final_disc_id(3757)[JOZ=1 or JOZ=2].
+final_disc_id(6377)[JOZ=2].
+final_disc_dtitle(3757,"The singles 86-98 CD 2")[JOZ=1 or SCF=1].
+final_disc_dtitle(3757,"The Singles 86>98 (Disc 2)")[JOZ=1 and SCF=2].
+final_disc_dtitle(6377,"The Singles 86>98 (Disc 2)")[JOZ=2].
+@p(JOZ=1)=0.81.
+@p(JOZ=2)=0.19.
+@uniform SCF.
+
+final_disc_id(4358)[JHS=1 or JHS=2].
+final_disc_id(6398)[JHS=2].
+final_disc_dtitle(4358,"Vol.2... Hard Knock Life")[JHS=1 or HCQ=1].
+final_disc_dtitle(4358,"Vol.2...Hard Knock Life")[JHS=1 and HCQ=2].
+final_disc_dtitle(6398,"Vol.2...Hard Knock Life")[JHS=2].
+@p(JHS=1)=0.94.
+@p(JHS=2)=0.06.
+@uniform HCQ.
+
+final_disc_id(6663)[IZG=1 or IZG=2].
+final_disc_id(6665)[IZG=2].
+final_disc_dtitle(6663,"Is This It?")[IZG=1 or KVU=1].
+final_disc_dtitle(6663,"Is This It?")[IZG=1 and KVU=2].
+final_disc_dtitle(6665,"Is This It?")[IZG=2].
+@p(IZG=1)=1.0.
+@p(IZG=2)=0.0.
+@uniform KVU.
+
+final_disc_id(5542)[MFN=1 or MFN=2].
+final_disc_id(6695)[MFN=2].
+final_disc_dtitle(5542,"The Band Geek Mafia")[MFN=1 or IQY=1].
+final_disc_dtitle(5542,"Band Geek Mafia")[MFN=1 and IQY=2].
+final_disc_dtitle(6695,"Band Geek Mafia")[MFN=2].
+@p(MFN=1)=0.82.
+@p(MFN=2)=0.18.
+@uniform IQY.
+
+final_disc_id(4481)[CZX=1 or CZX=2].
+final_disc_id(6716)[CZX=2].
+final_disc_dtitle(4481,"Salt Peter")[CZX=1 or ZYR=1].
+final_disc_dtitle(4481,"Salt Peter")[CZX=1 and ZYR=2].
+final_disc_dtitle(6716,"Salt Peter")[CZX=2].
+@p(CZX=1)=1.0.
+@p(CZX=2)=0.0.
+@uniform ZYR.
+
+final_disc_id(4124)[KND=1 or KND=2 or KND=3].
+final_disc_id(6737)[KND=2].
+final_disc_id(7722)[KND=3].
+final_disc_dtitle(4124,"No Angel - 192")[KND=1 or PMF=1].
+final_disc_dtitle(4124,"No Angel")[KND=1 and PMF=2].
+final_disc_dtitle(4124,"No Angel")[KND=1 and PMF=3].
+final_disc_dtitle(6737,"No Angel")[KND=2].
+final_disc_dtitle(7722,"No Angel")[KND=3].
+@uniform KND.
+@uniform PMF.
+
+final_disc_id(6547)[TXJ=1 or TXJ=2].
+final_disc_id(6741)[TXJ=2].
+final_disc_dtitle(6547,"Sleepwalking")[TXJ=1 or TKC=1].
+final_disc_dtitle(6547,"Sleepwalking")[TXJ=1 and TKC=2].
+final_disc_dtitle(6741,"Sleepwalking")[TXJ=2].
+@p(TXJ=1)=1.0.
+@p(TXJ=2)=0.0.
+@uniform TKC.
+
+final_disc_id(5426)[PAI=1 or PAI=2 or PAI=3].
+final_disc_id(7869)[PAI=2].
+final_disc_id(10361)[PAI=3].
+final_disc_dtitle(5426,"ANThology")[PAI=1 or RIQ=1].
+final_disc_dtitle(5426,"ANThology")[PAI=1 and RIQ=2].
+final_disc_dtitle(5426,"Anthology")[PAI=1 and RIQ=3].
+final_disc_dtitle(7869,"ANThology")[PAI=2].
+final_disc_dtitle(10361,"Anthology")[PAI=3].
+@uniform PAI.
+@uniform RIQ.
+
+final_disc_id(6761)[EWC=1].
+final_disc_dtitle(6761,"anthology")[EWC=1 or EAA=1].
+@uniform EWC.
+
+final_disc_id(4876)[SUZ=1].
+final_disc_dtitle(4876,"International DeeJay Gigolos CD Five")[SUZ=1 or CKR=1].
+@uniform SUZ.
+
+final_disc_id(6762)[VFX=1].
+final_disc_dtitle(6762,"various Artists CD 1")[VFX=1 or EDQ=1].
+@uniform VFX.
+
+final_disc_id(3976)[SVM=1 or SVM=2].
+final_disc_id(6776)[SVM=2].
+final_disc_dtitle(3976,"Jay-Z: MTV Unplugged")[SVM=1 or VHG=1].
+final_disc_dtitle(3976,"MTV Unplugged")[SVM=1 and VHG=2].
+final_disc_dtitle(6776,"MTV Unplugged")[SVM=2].
+@p(SVM=1)=0.83.
+@p(SVM=2)=0.17.
+@uniform VHG.
+
+final_disc_id(3851)[ZRY=1 or ZRY=2].
+final_disc_id(6855)[ZRY=2].
+final_disc_dtitle(3851,"Træk din kat i halen")[ZRY=1 or ELJ=1].
+final_disc_dtitle(3851,"Træk Din Kat I Halen")[ZRY=1 and ELJ=2].
+final_disc_dtitle(6855,"Træk Din Kat I Halen")[ZRY=2].
+@p(ZRY=1)=0.9.
+@p(ZRY=2)=0.1.
+@uniform ELJ.
+
+final_disc_id(6925)[YZF=1 or YZF=2].
+final_disc_id(6926)[YZF=2].
+final_disc_dtitle(6925,"High 'n' Dry")[YZF=1 or GVZ=1].
+final_disc_dtitle(6925,"High 'n' dry")[YZF=1 and GVZ=2].
+final_disc_dtitle(6926,"High 'n' dry")[YZF=2].
+@p(YZF=1)=0.99.
+@p(YZF=2)=0.01.
+@uniform GVZ.
+
+final_disc_id(4184)[QGT=1 or QGT=2].
+final_disc_id(6950)[QGT=2].
+final_disc_dtitle(4184,"beautifulgarbage")[QGT=1 or KAW=1].
+final_disc_dtitle(4184,"Beautifulgarbage")[QGT=1 and KAW=2].
+final_disc_dtitle(6950,"Beautifulgarbage")[QGT=2].
+@p(QGT=1)=0.96.
+@p(QGT=2)=0.04.
+@uniform KAW.
+
+final_disc_id(6506)[YEC=1 or YEC=2].
+final_disc_id(6952)[YEC=2].
+final_disc_dtitle(6506,"Living In The Present Future")[YEC=1 or URL=1].
+final_disc_dtitle(6506,"Living In The Present Future (Japan edit)")[YEC=1 and URL=2].
+final_disc_dtitle(6952,"Living In The Present Future (Japan edit)")[YEC=2].
+@p(YEC=1)=0.97.
+@p(YEC=2)=0.03.
+@uniform URL.
+
+final_disc_id(3356)[SNR=1 or SNR=2].
+final_disc_id(6955)[SNR=2].
+final_disc_dtitle(3356,"Bunkka")[SNR=1 or OTE=1].
+final_disc_dtitle(3356,"Bunkka")[SNR=1 and OTE=2].
+final_disc_dtitle(6955,"Bunkka")[SNR=2].
+@p(SNR=1)=1.0.
+@p(SNR=2)=0.0.
+@uniform OTE.
+
+final_disc_id(3383)[BWW=1 or BWW=2].
+final_disc_id(6969)[BWW=2].
+final_disc_dtitle(3383,"Los paraísos desiertos")[BWW=1 or ZDZ=1].
+final_disc_dtitle(3383,"Los paraisos desiertos")[BWW=1 and ZDZ=2].
+final_disc_dtitle(6969,"Los paraisos desiertos")[BWW=2].
+@p(BWW=1)=0.94.
+@p(BWW=2)=0.06.
+@uniform ZDZ.
+
+final_disc_id(4490)[DCO=1 or DCO=2].
+final_disc_id(7121)[DCO=2].
+final_disc_dtitle(4490,"Small Change")[DCO=1 or MMN=1].
+final_disc_dtitle(4490,"Small Change")[DCO=1 and MMN=2].
+final_disc_dtitle(7121,"Small Change")[DCO=2].
+@p(DCO=1)=1.0.
+@p(DCO=2)=0.0.
+@uniform MMN.
+
+final_disc_id(2807)[WRJ=1 or WRJ=2].
+final_disc_id(7064)[WRJ=2].
+final_disc_dtitle(2807,"Schizophonic")[WRJ=1 or RGC=1].
+final_disc_dtitle(2807,"Schizophonic!")[WRJ=1 and RGC=2].
+final_disc_dtitle(7064,"Schizophonic!")[WRJ=2].
+@p(WRJ=1)=1.0.
+@p(WRJ=2)=0.0.
+@uniform RGC.
+
+final_disc_id(5185)[TSQ=1 or TSQ=2].
+final_disc_id(7072)[TSQ=2].
+final_disc_dtitle(5185,"The Height Of Callousness")[TSQ=1 or BUV=1].
+final_disc_dtitle(5185,"The Height Of Callousnes")[TSQ=1 and BUV=2].
+final_disc_dtitle(7072,"The Height Of Callousnes")[TSQ=2].
+@p(TSQ=1)=1.0.
+@p(TSQ=2)=0.0.
+@uniform BUV.
+
+final_disc_id(1818)[KQH=1 or KQH=2].
+final_disc_id(7075)[KQH=2].
+final_disc_dtitle(1818,"the wall disc 1")[KQH=1 or LJH=1].
+final_disc_dtitle(1818,"The Wall (Disc 1)")[KQH=1 and LJH=2].
+final_disc_dtitle(7075,"The Wall (Disc 1)")[KQH=2].
+@p(KQH=1)=0.84.
+@p(KQH=2)=0.16.
+@uniform LJH.
+
+final_disc_id(4348)[PHC=1 or PHC=2].
+final_disc_id(7170)[PHC=2].
+final_disc_dtitle(4348,"Joe's Garage (Disk 1)")[PHC=1 or QKF=1].
+final_disc_dtitle(4348,"Joe's Garage (Disc I)")[PHC=1 and QKF=2].
+final_disc_dtitle(7170,"Joe's Garage (Disc I)")[PHC=2].
+@p(PHC=1)=0.99.
+@p(PHC=2)=0.01.
+@uniform QKF.
+
+final_disc_id(4178)[MIE=1 or MIE=2 or MIE=3].
+final_disc_id(7199)[MIE=2].
+final_disc_id(8683)[MIE=3].
+final_disc_dtitle(4178,"Next World")[MIE=1 or CAN=1].
+final_disc_dtitle(4178,"Next World")[MIE=1 and CAN=2].
+final_disc_dtitle(4178,"Next World")[MIE=1 and CAN=3].
+final_disc_dtitle(7199,"Next World")[MIE=2].
+final_disc_dtitle(8683,"Next World")[MIE=3].
+@uniform MIE.
+@uniform CAN.
+
+final_disc_id(7037)[LJC=1 or LJC=2].
+final_disc_id(7237)[LJC=2].
+final_disc_dtitle(7037,"Once In A Livetime - Disc 1")[LJC=1 or SLP=1].
+final_disc_dtitle(7037,"Once In A Livetime (Disc 1)")[LJC=1 and SLP=2].
+final_disc_dtitle(7237,"Once In A Livetime (Disc 1)")[LJC=2].
+@p(LJC=1)=0.98.
+@p(LJC=2)=0.02.
+@uniform SLP.
+
+final_disc_id(2406)[MJY=1 or MJY=2].
+final_disc_id(7291)[MJY=2].
+final_disc_dtitle(2406,"Alice non lo sa")[MJY=1 or TVS=1].
+final_disc_dtitle(2406,"Alice non lo sa")[MJY=1 and TVS=2].
+final_disc_dtitle(7291,"Alice non lo sa")[MJY=2].
+@p(MJY=1)=1.0.
+@p(MJY=2)=0.0.
+@uniform TVS.
+
+final_disc_id(6316)[MFH=1 or MFH=2].
+final_disc_id(7311)[MFH=2].
+final_disc_dtitle(6316,"Use Your Brain")[MFH=1 or XTS=1].
+final_disc_dtitle(6316,"Use Your Brain")[MFH=1 and XTS=2].
+final_disc_dtitle(7311,"Use Your Brain")[MFH=2].
+@p(MFH=1)=1.0.
+@p(MFH=2)=0.0.
+@uniform XTS.
+
+final_disc_id(5052)[WVO=1].
+final_disc_dtitle(5052,"la era de la boludez")[WVO=1 or FNE=1].
+@uniform WVO.
+
+final_disc_id(7347)[MGN=1].
+final_disc_dtitle(7347,"La Era De La Boludez")[MGN=1 or PLL=1].
+@uniform MGN.
+
+final_disc_id(6948)[BRP=1 or BRP=2].
+final_disc_id(7365)[BRP=2].
+final_disc_dtitle(6948,"Songs From Another Season")[BRP=1 or SXM=1].
+final_disc_dtitle(6948,"Songs from Another Season")[BRP=1 and SXM=2].
+final_disc_dtitle(7365,"Songs from Another Season")[BRP=2].
+@p(BRP=1)=0.98.
+@p(BRP=2)=0.02.
+@uniform SXM.
+
+final_disc_id(7404)[UQC=1 or UQC=2].
+final_disc_id(7405)[UQC=2].
+final_disc_dtitle(7404,"Mad Season")[UQC=1 or JZP=1].
+final_disc_dtitle(7404,"Mad Season")[UQC=1 and JZP=2].
+final_disc_dtitle(7405,"Mad Season")[UQC=2].
+@p(UQC=1)=1.0.
+@p(UQC=2)=0.0.
+@uniform JZP.
+
+final_disc_id(6423)[UHO=1].
+final_disc_dtitle(6423,"8-16-02 Houston, TX - The Woodlands - Disc 1")[UHO=1 or YKX=1].
+@uniform UHO.
+
+final_disc_id(7428)[ILF=1].
+final_disc_dtitle(7428,"Sin City Flames(Disc 1)")[ILF=1 or YGG=1].
+@uniform ILF.
+
+final_disc_id(6811)[DZU=1].
+final_disc_dtitle(6811,"Speak Of The Devil")[DZU=1 or PDU=1].
+@uniform DZU.
+
+final_disc_id(7429)[MZY=1].
+final_disc_dtitle(7429,"Talk Of The Devil")[MZY=1 or ELB=1].
+@uniform MZY.
+
+final_disc_id(7061)[CYB=1 or CYB=2].
+final_disc_id(7469)[CYB=2].
+final_disc_dtitle(7061,"ALL")[CYB=1 or BQE=1].
+final_disc_dtitle(7061,"ALL")[CYB=1 and BQE=2].
+final_disc_dtitle(7469,"ALL")[CYB=2].
+@p(CYB=1)=1.0.
+@p(CYB=2)=0.0.
+@uniform BQE.
+
+final_disc_id(7288)[CGA=1 or CGA=2].
+final_disc_id(7483)[CGA=2].
+final_disc_dtitle(7288,"We've Cum For Your Children (Wanted:  The Goodman   Tapes)")[CGA=1 or GZO=1].
+final_disc_dtitle(7288,"We've Cum For Your Children (Wanted:  The Goodman Tapes)")[CGA=1 and GZO=2].
+final_disc_dtitle(7483,"We've Cum For Your Children (Wanted:  The Goodman Tapes)")[CGA=2].
+@p(CGA=1)=1.0.
+@p(CGA=2)=0.0.
+@uniform GZO.
+
+final_disc_id(5204)[HFL=1].
+final_disc_dtitle(5204,"Foo Fighters")[HFL=1 or WVZ=1].
+@uniform HFL.
+
+final_disc_id(7514)[GJM=1].
+final_disc_dtitle(7514,"The Colour and the Shape")[GJM=1 or OCY=1].
+@uniform GJM.
+
+final_disc_id(6339)[UTK=1 or UTK=2].
+final_disc_id(7517)[UTK=2].
+final_disc_dtitle(6339,"A Date With The Smithereens")[UTK=1 or VZT=1].
+final_disc_dtitle(6339,"A Date With The Smithereens")[UTK=1 and VZT=2].
+final_disc_dtitle(7517,"A Date With The Smithereens")[UTK=2].
+@p(UTK=1)=1.0.
+@p(UTK=2)=0.0.
+@uniform VZT.
+
+final_disc_id(4282)[QRU=1 or QRU=2].
+final_disc_id(7549)[QRU=2].
+final_disc_dtitle(4282,"El viaje de Copperpot")[QRU=1 or TIR=1].
+final_disc_dtitle(4282,"'El Viaje de Copperton'")[QRU=1 and TIR=2].
+final_disc_dtitle(7549,"'El Viaje de Copperton'")[QRU=2].
+@p(QRU=1)=0.89.
+@p(QRU=2)=0.11.
+@uniform TIR.
+
+final_disc_id(5574)[GPG=1 or GPG=2].
+final_disc_id(7562)[GPG=2].
+final_disc_dtitle(5574,"Savage Garden")[GPG=1 or GEY=1].
+final_disc_dtitle(5574,"Savage Garden")[GPG=1 and GEY=2].
+final_disc_dtitle(7562,"Savage Garden")[GPG=2].
+@p(GPG=1)=1.0.
+@p(GPG=2)=0.0.
+@uniform GEY.
+
+final_disc_id(6788)[TYK=1].
+final_disc_dtitle(6788,"A Little South Of Sanity - Disc 1")[TYK=1 or EVN=1].
+@uniform TYK.
+
+final_disc_id(7563)[WRT=1].
+final_disc_dtitle(7563,"a little south of sanity")[WRT=1 or ZPJ=1].
+@uniform WRT.
+
+final_disc_id(6620)[NEC=1 or NEC=2 or NEC=3].
+final_disc_id(7622)[NEC=2].
+final_disc_id(8349)[NEC=3].
+final_disc_dtitle(6620,"We can't dance")[NEC=1 or AZN=1].
+final_disc_dtitle(6620,"We Can't Dance")[NEC=1 and AZN=2].
+final_disc_dtitle(6620,"We Can't Dance")[NEC=1 and AZN=3].
+final_disc_dtitle(7622,"We Can't Dance")[NEC=2].
+final_disc_dtitle(8349,"We Can't Dance")[NEC=3].
+@uniform NEC.
+@uniform AZN.
+
+final_disc_id(4586)[MTS=1 or MTS=2].
+final_disc_id(7633)[MTS=2].
+final_disc_dtitle(4586,"Power Department")[MTS=1 or JLB=1].
+final_disc_dtitle(4586,"Popwer Department")[MTS=1 and JLB=2].
+final_disc_dtitle(7633,"Popwer Department")[MTS=2].
+@p(MTS=1)=0.93.
+@p(MTS=2)=0.07.
+@uniform JLB.
+
+final_disc_id(4419)[IEP=1 or IEP=2].
+final_disc_id(7644)[IEP=2].
+final_disc_dtitle(4419,"Surrealistic Pillow")[IEP=1 or OQL=1].
+final_disc_dtitle(4419,"Surrealistic Pillow")[IEP=1 and OQL=2].
+final_disc_dtitle(7644,"Surrealistic Pillow")[IEP=2].
+@p(IEP=1)=1.0.
+@p(IEP=2)=0.0.
+@uniform OQL.
+
+final_disc_id(6858)[MMX=1 or MMX=2 or MMX=3 or MMX=4 or MMX=5 or MMX=6].
+final_disc_id(7653)[MMX=2].
+final_disc_id(7852)[MMX=3].
+final_disc_id(8029)[MMX=4].
+final_disc_id(10230)[MMX=5].
+final_disc_id(10383)[MMX=6].
+final_disc_dtitle(6858,"Hibrid Theory")[MMX=1 or GXT=1].
+final_disc_dtitle(6858,"Hybrid Theroy")[MMX=1 and GXT=2].
+final_disc_dtitle(6858,"Hybrid Theory")[MMX=1 and GXT=3].
+final_disc_dtitle(6858,"Hybrid Theory")[MMX=1 and GXT=4].
+final_disc_dtitle(6858,"Hybrid theory")[MMX=1 and GXT=5].
+final_disc_dtitle(6858,"Hybrid Theory")[MMX=1 and GXT=6].
+final_disc_dtitle(7653,"Hybrid Theroy")[MMX=2].
+final_disc_dtitle(7852,"Hybrid Theory")[MMX=3].
+final_disc_dtitle(8029,"Hybrid Theory")[MMX=4].
+final_disc_dtitle(10230,"Hybrid theory")[MMX=5].
+final_disc_dtitle(10383,"Hybrid Theory")[MMX=6].
+@uniform MMX.
+@uniform GXT.
+
+final_disc_id(6722)[QON=1 or QON=2].
+final_disc_id(7707)[QON=2].
+final_disc_dtitle(6722,"What Comes Naturally")[QON=1 or KFF=1].
+final_disc_dtitle(6722,"What Comes Naturally")[QON=1 and KFF=2].
+final_disc_dtitle(7707,"What Comes Naturally")[QON=2].
+@p(QON=1)=1.0.
+@p(QON=2)=0.0.
+@uniform KFF.
+
+final_disc_id(7346)[KRV=1 or KRV=2].
+final_disc_id(7719)[KRV=2].
+final_disc_dtitle(7346,"Classics Volume 4")[KRV=1 or NXW=1].
+final_disc_dtitle(7346,"Classics Volume 4")[KRV=1 and NXW=2].
+final_disc_dtitle(7719,"Classics Volume 4")[KRV=2].
+@p(KRV=1)=1.0.
+@p(KRV=2)=0.0.
+@uniform NXW.
+
+final_disc_id(6944)[PFY=1 or PFY=2].
+final_disc_id(9868)[PFY=2].
+final_disc_dtitle(6944,"The will to live")[PFY=1 or CJF=1].
+final_disc_dtitle(6944,"The will to live")[PFY=1 and CJF=2].
+final_disc_dtitle(9868,"The will to live")[PFY=2].
+@p(PFY=1)=1.0.
+@p(PFY=2)=0.0.
+@uniform CJF.
+
+final_disc_id(7731)[QAD=1].
+final_disc_dtitle(7731,"the will to live(live 2 cd) - cd 1")[QAD=1 or IWK=1].
+@uniform QAD.
+
+final_disc_id(7361)[ESP=1 or ESP=2].
+final_disc_id(7750)[ESP=2].
+final_disc_dtitle(7361,"Blue")[ESP=1 or UUF=1].
+final_disc_dtitle(7361,"Blue")[ESP=1 and UUF=2].
+final_disc_dtitle(7750,"Blue")[ESP=2].
+@p(ESP=1)=1.0.
+@p(ESP=2)=0.0.
+@uniform UUF.
+
+final_disc_id(7192)[HBK=1].
+final_disc_dtitle(7192,"Meltdown")[HBK=1 or YDL=1].
+@uniform HBK.
+
+final_disc_id(7778)[SZW=1].
+final_disc_dtitle(7778,"'98 Live Meltdown (CD 1/2)")[SZW=1 or GAX=1].
+@uniform SZW.
+
+final_disc_id(6802)[UXD=1 or UXD=2 or UXD=3 or UXD=4].
+final_disc_id(7794)[UXD=2].
+final_disc_id(8890)[UXD=3].
+final_disc_id(9063)[UXD=4].
+final_disc_dtitle(6802,"Ray Of Light")[UXD=1 or CBK=1].
+final_disc_dtitle(6802,"Ray of Light")[UXD=1 and CBK=2].
+final_disc_dtitle(6802,"Ray of Light")[UXD=1 and CBK=3].
+final_disc_dtitle(6802,"Ray Of Light")[UXD=1 and CBK=4].
+final_disc_dtitle(7794,"Ray of Light")[UXD=2].
+final_disc_dtitle(8890,"Ray of Light")[UXD=3].
+final_disc_dtitle(9063,"Ray Of Light")[UXD=4].
+@uniform UXD.
+@uniform CBK.
+
+final_disc_id(6992)[YLB=1 or YLB=2].
+final_disc_id(7802)[YLB=2].
+final_disc_dtitle(6992,"Perfect Best (Disc 1)")[YLB=1 or ZFX=1].
+final_disc_dtitle(6992,"Perfect Best side 1")[YLB=1 and ZFX=2].
+final_disc_dtitle(7802,"Perfect Best side 1")[YLB=2].
+@p(YLB=1)=0.95.
+@p(YLB=2)=0.05.
+@uniform ZFX.
+
+final_disc_id(7161)[TBR=1 or TBR=2].
+final_disc_id(8131)[TBR=2].
+final_disc_dtitle(7161,"Left Of The Middle")[TBR=1 or ALT=1].
+final_disc_dtitle(7161,"Left of the Middle")[TBR=1 and ALT=2].
+final_disc_dtitle(8131,"Left of the Middle")[TBR=2].
+@p(TBR=1)=0.95.
+@p(TBR=2)=0.05.
+@uniform ALT.
+
+final_disc_id(5324)[MIB=1 or MIB=2].
+final_disc_id(7847)[MIB=2].
+final_disc_dtitle(5324,"Tracy Chapman")[MIB=1 or BSA=1].
+final_disc_dtitle(5324,"Tracy Chapman")[MIB=1 and BSA=2].
+final_disc_dtitle(7847,"Tracy Chapman")[MIB=2].
+@p(MIB=1)=1.0.
+@p(MIB=2)=0.0.
+@uniform BSA.
+
+final_disc_id(8422)[YOZ=1 or YOZ=2].
+final_disc_id(7898)[YOZ=2].
+final_disc_dtitle(8422,"Free all Angels")[YOZ=1 or FMR=1].
+final_disc_dtitle(8422,"Free All Angels")[YOZ=1 and FMR=2].
+final_disc_dtitle(7898,"Free All Angels")[YOZ=2].
+@p(YOZ=1)=0.95.
+@p(YOZ=2)=0.05.
+@uniform FMR.
+
+final_disc_id(2950)[YYU=1].
+final_disc_dtitle(2950,"Donde Hay Musica")[YYU=1 or DQS=1].
+@uniform YYU.
+
+final_disc_id(8135)[BTQ=1].
+final_disc_dtitle(8135,"DOVE C'E MUSICA")[BTQ=1 or WFG=1].
+@uniform BTQ.
+
+final_disc_id(6382)[AIG=1 or AIG=2 or AIG=3].
+final_disc_id(7920)[AIG=2].
+final_disc_id(8494)[AIG=3].
+final_disc_dtitle(6382,"Break The Cycle")[AIG=1 or PJB=1].
+final_disc_dtitle(6382,"Break The Cycle")[AIG=1 and PJB=2].
+final_disc_dtitle(6382,"Break the Cycle")[AIG=1 and PJB=3].
+final_disc_dtitle(7920,"Break The Cycle")[AIG=2].
+final_disc_dtitle(8494,"Break the Cycle")[AIG=3].
+@uniform AIG.
+@uniform PJB.
+
+final_disc_id(3192)[FIW=1 or FIW=2].
+final_disc_id(7923)[FIW=2].
+final_disc_dtitle(3192,"The Sweetest Days")[FIW=1 or LZU=1].
+final_disc_dtitle(3192,"The Sweetest Days")[FIW=1 and LZU=2].
+final_disc_dtitle(7923,"The Sweetest Days")[FIW=2].
+@p(FIW=1)=1.0.
+@p(FIW=2)=0.0.
+@uniform LZU.
+
+final_disc_id(6413)[MUM=1 or MUM=2].
+final_disc_id(7975)[MUM=2].
+final_disc_dtitle(6413,"The Book Of Taliesyn (Remaster)")[MUM=1 or OIM=1].
+final_disc_dtitle(6413,"The Book Of Taliesyn")[MUM=1 and OIM=2].
+final_disc_dtitle(7975,"The Book Of Taliesyn")[MUM=2].
+@p(MUM=1)=0.96.
+@p(MUM=2)=0.04.
+@uniform OIM.
+
+final_disc_id(4108)[EME=1 or EME=2].
+final_disc_id(7977)[EME=2].
+final_disc_dtitle(4108,"200 Kmh In The Wrong Lane")[EME=1 or WSM=1].
+final_disc_dtitle(4108,"200 KMpH In The Wrong Lane")[EME=1 and WSM=2].
+final_disc_dtitle(7977,"200 KMpH In The Wrong Lane")[EME=2].
+@p(EME=1)=0.91.
+@p(EME=2)=0.09.
+@uniform WSM.
+
+final_disc_id(7604)[WZZ=1 or WZZ=2 or WZZ=3].
+final_disc_id(7980)[WZZ=2].
+final_disc_id(9790)[WZZ=3].
+final_disc_dtitle(7604,"Money For Nothing")[WZZ=1 or SWJ=1].
+final_disc_dtitle(7604,"Money for Nothing")[WZZ=1 and SWJ=2].
+final_disc_dtitle(7604,"Money for nothing")[WZZ=1 and SWJ=3].
+final_disc_dtitle(7980,"Money for Nothing")[WZZ=2].
+final_disc_dtitle(9790,"Money for nothing")[WZZ=3].
+@uniform WZZ.
+@uniform SWJ.
+
+final_disc_id(8311)[SHH=1 or SHH=2].
+final_disc_id(8312)[SHH=2].
+final_disc_dtitle(8311,"Believe")[SHH=1 or ACO=1].
+final_disc_dtitle(8311,"Believe")[SHH=1 and ACO=2].
+final_disc_dtitle(8312,"Believe")[SHH=2].
+@p(SHH=1)=1.0.
+@p(SHH=2)=0.0.
+@uniform ACO.
+
+final_disc_id(6919)[VXJ=1 or VXJ=2].
+final_disc_id(8060)[VXJ=2].
+final_disc_dtitle(6919,"Revolution ...Revolucion")[VXJ=1 or PIC=1].
+final_disc_dtitle(6919,"Revolution... revolución")[VXJ=1 and PIC=2].
+final_disc_dtitle(8060,"Revolution... revolución")[VXJ=2].
+@p(VXJ=1)=0.96.
+@p(VXJ=2)=0.04.
+@uniform PIC.
+
+final_disc_id(2188)[UGD=1 or UGD=2].
+final_disc_id(8063)[UGD=2].
+final_disc_dtitle(2188,"Destrangis")[UGD=1 or HCY=1].
+final_disc_dtitle(2188,"destrangis")[UGD=1 and HCY=2].
+final_disc_dtitle(8063,"destrangis")[UGD=2].
+@p(UGD=1)=0.93.
+@p(UGD=2)=0.07.
+@uniform HCY.
+
+final_disc_id(7363)[VGZ=1 or VGZ=2].
+final_disc_id(8118)[VGZ=2].
+final_disc_dtitle(7363,"The Parkerilla")[VGZ=1 or NBU=1].
+final_disc_dtitle(7363,"The Parkerilla")[VGZ=1 and NBU=2].
+final_disc_dtitle(8118,"The Parkerilla")[VGZ=2].
+@p(VGZ=1)=1.0.
+@p(VGZ=2)=0.0.
+@uniform NBU.
+
+final_disc_id(8043)[GXM=1 or GXM=2].
+final_disc_id(8234)[GXM=2].
+final_disc_dtitle(8043,"The Pros and Cons of Hitch Hiking")[GXM=1 or USM=1].
+final_disc_dtitle(8043,"The Pros and Cons of Hitch Hiking")[GXM=1 and USM=2].
+final_disc_dtitle(8234,"The Pros and Cons of Hitch Hiking")[GXM=2].
+@p(GXM=1)=1.0.
+@p(GXM=2)=0.0.
+@uniform USM.
+
+final_disc_id(8120)[ITS=1].
+final_disc_dtitle(8120,"hitchhiking to radio city CD2")[ITS=1 or RHR=1].
+@uniform ITS.
+
+final_disc_id(7344)[MMC=1 or MMC=2].
+final_disc_id(8291)[MMC=2].
+final_disc_dtitle(7344,"Loud Like Nature")[MMC=1 or XHO=1].
+final_disc_dtitle(7344,"Loud Like Nature")[MMC=1 and XHO=2].
+final_disc_dtitle(8291,"Loud Like Nature")[MMC=2].
+@p(MMC=1)=1.0.
+@p(MMC=2)=0.0.
+@uniform XHO.
+
+final_disc_id(5360)[PTV=1 or PTV=2].
+final_disc_id(8430)[PTV=2].
+final_disc_dtitle(5360,"¿Dónde jugaran las niñas?")[PTV=1 or RYZ=1].
+final_disc_dtitle(5360,"¿Donde Jugarán Las Niñas?")[PTV=1 and RYZ=2].
+final_disc_dtitle(8430,"¿Donde Jugarán Las Niñas?")[PTV=2].
+@p(PTV=1)=0.82.
+@p(PTV=2)=0.18.
+@uniform RYZ.
+
+final_disc_id(8260)[LAF=1 or LAF=2].
+final_disc_id(8445)[LAF=2].
+final_disc_dtitle(8260,"Live Killers     (CD1)")[LAF=1 or UKX=1].
+final_disc_dtitle(8260,"Live killers Disc 1")[LAF=1 and UKX=2].
+final_disc_dtitle(8445,"Live killers Disc 1")[LAF=2].
+@p(LAF=1)=0.85.
+@p(LAF=2)=0.15.
+@uniform UKX.
+
+final_disc_id(7350)[JLG=1 or JLG=2].
+final_disc_id(8473)[JLG=2].
+final_disc_dtitle(7350,"Permanent Vacation")[JLG=1 or XXW=1].
+final_disc_dtitle(7350,"Permanent Vacation")[JLG=1 and XXW=2].
+final_disc_dtitle(8473,"Permanent Vacation")[JLG=2].
+@p(JLG=1)=1.0.
+@p(JLG=2)=0.0.
+@uniform XXW.
+
+final_disc_id(6314)[PAZ=1 or PAZ=2].
+final_disc_id(8464)[PAZ=2].
+final_disc_dtitle(6314,"Lenny")[PAZ=1 or ERO=1].
+final_disc_dtitle(6314,"Lenny")[PAZ=1 and ERO=2].
+final_disc_dtitle(8464,"Lenny")[PAZ=2].
+@p(PAZ=1)=1.0.
+@p(PAZ=2)=0.0.
+@uniform ERO.
+
+final_disc_id(6102)[IST=1 or IST=2].
+final_disc_id(9115)[IST=2].
+final_disc_dtitle(6102,"Flip Your Wig")[IST=1 or JKF=1].
+final_disc_dtitle(6102,"Flip Your Wig")[IST=1 and JKF=2].
+final_disc_dtitle(9115,"Flip Your Wig")[IST=2].
+@p(IST=1)=1.0.
+@p(IST=2)=0.0.
+@uniform JKF.
+
+final_disc_id(6771)[IPJ=1 or IPJ=2].
+final_disc_id(8507)[IPJ=2].
+final_disc_dtitle(6771,"Testify")[IPJ=1 or LEW=1].
+final_disc_dtitle(6771,"Testify")[IPJ=1 and LEW=2].
+final_disc_dtitle(8507,"Testify")[IPJ=2].
+@p(IPJ=1)=1.0.
+@p(IPJ=2)=0.0.
+@uniform LEW.
+
+final_disc_id(8364)[GWU=1 or GWU=2].
+final_disc_id(8526)[GWU=2].
+final_disc_dtitle(8364,"Silence(jpn)")[GWU=1 or QAK=1].
+final_disc_dtitle(8364,"Silence")[GWU=1 and QAK=2].
+final_disc_dtitle(8526,"Silence")[GWU=2].
+@p(GWU=1)=0.94.
+@p(GWU=2)=0.06.
+@uniform QAK.
+
+final_disc_id(6756)[HON=1 or HON=2].
+final_disc_id(8537)[HON=2].
+final_disc_dtitle(6756,"What it is to Burn")[HON=1 or QUU=1].
+final_disc_dtitle(6756,"What It Is To Burn")[HON=1 and QUU=2].
+final_disc_dtitle(8537,"What It Is To Burn")[HON=2].
+@p(HON=1)=0.92.
+@p(HON=2)=0.08.
+@uniform QUU.
+
+final_disc_id(7606)[TKA=1 or TKA=2].
+final_disc_id(8538)[TKA=2].
+final_disc_dtitle(7606,"Viva Los Tioz")[TKA=1 or KQN=1].
+final_disc_dtitle(7606,"Viva Los Tioz")[TKA=1 and KQN=2].
+final_disc_dtitle(8538,"Viva Los Tioz")[TKA=2].
+@p(TKA=1)=1.0.
+@p(TKA=2)=0.0.
+@uniform KQN.
+
+final_disc_id(3475)[GMT=1 or GMT=2].
+final_disc_id(8592)[GMT=2].
+final_disc_dtitle(3475,"Hellbilly deluxe")[GMT=1 or FKJ=1].
+final_disc_dtitle(3475,"Hellbilly Deluxe")[GMT=1 and FKJ=2].
+final_disc_dtitle(8592,"Hellbilly Deluxe")[GMT=2].
+@p(GMT=1)=0.98.
+@p(GMT=2)=0.02.
+@uniform FKJ.
+
+final_disc_id(8274)[VLK=1 or VLK=2 or VLK=3].
+final_disc_id(8630)[VLK=2].
+final_disc_id(8805)[VLK=3].
+final_disc_dtitle(8274,"Laundry Service")[VLK=1 or ZXE=1].
+final_disc_dtitle(8274,"Laundry Service")[VLK=1 and ZXE=2].
+final_disc_dtitle(8274,"Laundry Service")[VLK=1 and ZXE=3].
+final_disc_dtitle(8630,"Laundry Service")[VLK=2].
+final_disc_dtitle(8805,"Laundry Service")[VLK=3].
+@uniform VLK.
+@uniform ZXE.
+
+final_disc_id(2427)[NSG=1 or NSG=2 or NSG=3].
+final_disc_id(8640)[NSG=2].
+final_disc_id(10314)[NSG=3].
+final_disc_dtitle(2427,"No Need to Argue")[NSG=1 or LJG=1].
+final_disc_dtitle(2427,"No Need To Argue")[NSG=1 and LJG=2].
+final_disc_dtitle(2427,"No Need To Argue")[NSG=1 and LJG=3].
+final_disc_dtitle(8640,"No Need To Argue")[NSG=2].
+final_disc_dtitle(10314,"No Need To Argue")[NSG=3].
+@uniform NSG.
+@uniform LJG.
+
+final_disc_id(8114)[FQD=1 or FQD=2].
+final_disc_id(8659)[FQD=2].
+final_disc_dtitle(8114,"Innuendo")[FQD=1 or UFM=1].
+final_disc_dtitle(8114,"Innuendo")[FQD=1 and UFM=2].
+final_disc_dtitle(8659,"Innuendo")[FQD=2].
+@p(FQD=1)=1.0.
+@p(FQD=2)=0.0.
+@uniform UFM.
+
+final_disc_id(8306)[TCX=1 or TCX=2].
+final_disc_id(8663)[TCX=2].
+final_disc_dtitle(8306,"Wings Greatest")[TCX=1 or TIQ=1].
+final_disc_dtitle(8306,"Wings' Greatest")[TCX=1 and TIQ=2].
+final_disc_dtitle(8663,"Wings' Greatest")[TCX=2].
+@p(TCX=1)=0.99.
+@p(TCX=2)=0.01.
+@uniform TIQ.
+
+final_disc_id(5664)[WYB=1 or WYB=2].
+final_disc_id(8717)[WYB=2].
+final_disc_dtitle(5664,"The X Factor")[WYB=1 or TSR=1].
+final_disc_dtitle(5664,"The X Factor")[WYB=1 and TSR=2].
+final_disc_dtitle(8717,"The X Factor")[WYB=2].
+@p(WYB=1)=1.0.
+@p(WYB=2)=0.0.
+@uniform TSR.
+
+final_disc_id(4395)[VDA=1 or VDA=2].
+final_disc_id(8725)[VDA=2].
+final_disc_dtitle(4395,"Blazing Away")[VDA=1 or GHH=1].
+final_disc_dtitle(4395,"Blazing Away")[VDA=1 and GHH=2].
+final_disc_dtitle(8725,"Blazing Away")[VDA=2].
+@p(VDA=1)=1.0.
+@p(VDA=2)=0.0.
+@uniform GHH.
+
+final_disc_id(8224)[FZO=1 or FZO=2].
+final_disc_id(8754)[FZO=2].
+final_disc_dtitle(8224,"Days Like This")[FZO=1 or FJL=1].
+final_disc_dtitle(8224,"Days Like This")[FZO=1 and FJL=2].
+final_disc_dtitle(8754,"Days Like This")[FZO=2].
+@p(FZO=1)=1.0.
+@p(FZO=2)=0.0.
+@uniform FJL.
+
+final_disc_id(7671)[WZR=1 or WZR=2].
+final_disc_id(8759)[WZR=2].
+final_disc_dtitle(7671,"Solid Pleasure")[WZR=1 or SWC=1].
+final_disc_dtitle(7671,"Solid Pleasure")[WZR=1 and SWC=2].
+final_disc_dtitle(8759,"Solid Pleasure")[WZR=2].
+@p(WZR=1)=1.0.
+@p(WZR=2)=0.0.
+@uniform SWC.
+
+final_disc_id(5731)[LXM=1 or LXM=2].
+final_disc_id(8779)[LXM=2].
+final_disc_dtitle(5731,"Closing Time")[LXM=1 or PVG=1].
+final_disc_dtitle(5731,"Closing Time")[LXM=1 and PVG=2].
+final_disc_dtitle(8779,"Closing Time")[LXM=2].
+@p(LXM=1)=1.0.
+@p(LXM=2)=0.0.
+@uniform PVG.
+
+final_disc_id(4843)[KGX=1 or KGX=2].
+final_disc_id(8794)[KGX=2].
+final_disc_dtitle(4843,"Bleed American")[KGX=1 or QXU=1].
+final_disc_dtitle(4843,"Bleed American")[KGX=1 and QXU=2].
+final_disc_dtitle(8794,"Bleed American")[KGX=2].
+@p(KGX=1)=1.0.
+@p(KGX=2)=0.0.
+@uniform QXU.
+
+final_disc_id(4292)[GBY=1 or GBY=2].
+final_disc_id(8795)[GBY=2].
+final_disc_dtitle(4292,"Amplified")[GBY=1 or DFQ=1].
+final_disc_dtitle(4292,"Amplified")[GBY=1 and DFQ=2].
+final_disc_dtitle(8795,"Amplified")[GBY=2].
+@p(GBY=1)=1.0.
+@p(GBY=2)=0.0.
+@uniform DFQ.
+
+final_disc_id(7008)[PRT=1 or PRT=2].
+final_disc_id(8831)[PRT=2].
+final_disc_dtitle(7008,"Bounce")[PRT=1 or WJE=1].
+final_disc_dtitle(7008,"Bounce")[PRT=1 and WJE=2].
+final_disc_dtitle(8831,"Bounce")[PRT=2].
+@p(PRT=1)=1.0.
+@p(PRT=2)=0.0.
+@uniform WJE.
+
+final_disc_id(8668)[TCF=1 or TCF=2].
+final_disc_id(8843)[TCF=2].
+final_disc_dtitle(8668,"Best Of Rockers 'N' Ballads")[TCF=1 or JAG=1].
+final_disc_dtitle(8668,"Best Of Rockers 'N' Ballads")[TCF=1 and JAG=2].
+final_disc_dtitle(8843,"Best Of Rockers 'N' Ballads")[TCF=2].
+@p(TCF=1)=1.0.
+@p(TCF=2)=0.0.
+@uniform JAG.
+
+final_disc_id(5988)[KGE=1 or KGE=2].
+final_disc_id(8859)[KGE=2].
+final_disc_dtitle(5988,"U Got 2 Know")[KGE=1 or PIN=1].
+final_disc_dtitle(5988,"U Got 2 Know")[KGE=1 and PIN=2].
+final_disc_dtitle(8859,"U Got 2 Know")[KGE=2].
+@p(KGE=1)=1.0.
+@p(KGE=2)=0.0.
+@uniform PIN.
+
+final_disc_id(6562)[HWM=1 or HWM=2].
+final_disc_id(8870)[HWM=2].
+final_disc_dtitle(6562,"No Name Face")[HWM=1 or ESJ=1].
+final_disc_dtitle(6562,"No Name Man")[HWM=1 and ESJ=2].
+final_disc_dtitle(8870,"No Name Man")[HWM=2].
+@p(HWM=1)=0.95.
+@p(HWM=2)=0.05.
+@uniform ESJ.
+
+final_disc_id(5830)[VUG=1 or VUG=2].
+final_disc_id(8888)[VUG=2].
+final_disc_dtitle(5830,"Time Machine")[VUG=1 or IRG=1].
+final_disc_dtitle(5830,"Time Machine")[VUG=1 and IRG=2].
+final_disc_dtitle(8888,"Time Machine")[VUG=2].
+@p(VUG=1)=1.0.
+@p(VUG=2)=0.0.
+@uniform IRG.
+
+final_disc_id(3792)[QMF=1 or QMF=2].
+final_disc_id(8891)[QMF=2].
+final_disc_dtitle(3792,"Without You I'm Nothing")[QMF=1 or AXY=1].
+final_disc_dtitle(3792,"Without you I'm Nothing")[QMF=1 and AXY=2].
+final_disc_dtitle(8891,"Without you I'm Nothing")[QMF=2].
+@p(QMF=1)=0.98.
+@p(QMF=2)=0.02.
+@uniform AXY.
+
+final_disc_id(8718)[YDH=1].
+final_disc_dtitle(8718,"Live at the United Center - 11/29/00")[YDH=1 or ZZA=1].
+@uniform YDH.
+
+final_disc_id(8908)[LQZ=1].
+final_disc_dtitle(8908,"Live @ United Center, Chicago (29.11.2000) CD1")[LQZ=1 or PUF=1].
+@uniform LQZ.
+
+final_disc_id(8559)[DDT=1 or DDT=2].
+final_disc_id(8917)[DDT=2].
+final_disc_dtitle(8559,"The Complete Woodstock Tapes [2]")[DDT=1 or GFY=1].
+final_disc_dtitle(8559,"Complete 1978 Woodstock Tapes #2")[DDT=1 and GFY=2].
+final_disc_dtitle(8917,"Complete 1978 Woodstock Tapes #2")[DDT=2].
+@p(DDT=1)=0.85.
+@p(DDT=2)=0.15.
+@uniform GFY.
+
+final_disc_id(5912)[OYZ=1 or OYZ=2].
+final_disc_id(8949)[OYZ=2].
+final_disc_dtitle(5912,"Free Souls in a Trapped Environment")[OYZ=1 or HCZ=1].
+final_disc_dtitle(5912,"Free Souls in a Trapped Environment")[OYZ=1 and HCZ=2].
+final_disc_dtitle(8949,"Free Souls in a Trapped Environment")[OYZ=2].
+@p(OYZ=1)=1.0.
+@p(OYZ=2)=0.0.
+@uniform HCZ.
+
+final_disc_id(5577)[FNF=1 or FNF=2].
+final_disc_id(8990)[FNF=2].
+final_disc_dtitle(5577,"Ballbreaker")[FNF=1 or KYJ=1].
+final_disc_dtitle(5577,"Ballbreaker")[FNF=1 and KYJ=2].
+final_disc_dtitle(8990,"Ballbreaker")[FNF=2].
+@p(FNF=1)=1.0.
+@p(FNF=2)=0.0.
+@uniform KYJ.
+
+final_disc_id(7525)[VPZ=1 or VPZ=2].
+final_disc_id(8995)[VPZ=2].
+final_disc_dtitle(7525,"Version 2.0")[VPZ=1 or BOI=1].
+final_disc_dtitle(7525,"Version 2.0")[VPZ=1 and BOI=2].
+final_disc_dtitle(8995,"Version 2.0")[VPZ=2].
+@p(VPZ=1)=1.0.
+@p(VPZ=2)=0.0.
+@uniform BOI.
+
+final_disc_id(5776)[MGV=1 or MGV=2].
+final_disc_id(9008)[MGV=2].
+final_disc_dtitle(5776,"Sirena")[MGV=1 or WNA=1].
+final_disc_dtitle(5776,"Sirena")[MGV=1 and WNA=2].
+final_disc_dtitle(9008,"Sirena")[MGV=2].
+@p(MGV=1)=1.0.
+@p(MGV=2)=0.0.
+@uniform WNA.
+
+final_disc_id(2571)[MJP=1 or MJP=2].
+final_disc_id(9019)[MJP=2].
+final_disc_dtitle(2571,"Simplemente")[MJP=1 or AGT=1].
+final_disc_dtitle(2571,"Simplemente")[MJP=1 and AGT=2].
+final_disc_dtitle(9019,"Simplemente")[MJP=2].
+@p(MJP=1)=1.0.
+@p(MJP=2)=0.0.
+@uniform AGT.
+
+final_disc_id(7123)[LBK=1 or LBK=2].
+final_disc_id(9038)[LBK=2].
+final_disc_dtitle(7123,"Fever")[LBK=1 or XZG=1].
+final_disc_dtitle(7123,"Fever")[LBK=1 and XZG=2].
+final_disc_dtitle(9038,"Fever")[LBK=2].
+@p(LBK=1)=1.0.
+@p(LBK=2)=0.0.
+@uniform XZG.
+
+final_disc_id(8778)[IYG=1 or IYG=2].
+final_disc_id(9060)[IYG=2].
+final_disc_dtitle(8778,"Troublegum")[IYG=1 or ZQJ=1].
+final_disc_dtitle(8778,"Troublegum")[IYG=1 and ZQJ=2].
+final_disc_dtitle(9060,"Troublegum")[IYG=2].
+@p(IYG=1)=1.0.
+@p(IYG=2)=0.0.
+@uniform ZQJ.
+
+final_disc_id(6798)[FCC=1].
+final_disc_dtitle(6798,"Exciter Tour Live In L.A 2001 Disc 1")[FCC=1 or JVQ=1].
+@uniform FCC.
+
+final_disc_id(9068)[KWB=1].
+final_disc_dtitle(9068,"opening old wounds")[KWB=1 or RMC=1].
+@uniform KWB.
+
+final_disc_id(8919)[DZF=1 or DZF=2].
+final_disc_id(9083)[DZF=2].
+final_disc_dtitle(8919,"Yesterday & Today Live")[DZF=1 or CNH=1].
+final_disc_dtitle(8919,"Yesterday & Today Live")[DZF=1 and CNH=2].
+final_disc_dtitle(9083,"Yesterday & Today Live")[DZF=2].
+@p(DZF=1)=1.0.
+@p(DZF=2)=0.0.
+@uniform CNH.
+
+final_disc_id(8301)[UBL=1 or UBL=2].
+final_disc_id(9114)[UBL=2].
+final_disc_dtitle(8301,"Warning")[UBL=1 or JLR=1].
+final_disc_dtitle(8301,"Warning")[UBL=1 and JLR=2].
+final_disc_dtitle(9114,"Warning")[UBL=2].
+@p(UBL=1)=1.0.
+@p(UBL=2)=0.0.
+@uniform JLR.
+
+final_disc_id(8609)[DRD=1 or DRD=2].
+final_disc_id(9130)[DRD=2].
+final_disc_dtitle(8609,"More Sad Hits")[DRD=1 or LXL=1].
+final_disc_dtitle(8609,"More Sad Hits")[DRD=1 and LXL=2].
+final_disc_dtitle(9130,"More Sad Hits")[DRD=2].
+@p(DRD=1)=1.0.
+@p(DRD=2)=0.0.
+@uniform LXL.
+
+final_disc_id(8265)[IIO=1 or IIO=2].
+final_disc_id(9149)[IIO=2].
+final_disc_dtitle(8265,"Upstairs At Eric's")[IIO=1 or YNP=1].
+final_disc_dtitle(8265,"Upstairs At Eric's")[IIO=1 and YNP=2].
+final_disc_dtitle(9149,"Upstairs At Eric's")[IIO=2].
+@p(IIO=1)=1.0.
+@p(IIO=2)=0.0.
+@uniform YNP.
+
+final_disc_id(6922)[KQS=1 or KQS=2].
+final_disc_id(9161)[KQS=2].
+final_disc_dtitle(6922,"Urban Solitude")[KQS=1 or YVK=1].
+final_disc_dtitle(6922,"Urban Solitude")[KQS=1 and YVK=2].
+final_disc_dtitle(9161,"Urban Solitude")[KQS=2].
+@p(KQS=1)=1.0.
+@p(KQS=2)=0.0.
+@uniform YVK.
+
+final_disc_id(7918)[DGH=1 or DGH=2].
+final_disc_id(9172)[DGH=2].
+final_disc_dtitle(7918,"Beat The Bastards")[DGH=1 or TMH=1].
+final_disc_dtitle(7918,"Beat The Bastards")[DGH=1 and TMH=2].
+final_disc_dtitle(9172,"Beat The Bastards")[DGH=2].
+@p(DGH=1)=1.0.
+@p(DGH=2)=0.0.
+@uniform TMH.
+
+final_disc_id(7094)[LBT=1 or LBT=2].
+final_disc_id(9189)[LBT=2].
+final_disc_dtitle(7094,"Somewhere Far Beyond *")[LBT=1 or MNA=1].
+final_disc_dtitle(7094,"Sowhere Far Beyond")[LBT=1 and MNA=2].
+final_disc_dtitle(9189,"Sowhere Far Beyond")[LBT=2].
+@p(LBT=1)=0.84.
+@p(LBT=2)=0.16.
+@uniform MNA.
+
+final_disc_id(6740)[NNV=1 or NNV=2].
+final_disc_id(9193)[NNV=2].
+final_disc_dtitle(6740,"Long Distance")[NNV=1 or QEG=1].
+final_disc_dtitle(6740,"Long distance")[NNV=1 and QEG=2].
+final_disc_dtitle(9193,"Long distance")[NNV=2].
+@p(NNV=1)=0.97.
+@p(NNV=2)=0.03.
+@uniform QEG.
+
+final_disc_id(3793)[GSF=1].
+final_disc_dtitle(3793,"outrospective remixes")[GSF=1 or VRX=1].
+@uniform GSF.
+
+final_disc_id(9209)[DLE=1 or DLE=2].
+final_disc_id(4895)[DLE=2].
+final_disc_dtitle(9209,"Outrospective")[DLE=1 or EIE=1].
+final_disc_dtitle(9209,"Outrospective")[DLE=1 and EIE=2].
+final_disc_dtitle(4895,"Outrospective")[DLE=2].
+@p(DLE=1)=1.0.
+@p(DLE=2)=0.0.
+@uniform EIE.
+
+final_disc_id(8344)[XAN=1 or XAN=2].
+final_disc_id(9229)[XAN=2].
+final_disc_dtitle(8344,"Retro Active")[XAN=1 or GCN=1].
+final_disc_dtitle(8344,"Retroactive")[XAN=1 and GCN=2].
+final_disc_dtitle(9229,"Retroactive")[XAN=2].
+@p(XAN=1)=0.95.
+@p(XAN=2)=0.05.
+@uniform GCN.
+
+final_disc_id(1823)[NQW=1].
+final_disc_dtitle(1823,"Carlos")[NQW=1 or LYX=1].
+@uniform NQW.
+
+final_disc_id(9257)[AWZ=1].
+final_disc_dtitle(9257,"Supernatura")[AWZ=1 or DRE=1].
+@uniform AWZ.
+
+final_disc_id(5835)[WQO=1 or WQO=2].
+final_disc_id(9278)[WQO=2].
+final_disc_dtitle(5835,"Halfway Between The Gutter And The Stars")[WQO=1 or MQO=1].
+final_disc_dtitle(5835,"Halfway Between The Gutter And The Stars")[WQO=1 and MQO=2].
+final_disc_dtitle(9278,"Halfway Between The Gutter And The Stars")[WQO=2].
+@p(WQO=1)=1.0.
+@p(WQO=2)=0.0.
+@uniform MQO.
+
+final_disc_id(9327)[BNX=1 or BNX=2].
+final_disc_id(9412)[BNX=2].
+final_disc_dtitle(9327,"I've Got That Old Feeling")[BNX=1 or FJF=1].
+final_disc_dtitle(9327,"I've Got That Old Feeling")[BNX=1 and FJF=2].
+final_disc_dtitle(9412,"I've Got That Old Feeling")[BNX=2].
+@p(BNX=1)=1.0.
+@p(BNX=2)=0.0.
+@uniform FJF.
+
+final_disc_id(9333)[JUG=1 or JUG=2].
+final_disc_id(9450)[JUG=2].
+final_disc_dtitle(9333,"Come On Come On")[JUG=1 or QOU=1].
+final_disc_dtitle(9333,"Come On, Come On")[JUG=1 and QOU=2].
+final_disc_dtitle(9450,"Come On, Come On")[JUG=2].
+@p(JUG=1)=0.99.
+@p(JUG=2)=0.01.
+@uniform QOU.
+
+final_disc_id(9348)[ZBZ=1 or ZBZ=2].
+final_disc_id(9485)[ZBZ=2].
+final_disc_dtitle(9348,"I'm Already There")[ZBZ=1 or PWH=1].
+final_disc_dtitle(9348,"I'm Already There")[ZBZ=1 and PWH=2].
+final_disc_dtitle(9485,"I'm Already There")[ZBZ=2].
+@p(ZBZ=1)=1.0.
+@p(ZBZ=2)=0.0.
+@uniform PWH.
+
+final_disc_id(5392)[NFT=1 or NFT=2].
+final_disc_id(9486)[NFT=2].
+final_disc_dtitle(5392,"Músicas para louvar ao Senhor")[NFT=1 or CWM=1].
+final_disc_dtitle(5392,"musicas pra louvasr o senhor")[NFT=1 and CWM=2].
+final_disc_dtitle(9486,"musicas pra louvasr o senhor")[NFT=2].
+@p(NFT=1)=0.84.
+@p(NFT=2)=0.16.
+@uniform CWM.
+
+final_disc_id(9421)[WJM=1 or WJM=2].
+final_disc_id(9489)[WJM=2].
+final_disc_dtitle(9421,"If I Don't Stay The Night")[WJM=1 or QSG=1].
+final_disc_dtitle(9421,"If I Don't Stay The Night")[WJM=1 and QSG=2].
+final_disc_dtitle(9489,"If I Don't Stay The Night")[WJM=2].
+@p(WJM=1)=1.0.
+@p(WJM=2)=0.0.
+@uniform QSG.
+
+final_disc_id(1884)[HCD=1].
+final_disc_dtitle(1884,"Up a Lazy River")[HCD=1 or GTT=1].
+@uniform HCD.
+
+final_disc_id(9542)[XWV=1].
+final_disc_dtitle(9542,"Leon Redbone/Up a Lazy River")[XWV=1 or LPG=1].
+@uniform XWV.
+
+final_disc_id(6568)[DNT=1 or DNT=2].
+final_disc_id(9557)[DNT=2].
+final_disc_dtitle(6568,"Four")[DNT=1 or GDM=1].
+final_disc_dtitle(6568,"Four")[DNT=1 and GDM=2].
+final_disc_dtitle(9557,"Four")[DNT=2].
+@p(DNT=1)=1.0.
+@p(DNT=2)=0.0.
+@uniform GDM.
+
+final_disc_id(3990)[PKB=1 or PKB=2 or PKB=3].
+final_disc_id(8664)[PKB=2].
+final_disc_id(10000)[PKB=3].
+final_disc_dtitle(3990,"Millenium Classics 5")[PKB=1 or SRX=1].
+final_disc_dtitle(3990,"Millennium")[PKB=1 and SRX=2].
+final_disc_dtitle(3990,"Millennium")[PKB=1 and SRX=3].
+final_disc_dtitle(8664,"Millennium")[PKB=2].
+final_disc_dtitle(10000,"Millennium")[PKB=3].
+@uniform PKB.
+@uniform SRX.
+
+final_disc_id(9601)[UGZ=1].
+final_disc_dtitle(9601,"Forever Classics")[UGZ=1 or GIB=1].
+@uniform UGZ.
+
+final_disc_id(1858)[AUX=1 or AUX=2].
+final_disc_id(9637)[AUX=2].
+final_disc_dtitle(1858,"Ì¤ÃÎ")[AUX=1 or MEX=1].
+final_disc_dtitle(1858,"Ì¤ÃÎ")[AUX=1 and MEX=2].
+final_disc_dtitle(9637,"Ì¤ÃÎ")[AUX=2].
+@p(AUX=1)=1.0.
+@p(AUX=2)=0.0.
+@uniform MEX.
+
+final_disc_id(4508)[HOJ=1 or HOJ=2].
+final_disc_id(9662)[HOJ=2].
+final_disc_dtitle(4508,"OK Computer")[HOJ=1 or XTK=1].
+final_disc_dtitle(4508,"OK Computer")[HOJ=1 and XTK=2].
+final_disc_dtitle(9662,"OK Computer")[HOJ=2].
+@p(HOJ=1)=1.0.
+@p(HOJ=2)=0.0.
+@uniform XTK.
+
+final_disc_id(2781)[VQA=1 or VQA=2].
+final_disc_id(9669)[VQA=2].
+final_disc_dtitle(2781,"Compas")[VQA=1 or XEI=1].
+final_disc_dtitle(2781,"Compas")[VQA=1 and XEI=2].
+final_disc_dtitle(9669,"Compas")[VQA=2].
+@p(VQA=1)=1.0.
+@p(VQA=2)=0.0.
+@uniform XEI.
+
+final_disc_id(7134)[TAX=1 or TAX=2].
+final_disc_id(9695)[TAX=2].
+final_disc_dtitle(7134,"Sixteen Stone")[TAX=1 or JME=1].
+final_disc_dtitle(7134,"Sixteen Stone")[TAX=1 and JME=2].
+final_disc_dtitle(9695,"Sixteen Stone")[TAX=2].
+@p(TAX=1)=1.0.
+@p(TAX=2)=0.0.
+@uniform JME.
+
+final_disc_id(9614)[WPA=1 or WPA=2].
+final_disc_id(9678)[WPA=2].
+final_disc_dtitle(9614,"The Early Years")[WPA=1 or DSZ=1].
+final_disc_dtitle(9614,"The Early Years")[WPA=1 and DSZ=2].
+final_disc_dtitle(9678,"The Early Years")[WPA=2].
+@p(WPA=1)=1.0.
+@p(WPA=2)=0.0.
+@uniform DSZ.
+
+final_disc_id(6358)[VDW=1 or VDW=2].
+final_disc_id(9694)[VDW=2].
+final_disc_dtitle(6358,"Vulgar Display of Power")[VDW=1 or RYE=1].
+final_disc_dtitle(6358,"Vulgar Display Of Power")[VDW=1 and RYE=2].
+final_disc_dtitle(9694,"Vulgar Display Of Power")[VDW=2].
+@p(VDW=1)=0.98.
+@p(VDW=2)=0.02.
+@uniform RYE.
+
+final_disc_id(9713)[KMO=1 or KMO=2].
+final_disc_id(9738)[KMO=2].
+final_disc_dtitle(9713,"That's Me In The Bar")[KMO=1 or NWK=1].
+final_disc_dtitle(9713,"That's Me In The Bar")[KMO=1 and NWK=2].
+final_disc_dtitle(9738,"That's Me In The Bar")[KMO=2].
+@p(KMO=1)=1.0.
+@p(KMO=2)=0.0.
+@uniform NWK.
+
+final_disc_id(7605)[XOO=1 or XOO=2].
+final_disc_id(9762)[XOO=2].
+final_disc_dtitle(7605,"OPUS 21 DISK1")[XOO=1 or IYB=1].
+final_disc_dtitle(7605,"OPUS21 DISC1")[XOO=1 and IYB=2].
+final_disc_dtitle(9762,"OPUS21 DISC1")[XOO=2].
+@p(XOO=1)=0.92.
+@p(XOO=2)=0.08.
+@uniform IYB.
+
+final_disc_id(6374)[NUB=1].
+final_disc_dtitle(6374,"NOW")[NUB=1 or OIJ=1].
+@uniform NUB.
+
+final_disc_id(9777)[TIZ=1].
+final_disc_dtitle(9777,"Now")[TIZ=1 or VLB=1].
+@uniform TIZ.
+
+final_disc_id(7223)[QJN=1].
+final_disc_dtitle(7223,"Out Of This World London 20-10-94 Disc 2")[QJN=1 or SGT=1].
+@uniform QJN.
+
+final_disc_id(9793)[GYR=1].
+final_disc_dtitle(9793,"Pulse (2)")[GYR=1 or NFO=1].
+@uniform GYR.
+
+final_disc_id(7859)[QLG=1 or QLG=2].
+final_disc_id(9798)[QLG=2].
+final_disc_dtitle(7859,"Nebraska")[QLG=1 or VQK=1].
+final_disc_dtitle(7859,"Nebraska")[QLG=1 and VQK=2].
+final_disc_dtitle(9798,"Nebraska")[QLG=2].
+@p(QLG=1)=1.0.
+@p(QLG=2)=0.0.
+@uniform VQK.
+
+final_disc_id(9588)[EEK=1 or EEK=2].
+final_disc_id(9811)[EEK=2].
+final_disc_dtitle(9588,"Real Talk")[EEK=1 or HEZ=1].
+final_disc_dtitle(9588,"Real Talk")[EEK=1 and HEZ=2].
+final_disc_dtitle(9811,"Real Talk")[EEK=2].
+@p(EEK=1)=1.0.
+@p(EEK=2)=0.0.
+@uniform HEZ.
+
+final_disc_id(5025)[CBH=1 or CBH=2].
+final_disc_id(9863)[CBH=2].
+final_disc_dtitle(5025,"Na Pressão")[CBH=1 or GFN=1].
+final_disc_dtitle(5025,"Na Pressao")[CBH=1 and GFN=2].
+final_disc_dtitle(9863,"Na Pressao")[CBH=2].
+@p(CBH=1)=0.99.
+@p(CBH=2)=0.01.
+@uniform GFN.
+
+final_disc_id(8370)[BPH=1].
+final_disc_dtitle(8370,"Ninteenninetyfour")[BPH=1 or AUW=1].
+@uniform BPH.
+
+final_disc_id(9876)[EXI=1].
+final_disc_dtitle(9876,"I Hear You Rockin'")[EXI=1 or MRV=1].
+@uniform EXI.
+
+final_disc_id(3159)[WPJ=1 or WPJ=2].
+final_disc_id(9969)[WPJ=2].
+final_disc_dtitle(3159,"Nylon & Steel")[WPJ=1 or ZQY=1].
+final_disc_dtitle(3159,"Nylon & Steel")[WPJ=1 and ZQY=2].
+final_disc_dtitle(9969,"Nylon & Steel")[WPJ=2].
+@p(WPJ=1)=1.0.
+@p(WPJ=2)=0.0.
+@uniform ZQY.
+
+final_disc_id(3517)[GMM=1 or GMM=2].
+final_disc_id(10061)[GMM=2].
+final_disc_dtitle(3517,"Volle Kraft Voraus")[GMM=1 or LLA=1].
+final_disc_dtitle(3517,"Volle Kraft Voraus")[GMM=1 and LLA=2].
+final_disc_dtitle(10061,"Volle Kraft Voraus")[GMM=2].
+@p(GMM=1)=1.0.
+@p(GMM=2)=0.0.
+@uniform LLA.
+
+final_disc_id(2819)[UKN=1 or UKN=2].
+final_disc_id(10064)[UKN=2].
+final_disc_dtitle(2819,"Promenade")[UKN=1 or MSU=1].
+final_disc_dtitle(2819,"Promenade")[UKN=1 and MSU=2].
+final_disc_dtitle(10064,"Promenade")[UKN=2].
+@p(UKN=1)=1.0.
+@p(UKN=2)=0.0.
+@uniform MSU.
+
+final_disc_id(4959)[QLM=1 or QLM=2].
+final_disc_id(10085)[QLM=2].
+final_disc_dtitle(4959,"Yoshiesque 2 (CD2)")[QLM=1 or KSJ=1].
+final_disc_dtitle(4959,"Yoshiesque Two (Eastcoast)")[QLM=1 and KSJ=2].
+final_disc_dtitle(10085,"Yoshiesque Two (Eastcoast)")[QLM=2].
+@p(QLM=1)=0.87.
+@p(QLM=2)=0.13.
+@uniform KSJ.
+
+final_disc_id(8140)[TIW=1 or TIW=2].
+final_disc_id(10102)[TIW=2].
+final_disc_dtitle(8140,"Mellon Collie And The Infinite Sadness (CD1)")[TIW=1 or JXT=1].
+final_disc_dtitle(8140,"Mellon collie & the infinite sadness")[TIW=1 and JXT=2].
+final_disc_dtitle(10102,"Mellon collie & the infinite sadness")[TIW=2].
+@p(TIW=1)=0.82.
+@p(TIW=2)=0.18.
+@uniform JXT.
+
+final_disc_id(7341)[SYZ=1 or SYZ=2].
+final_disc_id(10107)[SYZ=2].
+final_disc_dtitle(7341,"Post Orgasmic Chill")[SYZ=1 or NCB=1].
+final_disc_dtitle(7341,"Post Orgasmic Chill")[SYZ=1 and NCB=2].
+final_disc_dtitle(10107,"Post Orgasmic Chill")[SYZ=2].
+@p(SYZ=1)=1.0.
+@p(SYZ=2)=0.0.
+@uniform NCB.
+
+final_disc_id(7664)[TAB=1].
+final_disc_dtitle(7664,"Reconstruction of the Fables")[TAB=1 or DWP=1].
+@uniform TAB.
+
+final_disc_id(10119)[PPC=1].
+final_disc_dtitle(10119,"Fables of the reconstruction")[PPC=1 or GSM=1].
+@uniform PPC.
+
+final_disc_id(5549)[TRF=1].
+final_disc_dtitle(5549,"United")[TRF=1 or VWY=1].
+@uniform TRF.
+
+final_disc_id(10133)[DWF=1].
+final_disc_dtitle(10133,"UNITED")[DWF=1 or ETK=1].
+@uniform DWF.
+
+final_disc_id(4804)[TBS=1].
+final_disc_dtitle(4804,"¯yczenia dla przyjació³")[TBS=1 or WOP=1].
+@uniform TBS.
+
+final_disc_id(10231)[XPB=1].
+final_disc_dtitle(10231,"Plyta 3 - Bulat")[XPB=1 or KDX=1].
+@uniform XPB.
+
+final_disc_id(7367)[OWG=1 or OWG=2].
+final_disc_id(10240)[OWG=2].
+final_disc_dtitle(7367,"Middle Of Nowhere")[OWG=1 or EJZ=1].
+final_disc_dtitle(7367,"Middle Of Nowhere")[OWG=1 and EJZ=2].
+final_disc_dtitle(10240,"Middle Of Nowhere")[OWG=2].
+@p(OWG=1)=1.0.
+@p(OWG=2)=0.0.
+@uniform EJZ.
+
+final_disc_id(6246)[FVV=1 or FVV=2].
+final_disc_id(10301)[FVV=2].
+final_disc_dtitle(6246,"In Existence")[FVV=1 or UJL=1].
+final_disc_dtitle(6246,"In Existence")[FVV=1 and UJL=2].
+final_disc_dtitle(10301,"In Existence")[FVV=2].
+@p(FVV=1)=1.0.
+@p(FVV=2)=0.0.
+@uniform UJL.
+
+final_disc_id(9807)[JOT=1].
+final_disc_dtitle(9807,"Christmas")[JOT=1 or YKL=1].
+@uniform JOT.
+
+final_disc_id(10312)[EOA=1].
+final_disc_dtitle(10312,"An All-4-One Chrismas")[EOA=1 or DYO=1].
+@uniform EOA.
+
+final_disc_id(7581)[DRT=1 or DRT=2].
+final_disc_id(10320)[DRT=2].
+final_disc_dtitle(7581,"Portrait of an american family")[DRT=1 or BTS=1].
+final_disc_dtitle(7581,"Portrait Of An American Family [MVCP-14]")[DRT=1 and BTS=2].
+final_disc_dtitle(10320,"Portrait Of An American Family [MVCP-14]")[DRT=2].
+@p(DRT=1)=0.83.
+@p(DRT=2)=0.17.
+@uniform BTS.
+
+final_disc_id(10253)[ADI=1 or ADI=2].
+final_disc_id(10368)[ADI=2].
+final_disc_dtitle(10253,"Shepherd Moons")[ADI=1 or BXH=1].
+final_disc_dtitle(10253,"Shepherd Moons")[ADI=1 and BXH=2].
+final_disc_dtitle(10368,"Shepherd Moons")[ADI=2].
+@p(ADI=1)=1.0.
+@p(ADI=2)=0.0.
+@uniform BXH.
+
+final_disc_id(2707)[JEN=1 or JEN=2].
+final_disc_id(10414)[JEN=2].
+final_disc_dtitle(2707,"The Best Of Bruce Dickinson (DISC 1)")[JEN=1 or INM=1].
+final_disc_dtitle(2707,"The Best of Bruce Dickinson")[JEN=1 and INM=2].
+final_disc_dtitle(10414,"The Best of Bruce Dickinson")[JEN=2].
+@p(JEN=1)=0.84.
+@p(JEN=2)=0.16.
+@uniform INM.
+
+final_disc_id(6162)[LRV=1 or LRV=2].
+final_disc_id(10449)[LRV=2].
+final_disc_dtitle(6162,"Homegrown")[LRV=1 or NVR=1].
+final_disc_dtitle(6162,"Homegrown")[LRV=1 and NVR=2].
+final_disc_dtitle(10449,"Homegrown")[LRV=2].
+@p(LRV=1)=1.0.
+@p(LRV=2)=0.0.
+@uniform NVR.
+
+final_disc_id(10578)[MFB=1 or MFB=2].
+final_disc_id(10628)[MFB=2].
+final_disc_dtitle(10578,"String Quartets")[MFB=1 or TJN=1].
+final_disc_dtitle(10578,"String Quartets -")[MFB=1 and TJN=2].
+final_disc_dtitle(10628,"String Quartets -")[MFB=2].
+@p(MFB=1)=1.0.
+@p(MFB=2)=0.0.
+@uniform TJN.
+
+final_disc_id(7087)[SMM=1 or SMM=2].
+final_disc_id(10986)[SMM=2].
+final_disc_dtitle(7087,"Sehnsucht")[SMM=1 or QVA=1].
+final_disc_dtitle(7087,"Sehnsucht")[SMM=1 and QVA=2].
+final_disc_dtitle(10986,"Sehnsucht")[SMM=2].
+@p(SMM=1)=1.0.
+@p(SMM=2)=0.0.
+@uniform QVA.
+
+final_disc_id(9640)[ZYJ=1 or ZYJ=2].
+final_disc_id(10652)[ZYJ=2].
+final_disc_dtitle(9640,"December")[ZYJ=1 or GEL=1].
+final_disc_dtitle(9640,"December")[ZYJ=1 and GEL=2].
+final_disc_dtitle(10652,"December")[ZYJ=2].
+@p(ZYJ=1)=1.0.
+@p(ZYJ=2)=0.0.
+@uniform GEL.
+
+final_disc_id(10714)[FFJ=1].
+final_disc_dtitle(10714,"L´Oe  uvre D´Orgue (Tome 3)")[FFJ=1 or MHH=1].
+@uniform FFJ.
+
+final_disc_id(10715)[OUQ=1].
+final_disc_dtitle(10715,"Bach, J.S., Organ Works (Disk 3)")[OUQ=1 or TAP=1].
+@uniform OUQ.
+
+final_disc_id(10785)[BCR=1].
+final_disc_dtitle(10785,"Bocelli")[BCR=1 or RWE=1].
+@uniform BCR.
+
+final_disc_id(10833)[PLO=1].
+final_disc_dtitle(10833,"Sugar")[PLO=1 or PGQ=1].
+@uniform PLO.
+
+final_disc_id(11006)[PFX=1].
+final_disc_dtitle(11006,"Hollywood Film Classics")[PFX=1 or JUD=1].
+@uniform PFX.
+
+final_disc_id(11008)[YTQ=1].
+final_disc_dtitle(11008,"Disk #1")[YTQ=1 or MTU=1].
+@uniform YTQ.
+
+final_disc_id(10938)[EJJ=1 or EJJ=2].
+final_disc_id(11125)[EJJ=2].
+final_disc_dtitle(10938,"The Glory (????) of the Human Voice")[EJJ=1 or ZFA=1].
+final_disc_dtitle(10938,"The Glory (????) of the Human Voice")[EJJ=1 and ZFA=2].
+final_disc_dtitle(11125,"The Glory (????) of the Human Voice")[EJJ=2].
+@p(EJJ=1)=1.0.
+@p(EJJ=2)=0.0.
+@uniform ZFA.
+
+final_disc_id(8901)[OCV=1 or OCV=2].
+final_disc_id(11150)[OCV=2].
+final_disc_dtitle(8901,"Live")[OCV=1 or JLS=1].
+final_disc_dtitle(8901,"Live")[OCV=1 and JLS=2].
+final_disc_dtitle(11150,"Live")[OCV=2].
+@p(OCV=1)=1.0.
+@p(OCV=2)=0.0.
+@uniform JLS.
+
+final_disc_id(5867)[BLC=1 or BLC=2].
+final_disc_id(11166)[BLC=2].
+final_disc_dtitle(5867,"Alma Brasileira")[BLC=1 or JFR=1].
+final_disc_dtitle(5867,"Alma Brasileira")[BLC=1 and JFR=2].
+final_disc_dtitle(11166,"Alma Brasileira")[BLC=2].
+@p(BLC=1)=1.0.
+@p(BLC=2)=0.0.
+@uniform JFR.
+
+final_disc_id(10983)[GOL=1 or GOL=2].
+final_disc_id(11174)[GOL=2].
+final_disc_dtitle(10983,"bilder einer ausstellung")[GOL=1 or YMT=1].
+final_disc_dtitle(10983,"Bilder einer Ausstellung")[GOL=1 and YMT=2].
+final_disc_dtitle(11174,"Bilder einer Ausstellung")[GOL=2].
+@p(GOL=1)=0.94.
+@p(GOL=2)=0.06.
+@uniform YMT.
+
+final_disc_id(11088)[HPK=1 or HPK=2].
+final_disc_id(11190)[HPK=2].
+final_disc_dtitle(11088,"Mozart: Greatest Hits")[HPK=1 or JTL=1].
+final_disc_dtitle(11088,"Mozart greatest hits")[HPK=1 and JTL=2].
+final_disc_dtitle(11190,"Mozart greatest hits")[HPK=2].
+@p(HPK=1)=0.94.
+@p(HPK=2)=0.06.
+@uniform JTL.
+
+final_disc_id(9838)[ZAT=1].
+final_disc_dtitle(9838,"Notting Hill")[ZAT=1 or YQG=1].
+@uniform ZAT.
+
+final_disc_id(11388)[EPC=1].
+final_disc_dtitle(11388,"Music From Motion Picture")[EPC=1 or KYX=1].
+@uniform EPC.
+
+final_disc_id(5289)[SHC=1 or SHC=2].
+final_disc_id(11455)[SHC=2].
+final_disc_dtitle(5289,"KBS TV¸¸È­¿µÈ­ ³ë·¡¸ðÀ½")[SHC=1 or QUQ=1].
+final_disc_dtitle(5289,"KBS TV¸¸È­¿µÈ­ ³ë·¡¸ðÀ½")[SHC=1 and QUQ=2].
+final_disc_dtitle(11455,"KBS TV¸¸È­¿µÈ­ ³ë·¡¸ðÀ½")[SHC=2].
+@p(SHC=1)=1.0.
+@p(SHC=2)=0.0.
+@uniform QUQ.
+
+final_disc_id(5099)[ZYX=1 or ZYX=2].
+final_disc_id(11530)[ZYX=2].
+final_disc_dtitle(5099,"The Haunted Mansion: 30th Anniversary")[ZYX=1 or SFD=1].
+final_disc_dtitle(5099,"The Haunted Mansion: 30th Anniversary")[ZYX=1 and SFD=2].
+final_disc_dtitle(11530,"The Haunted Mansion: 30th Anniversary")[ZYX=2].
+@p(ZYX=1)=1.0.
+@p(ZYX=2)=0.0.
+@uniform SFD.
+
+final_disc_id(11531)[CQT=1].
+final_disc_dtitle(11531,"Black Album")[CQT=1 or UMB=1].
+@uniform CQT.
+
+final_disc_id(11423)[UXS=1 or UXS=2].
+final_disc_id(11538)[UXS=2].
+final_disc_dtitle(11423,"King Kong Original Soundtrack")[UXS=1 or KLL=1].
+final_disc_dtitle(11423,"King Kong")[UXS=1 and KLL=2].
+final_disc_dtitle(11538,"King Kong")[UXS=2].
+@p(UXS=1)=0.84.
+@p(UXS=2)=0.16.
+@uniform KLL.
 
 final_disc_cid(2619,"af0ca00c").
 final_disc_artist(2619,"Shane Barnard").
