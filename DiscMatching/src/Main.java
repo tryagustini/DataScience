@@ -21,7 +21,8 @@ import info.debatty.java.stringsimilarity.*;
 public class Main {
 	
 	public static double MIN_TRESHOLD = 0.8;
-	public static double MAX_TRESHOLD = 0.90;
+	public static double MAX_TRESHOLD = 1;
+	public static ArrayList<String> probabilityId = new ArrayList<>();
 
 	public static void main(String[] args) {
 
@@ -48,140 +49,70 @@ public class Main {
 		ArrayList<ArrayList<Disc>> pairList = new ArrayList<>();
 		
 		for (Disc disc :discs.disc ) {
-			if(consumedId.indexOf(disc.id) > -1) continue;
-
-			ArrayList<Disc> pairContainer = new ArrayList<>();
-			consumedId.add(disc.id);
-			pairContainer.add(disc);
-			
 			for (Disc dup: discs.disc ) {
-				if(consumedId.indexOf(dup.id) > -1) continue;
-				
-				double similarity = L.similarity(disc.dtitle, dup.dtitle);
-				
-				if(similarity > MIN_TRESHOLD){
-					consumedId.add(dup.id);
+				if(dup.id == disc.id) continue;
+				double similarity = L.similarity(disc.dtitle, dup.dtitle);				
+				if(similarity > MIN_TRESHOLD && similarity < MAX_TRESHOLD){
+					if(consumedId.indexOf(dup.id+disc.id) > -1) continue;
+					consumedId.add(dup.id+disc.id);
+
+					//Save the pair into array
+					ArrayList<Disc> pairContainer = new ArrayList<>();
 					dup.probability = similarity;
+					pairContainer.add(disc);					
 					pairContainer.add(dup);	
+					pairList.add(pairContainer);
 				}
 			}
-			pairList.add(pairContainer);
 		}
 		
-		
-		ArrayList<String> probabilityId = new ArrayList<>();
-		String uniquePartition;
-		String uniquePartition2;
-		int partitionNumber;
+		System.out.println("Number of duplicates: " +pairList.size());
+
 		
 		try{
 		    PrintWriter writer = new PrintWriter("discmatching.dl", "UTF-8");		    
+
 		    
+		    writer.println("%Probalistically integrate 2 data");
+		    writer.println("%Gilang Charismadiptya - S1779524");
+		    writer.println("%Try Agustini - ");
+		    writer.println("");
+		    
+		    //Print id, Dtitle
 		    for (ArrayList<Disc> pairs : pairList){
 		    	
-				//Generate ID and make sure the ID is unique
-				while(true){
-					uniquePartition = RandomStringUtils.randomAlphabetic(3).toUpperCase();
-					if(probabilityId.indexOf(uniquePartition) == -1){
-						probabilityId.add(uniquePartition);
-						break;
-					}
-				}
-				partitionNumber = 1;
-				Boolean isFirstRecord = true; 
-				
-				for (Disc d :pairs ) {				
-					
-					if(isFirstRecord){
-						isFirstRecord = false;
-						String prob = "["+uniquePartition+"="+partitionNumber;
-						for (int i = 1; i < pairs.size();i++){
-							prob+= " or "+uniquePartition+"="+(i+1);
-						}
-						prob+="]";
-						writer.println("final_disc_id("+d.id+")"+prob+".");						
-					}else{
-						writer.println("final_disc_id("+d.id+")["+uniquePartition+"="+partitionNumber+"].");						
-					}
-					
-					
-					partitionNumber++;
-				}
-				
-				
-				//Generate ID and make sure the ID is unique
-				while(true){
-					uniquePartition2 = RandomStringUtils.randomAlphabetic(3).toUpperCase();
-					if(probabilityId.indexOf(uniquePartition2) == -1){
-						probabilityId.add(uniquePartition2);
-						break;
-					}
-				}
+				String partition = generatePartition();
+				String partition2 = generatePartition();
 
+				writer.println("final_disc_id("+pairs.get(0).id+") ["+partition+"=1 or "+partition+"=2].");						
+				writer.println("final_disc_id("+pairs.get(1).id+") ["+partition+"=2].");										
 				
-				isFirstRecord = true; 
-				int partnum = 1;
-				int  id= 0;
-				for (Disc d :pairs ) {					
-					if(isFirstRecord){
-						isFirstRecord = false;
-						String proba = "["+uniquePartition+"=1";
-						proba+= " or "+uniquePartition2+"="+1;
-						proba+="]";
-						id = d.id;
-						writer.println("final_disc_dtitle("+d.id+",\""+d.dtitle+"\")"+proba+".");
-					}else{
-						writer.println("final_disc_dtitle("+id+",\""+d.dtitle+"\")["+uniquePartition+"="+1+" and "+uniquePartition2+"="+(partnum+1)+"].");
-						partnum++;
-					}
-				}
+				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(0).dtitle+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(1).dtitle+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_dtitle("+pairs.get(1).id+",\""+pairs.get(1).dtitle+"\")["+partition+"=2].");
 				
-				isFirstRecord = true; 
-				partnum = 1;
-				for (Disc d :pairs ) {					
-					if(isFirstRecord){
-						isFirstRecord = false;
-						continue;
-					}
-					writer.println("final_disc_dtitle("+d.id+",\""+d.dtitle+"\")["+uniquePartition+"="+(partnum+1)+"].");
-					partnum++;					
-				}
-				
-					//Write Partition
-					if(pairs.size() == 2){
-						int i = 1;
-						for (Disc d :pairs ) {		
-							if(i==1 && pairs.size()>1){
-								writer.println("@p("+uniquePartition+"="+i+")="+ (Precision.round(pairs.get(i).probability,2))+"." );
-							}else{
-								writer.println("@p("+uniquePartition+"="+i+")="+Precision.round(1-d.probability, 2)+".");
-							}
-							i++;
-						}
-					}else{
-						writer.println("@uniform "+uniquePartition+".");	
-					}
-					
-					if(pairs.size() > 1){
-						writer.println("@uniform "+uniquePartition2+".");
-					}
-					
-				writer.println("");	
+				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(0).cid+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(1).cid+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_cid("+pairs.get(1).id+",\""+pairs.get(1).cid+"\")["+partition+"=2].");
 
+				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(0).artist+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(1).artist+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_artist("+pairs.get(1).id+",\""+pairs.get(1).artist+"\")["+partition+"=2].");
+
+				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(0).category+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(1).category+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_category("+pairs.get(1).id+",\""+pairs.get(1).category+"\")["+partition+"=2].");
+
+				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(0).tracks+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(1).tracks+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_tracks("+pairs.get(1).id+",\""+pairs.get(1).tracks+"\")["+partition+"=2].");
+
+				writer.println("@p("+partition+"=1)="+(Precision.round(pairs.get(1).probability,2))+".");
+				writer.println("@p("+partition+"=2)="+(Precision.round(1-pairs.get(1).probability,2))+".");
+				writer.println("@uniform "+partition2+".");
+				writer.println("");
 		    }
-		    
-		    
-		    		    for (ArrayList<Disc> pairs : pairList){
-			    //Print the rest of the data
-				for (Disc d :pairs ) {					
-					writer.println("final_disc_cid("+d.id+",\""+d.cid+"\").");
-					writer.println("final_disc_artist("+d.id+",\""+d.artist+"\").");
-					writer.println("final_disc_category("+d.id+",\""+d.category+"\").");
-					writer.println("final_disc_tracks("+d.id+",\""+d.tracks+"\").");
-					writer.println("");	
-				}
-		    }
-		    
+			
 		    //Print the rules
 			writer.println("final_disc(Id,Cid,Artist,Dtitle,Category,Tracks) :-"+
 					"\n\tfinal_disc_id(Id),"+
@@ -191,8 +122,6 @@ public class Main {
 					"\n\tfinal_disc_category(Id,Category),"+
 					"\n\tfinal_disc_tracks(Id,Tracks).");
 
-		    
-		    
 		    writer.close();
 		    
 		} catch (IOException e) {
@@ -205,4 +134,20 @@ public class Main {
 	  }
 
 	}
+	
+	public static String  generatePartition(){
+		String uniquePartition;
+
+		//Generate ID and make sure the ID is unique
+		while(true){
+			uniquePartition = RandomStringUtils.randomAlphabetic(3).toUpperCase();
+			if(probabilityId.indexOf(uniquePartition) == -1){
+				probabilityId.add(uniquePartition);
+				break;
+			}
+		}
+		return uniquePartition;
+	}
+	
+	
 }
