@@ -46,28 +46,48 @@ public class Main {
 		System.out.println("Number of records: " +discs.disc.size());
 								
 		ArrayList<Integer> consumedId = new ArrayList<>();
+		ArrayList<Integer> consumedId2 = new ArrayList<>();
+		
 		ArrayList<ArrayList<Disc>> pairList = new ArrayList<>();
+		ArrayList<ArrayList<Disc>> dupList = new ArrayList<>();
 		
 		for (Disc disc :discs.disc ) {
 			for (Disc dup: discs.disc ) {
 				if(dup.id == disc.id) continue;
-				double similarity = L.similarity(disc.dtitle, dup.dtitle);				
-				if(similarity > MIN_TRESHOLD && similarity < MAX_TRESHOLD){
+				double similarity = L.similarity(disc.dtitle, dup.dtitle);	
+				
+				if(similarity > MIN_TRESHOLD) {
 					if(consumedId.indexOf(dup.id+disc.id) > -1) continue;
 					consumedId.add(dup.id+disc.id);
-
-					//Save the pair into array
+	
+					if (consumedId2.indexOf(disc.id) == -1) consumedId2.add(disc.id);
+					if (consumedId2.indexOf(dup.id) == -1) consumedId2.add(dup.id);
+					
 					ArrayList<Disc> pairContainer = new ArrayList<>();
 					dup.probability = similarity;
 					pairContainer.add(disc);					
 					pairContainer.add(dup);	
-					pairList.add(pairContainer);
+					
+					//Pair of possible duplicates
+					if(similarity > MIN_TRESHOLD && similarity < MAX_TRESHOLD){
+						pairList.add(pairContainer);
+					}
+					
+					//Pair of certain duplicates
+					else if (similarity >= MAX_TRESHOLD){
+						dupList.add(pairContainer);
+					}
 				}
+				
 			}
 		}
 		
-		System.out.println("Number of duplicates: " +pairList.size());
-
+		//Non-match discs
+		int nonmatch = discs.disc.size() - consumedId2.size();
+		
+		System.out.println("Number of possible duplicate pairs: " +pairList.size());
+		System.out.println("Number of certain duplicate pairs: " +dupList.size());
+		System.out.println("Number of non duplicates: " +nonmatch);
 		
 		try{
 		    PrintWriter writer = new PrintWriter("discmatching.dl", "UTF-8");		    
@@ -75,14 +95,16 @@ public class Main {
 		    
 		    writer.println("%Probalistically integrate 2 data");
 		    writer.println("%Gilang Charismadiptya - S1779524");
-		    writer.println("%Try Agustini - ");
+		    writer.println("%Try Agustini - S1574728");
 		    writer.println("");
 		    
+		    int c = 1;
 		    //Print id, Dtitle
 		    for (ArrayList<Disc> pairs : pairList){
 		    	
-				String partition = generatePartition();
-				String partition2 = generatePartition();
+				String partition = "isduplicate" + c;
+				String partition2 = "preferredtitle" +c;
+				c++;
 
 				writer.println("final_disc_id("+pairs.get(0).id+") ["+partition+"=1 or "+partition+"=2].");						
 				writer.println("final_disc_id("+pairs.get(1).id+") ["+partition+"=2].");										
@@ -112,6 +134,47 @@ public class Main {
 				writer.println("@uniform "+partition2+".");
 				writer.println("");
 		    }
+		    
+		    c = 1;
+		    for (ArrayList<Disc> dups : dupList){
+		    	String partition = "preferredID" + c;
+		    	c++;
+		    	
+				writer.println("final_disc_id("+dups.get(0).id+") ["+partition+"=1].");						
+				writer.println("final_disc_id("+dups.get(1).id+") ["+partition+"=2].");										
+				
+				writer.println("final_disc_dtitle("+dups.get(0).id+",\""+dups.get(0).dtitle+"\")["+partition+"=1].");
+				writer.println("final_disc_dtitle("+dups.get(0).id+",\""+dups.get(1).dtitle+"\")["+partition+"=2].");
+				
+				writer.println("final_disc_cid("+dups.get(0).id+",\""+dups.get(0).cid+"\")["+partition+"=1].");
+				writer.println("final_disc_cid("+dups.get(1).id+",\""+dups.get(1).cid+"\")["+partition+"=2].");
+				
+				writer.println("final_disc_artist("+dups.get(0).id+",\""+dups.get(0).artist+"\")["+partition+"=1].");
+				writer.println("final_disc_artist("+dups.get(1).id+",\""+dups.get(1).artist+"\")["+partition+"=2].");
+				
+				writer.println("final_disc_category("+dups.get(0).id+",\""+dups.get(0).category+"\")["+partition+"=1].");
+				writer.println("final_disc_category("+dups.get(1).id+",\""+dups.get(1).category+"\")["+partition+"=2].");
+				
+				writer.println("final_disc_tracks("+dups.get(0).id+",\""+dups.get(0).tracks+"\")["+partition+"=1].");
+				writer.println("final_disc_tracks("+dups.get(1).id+",\""+dups.get(1).tracks+"\")["+partition+"=2].");
+				
+				writer.println("@uniform "+partition+".");
+				writer.println("");
+		    }
+		    
+		    for (Disc disc :discs.disc){
+		    	if(consumedId2.indexOf(disc.id) > -1) continue;
+		    	
+		    	writer.println("final_disc_id("+disc.id+").");
+		    	writer.println("final_disc_dtitle("+disc.dtitle+").");
+		    	writer.println("final_disc_cid("+disc.cid+").");
+		    	writer.println("final_disc_artist("+disc.artist+").");
+		    	writer.println("final_disc_category("+disc.category+").");
+		    	writer.println("final_disc_tracks("+disc.tracks+").");
+		    	
+		    	writer.println("");
+		    	
+		    }
 			
 		    //Print the rules
 			writer.println("final_disc(Id,Cid,Artist,Dtitle,Category,Tracks) :-"+
@@ -133,20 +196,6 @@ public class Main {
 		e.printStackTrace();
 	  }
 
-	}
-	
-	public static String  generatePartition(){
-		String uniquePartition;
-
-		//Generate ID and make sure the ID is unique
-		while(true){
-			uniquePartition = RandomStringUtils.randomAlphabetic(3).toUpperCase();
-			if(probabilityId.indexOf(uniquePartition) == -1){
-				probabilityId.add(uniquePartition);
-				break;
-			}
-		}
-		return uniquePartition;
 	}
 	
 	
