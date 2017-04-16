@@ -86,7 +86,7 @@ public class Main {
 		    PrintWriter writer = new PrintWriter("discmatching.dl", "UTF-8");		    
 
 		    
-		    writer.println("%Probalistically integrate 2 data set");
+		    writer.println("%Probabilistically integrate duplicates in disc dataset");
 		    writer.println("%Gilang Charismadiptya - S1779524");
 		    writer.println("%Try Agustini - S1574728");
 		    writer.println("");
@@ -100,8 +100,8 @@ public class Main {
 				String partition3 = "preferredid" +c;
 				c++;
 
-				writer.println("final_disc_id("+pairs.get(0).id+") ["+partition+"=1 and "+partition3+"=1) or "+partition+"=2].");		
-				writer.println("final_disc_id("+pairs.get(1).id+") ["+partition+"=1 and "+partition3+"=2).");		
+				writer.println("final_disc_id("+pairs.get(0).id+") [("+partition+"=1 and "+partition3+"=1) or "+partition+"=2].");		
+				writer.println("final_disc_id("+pairs.get(1).id+") ["+partition+"=1 and "+partition3+"=2].");		
 				writer.println("final_disc_id("+pairs.get(1).id+") ["+partition+"=2].");										
 				
 				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(0).dtitle+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
@@ -167,11 +167,11 @@ public class Main {
 		    	if(consumedId2.indexOf(disc.id) > -1) continue;
 		    	
 		    	writer.println("final_disc_id("+disc.id+").");
-		    	writer.println("final_disc_dtitle("+disc.dtitle+").");
-		    	writer.println("final_disc_cid("+disc.cid+").");
-		    	writer.println("final_disc_artist("+disc.artist+").");
-		    	writer.println("final_disc_category("+disc.category+").");
-		    	writer.println("final_disc_tracks("+disc.tracks+").");
+		    	writer.println("final_disc_dtitle(\""+disc.dtitle+"\").");
+		    	writer.println("final_disc_cid(\""+disc.cid+"\").");
+		    	writer.println("final_disc_artist(\""+disc.artist+"\").");
+		    	writer.println("final_disc_category(\""+disc.category+"\").");
+		    	writer.println("final_disc_tracks(\""+disc.tracks+"\").");
 		    	
 		    	writer.println("");
 		    	
