@@ -2,18 +2,11 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.math3.util.Precision;
 
 import info.debatty.java.stringsimilarity.*;
@@ -93,7 +86,7 @@ public class Main {
 		    PrintWriter writer = new PrintWriter("discmatching.dl", "UTF-8");		    
 
 		    
-		    writer.println("%Probalistically integrate 2 data");
+		    writer.println("%Probalistically integrate 2 data set");
 		    writer.println("%Gilang Charismadiptya - S1779524");
 		    writer.println("%Try Agustini - S1574728");
 		    writer.println("");
@@ -104,34 +97,42 @@ public class Main {
 		    	
 				String partition = "isduplicate" + c;
 				String partition2 = "preferredtitle" +c;
+				String partition3 = "preferredid" +c;
 				c++;
 
-				writer.println("final_disc_id("+pairs.get(0).id+") ["+partition+"=1 or "+partition+"=2].");						
+				writer.println("final_disc_id("+pairs.get(0).id+") ["+partition+"=1 and "+partition3+"=1) or "+partition+"=2].");		
+				writer.println("final_disc_id("+pairs.get(1).id+") ["+partition+"=1 and "+partition3+"=2).");		
 				writer.println("final_disc_id("+pairs.get(1).id+") ["+partition+"=2].");										
 				
-				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(0).dtitle+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
-				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(1).dtitle+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(0).dtitle+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(1).dtitle+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
+				writer.println("final_disc_dtitle("+pairs.get(1).id+",\""+pairs.get(0).dtitle+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
 				writer.println("final_disc_dtitle("+pairs.get(1).id+",\""+pairs.get(1).dtitle+"\")["+partition+"=2].");
 				
-				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(0).cid+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
-				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(1).cid+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(0).cid+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(1).cid+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
+				writer.println("final_disc_cid("+pairs.get(1).id+",\""+pairs.get(0).cid+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
 				writer.println("final_disc_cid("+pairs.get(1).id+",\""+pairs.get(1).cid+"\")["+partition+"=2].");
 
-				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(0).artist+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
-				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(1).artist+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(0).artist+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(1).artist+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
+				writer.println("final_disc_artist("+pairs.get(1).id+",\""+pairs.get(0).artist+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
 				writer.println("final_disc_artist("+pairs.get(1).id+",\""+pairs.get(1).artist+"\")["+partition+"=2].");
 
-				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(0).category+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
-				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(1).category+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(0).category+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(1).category+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
+				writer.println("final_disc_category("+pairs.get(1).id+",\""+pairs.get(0).category+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
 				writer.println("final_disc_category("+pairs.get(1).id+",\""+pairs.get(1).category+"\")["+partition+"=2].");
 
-				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(0).tracks+"\")[("+partition+"="+1+" and "+partition2+"=1) or "+partition+"=2].");
-				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(1).tracks+"\")["+partition+"="+1+" and "+partition2+"=2].");
+				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(0).tracks+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
+				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(1).tracks+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
+				writer.println("final_disc_tracks("+pairs.get(1).id+",\""+pairs.get(0).tracks+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
 				writer.println("final_disc_tracks("+pairs.get(1).id+",\""+pairs.get(1).tracks+"\")["+partition+"=2].");
 
 				writer.println("@p("+partition+"=1)="+(Precision.round(pairs.get(1).probability,2))+".");
 				writer.println("@p("+partition+"=2)="+(Precision.round(1-pairs.get(1).probability,2))+".");
 				writer.println("@uniform "+partition2+".");
+				writer.println("@uniform "+partition3+".");
 				writer.println("");
 		    }
 		    
@@ -144,7 +145,7 @@ public class Main {
 				writer.println("final_disc_id("+dups.get(1).id+") ["+partition+"=2].");										
 				
 				writer.println("final_disc_dtitle("+dups.get(0).id+",\""+dups.get(0).dtitle+"\")["+partition+"=1].");
-				writer.println("final_disc_dtitle("+dups.get(0).id+",\""+dups.get(1).dtitle+"\")["+partition+"=2].");
+				writer.println("final_disc_dtitle("+dups.get(1).id+",\""+dups.get(1).dtitle+"\")["+partition+"=2].");
 				
 				writer.println("final_disc_cid("+dups.get(0).id+",\""+dups.get(0).cid+"\")["+partition+"=1].");
 				writer.println("final_disc_cid("+dups.get(1).id+",\""+dups.get(1).cid+"\")["+partition+"=2].");
