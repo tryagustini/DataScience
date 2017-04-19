@@ -167,11 +167,11 @@ public class Main {
 		    	if(consumedId2.indexOf(disc.id) > -1) continue;
 		    	
 		    	writer.println("final_disc_id("+disc.id+").");
-		    	writer.println("final_disc_dtitle(\""+disc.dtitle+"\").");
-		    	writer.println("final_disc_cid(\""+disc.cid+"\").");
-		    	writer.println("final_disc_artist(\""+disc.artist+"\").");
-		    	writer.println("final_disc_category(\""+disc.category+"\").");
-		    	writer.println("final_disc_tracks(\""+disc.tracks+"\").");
+		    	writer.println("final_disc_dtitle("+disc.id+",\""+disc.dtitle+"\").");
+		    	writer.println("final_disc_cid("+disc.id+",\""+disc.cid+"\").");
+		    	writer.println("final_disc_artist("+disc.id+",\""+disc.artist+"\").");
+		    	writer.println("final_disc_category("+disc.id+",\""+disc.category+"\").");
+		    	writer.println("final_disc_tracks("+disc.id+",\""+disc.tracks+"\").");
 		    	
 		    	writer.println("");
 		    	

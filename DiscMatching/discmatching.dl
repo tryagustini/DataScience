@@ -6373,501 +6373,501 @@ final_disc_tracks(11530,"[Walt Disney, Welcome, The Haunted Mansion (Disneyland)
 @uniform preferredID147.
 
 final_disc_id(1866).
-final_disc_dtitle("Modern Worship Shema (½¦¸¶)").
-final_disc_cid("ad0bec0c").
-final_disc_artist("¼Ò¸®¿¤").
-final_disc_category("data").
-final_disc_tracks("[³ª¸¦ ÇâÇÑ �?ÖÀÇ »ç¶û, Ç�?´Ã À§¿¡ �?Ö´Ô ¹Û¿¡, ³ªÀÇ ¸ð½À ³ªÀÇ ¼ÒÀ¯, ¸ñ¸¶¸¥ ÀÚµé¾Æ, ¸¶À½ÀÌ »óÇÑÀÚ¸¦, ¸ðµç ´É·Â°ú ¸ðµç ±Ç¼¼, ½¦¸¶]").
+final_disc_dtitle(1866,"Modern Worship Shema (½¦¸¶)").
+final_disc_cid(1866,"ad0bec0c").
+final_disc_artist(1866,"¼Ò¸®¿¤").
+final_disc_category(1866,"data").
+final_disc_tracks(1866,"[³ª¸¦ ÇâÇÑ �?ÖÀÇ »ç¶û, Ç�?´Ã À§¿¡ �?Ö´Ô ¹Û¿¡, ³ªÀÇ ¸ð½À ³ªÀÇ ¼ÒÀ¯, ¸ñ¸¶¸¥ ÀÚµé¾Æ, ¸¶À½ÀÌ »óÇÑÀÚ¸¦, ¸ðµç ´É·Â°ú ¸ðµç ±Ç¼¼, ½¦¸¶]").
 
 final_disc_id(2530).
-final_disc_dtitle("Shema").
-final_disc_cid("ad0bec0c").
-final_disc_artist("¼Ò¸®¿¤").
-final_disc_category("folk").
-final_disc_tracks("[01-³ª¸¦ ÇâÇÑ �?ÖÀÇ »ç¶û, 02-Ç�?´Ã À§¿¡ �?Ö´Ô ¹Û¿¡, 03-³ªÀÇ ¸ð½À ³ªÀÇ ¼ÒÀ¯, 04-¸ñ¸¶¸¥ ÀÚµé¾Æ, 05-¸¶À½ÀÌ »óÇÑ ÀÚ¸¦, 06-¸ðµç ´É·Â°ú ¸ðµç ±Ç¼¼, 07-½¦¸¶]").
+final_disc_dtitle(2530,"Shema").
+final_disc_cid(2530,"ad0bec0c").
+final_disc_artist(2530,"¼Ò¸®¿¤").
+final_disc_category(2530,"folk").
+final_disc_tracks(2530,"[01-³ª¸¦ ÇâÇÑ �?ÖÀÇ »ç¶û, 02-Ç�?´Ã À§¿¡ �?Ö´Ô ¹Û¿¡, 03-³ªÀÇ ¸ð½À ³ªÀÇ ¼ÒÀ¯, 04-¸ñ¸¶¸¥ ÀÚµé¾Æ, 05-¸¶À½ÀÌ »óÇÑ ÀÚ¸¦, 06-¸ðµç ´É·Â°ú ¸ðµç ±Ç¼¼, 07-½¦¸¶]").
 
 final_disc_id(2890).
-final_disc_dtitle("Vaya Con Dios").
-final_disc_cid("a609550f").
-final_disc_artist("Nat King Cole").
-final_disc_category("jazz").
-final_disc_tracks("[Ansiedad, Perfidia, Maria Elena, Solamente una vez, Te quiero dijiste, Adio Mariquita Linda, Quizas quizas quizas, Aquellos ojos verdes]").
+final_disc_dtitle(2890,"Vaya Con Dios").
+final_disc_cid(2890,"a609550f").
+final_disc_artist(2890,"Nat King Cole").
+final_disc_category(2890,"jazz").
+final_disc_tracks(2890,"[Ansiedad, Perfidia, Maria Elena, Solamente una vez, Te quiero dijiste, Adio Mariquita Linda, Quizas quizas quizas, Aquellos ojos verdes]").
 
 final_disc_id(2891).
-final_disc_dtitle("En Espanol (Disk 1)").
-final_disc_cid("a609560f").
-final_disc_artist("Nat King Cole").
-final_disc_category("jazz").
-final_disc_tracks("[Ansiedad, Perfidia, Maria Elena, Solamente una vez, Te quiero dijiste, Adio Mariquita Linda, Quizas quizas quizas, Aquellos ojos verdes]").
+final_disc_dtitle(2891,"En Espanol (Disk 1)").
+final_disc_cid(2891,"a609560f").
+final_disc_artist(2891,"Nat King Cole").
+final_disc_category(2891,"jazz").
+final_disc_tracks(2891,"[Ansiedad, Perfidia, Maria Elena, Solamente una vez, Te quiero dijiste, Adio Mariquita Linda, Quizas quizas quizas, Aquellos ojos verdes]").
 
 final_disc_id(3125).
-final_disc_dtitle("Vespertine").
-final_disc_cid("ac0d240c").
-final_disc_artist("Bjork").
-final_disc_category("jazz").
-final_disc_tracks("[Hidden Place, Cocoon, It´s Not Up To You, Undo, Pagan Poetry, Frosti, Aurora]").
+final_disc_dtitle(3125,"Vespertine").
+final_disc_cid(3125,"ac0d240c").
+final_disc_artist(3125,"Bjork").
+final_disc_category(3125,"jazz").
+final_disc_tracks(3125,"[Hidden Place, Cocoon, It´s Not Up To You, Undo, Pagan Poetry, Frosti, Aurora]").
 
 final_disc_id(4140).
-final_disc_dtitle("Bjork - Vespertine").
-final_disc_cid("a40cf50c").
-final_disc_artist("Bjork - Vespertine").
-final_disc_category("misc").
-final_disc_tracks("[Aurora, Blueprint, New, Crave, Harm of Will, Hidden Place, Our Hands]").
+final_disc_dtitle(4140,"Bjork - Vespertine").
+final_disc_cid(4140,"a40cf50c").
+final_disc_artist(4140,"Bjork - Vespertine").
+final_disc_category(4140,"misc").
+final_disc_tracks(4140,"[Aurora, Blueprint, New, Crave, Harm of Will, Hidden Place, Our Hands]").
 
 final_disc_id(4271).
-final_disc_dtitle("James Taylor Greatest Hits").
-final_disc_cid("a50a430c").
-final_disc_artist("James Taylor").
-final_disc_category("misc").
-final_disc_tracks("[SomethingInTheWaySheMoves(1968, JamesTaylor), CarolinaInMyMind(1968, JamesTaylor), FireAndRain(1969, JamesTaylor), SweetBabyJames(1970, JamesTaylor), CountryRoad(1970, JamesTaylor), You´veGotAFriend(CaroleKing, AKAKlein, Brooklyn, NYC;1971, JamesTaylor), Don´tLetMeBeLonelyTonight(1972, JamesTaylor), WalkingMan(1974]").
+final_disc_dtitle(4271,"James Taylor Greatest Hits").
+final_disc_cid(4271,"a50a430c").
+final_disc_artist(4271,"James Taylor").
+final_disc_category(4271,"misc").
+final_disc_tracks(4271,"[SomethingInTheWaySheMoves(1968, JamesTaylor), CarolinaInMyMind(1968, JamesTaylor), FireAndRain(1969, JamesTaylor), SweetBabyJames(1970, JamesTaylor), CountryRoad(1970, JamesTaylor), You´veGotAFriend(CaroleKing, AKAKlein, Brooklyn, NYC;1971, JamesTaylor), Don´tLetMeBeLonelyTonight(1972, JamesTaylor), WalkingMan(1974]").
 
 final_disc_id(3395).
-final_disc_dtitle("The Crystal Method - Tweekend").
-final_disc_cid("a00efd0b").
-final_disc_artist("The Crystal Method - Tweekend").
-final_disc_category("misc").
-final_disc_tracks("[Phd, Wild, Sweet, Cool, Roll It Up, Murder, Name Of The Game]").
+final_disc_dtitle(3395,"The Crystal Method - Tweekend").
+final_disc_cid(3395,"a00efd0b").
+final_disc_artist(3395,"The Crystal Method - Tweekend").
+final_disc_category(3395,"misc").
+final_disc_tracks(3395,"[Phd, Wild, Sweet, Cool, Roll It Up, Murder, Name Of The Game]").
 
 final_disc_id(2026).
-final_disc_dtitle("Goddamnit!").
-final_disc_cid("a308210c").
-final_disc_artist("Alkaline Trio").
-final_disc_category("folk").
-final_disc_tracks("[Cringe, Cop, San Francisco, Nose over Tail, As You Were, Enjoy Your Day, Clavicle]").
+final_disc_dtitle(2026,"Goddamnit!").
+final_disc_cid(2026,"a308210c").
+final_disc_artist(2026,"Alkaline Trio").
+final_disc_category(2026,"folk").
+final_disc_tracks(2026,"[Cringe, Cop, San Francisco, Nose over Tail, As You Were, Enjoy Your Day, Clavicle]").
 
 final_disc_id(7769).
-final_disc_dtitle("NEVERMIND").
-final_disc_cid("a70deb0c").
-final_disc_artist("NIRVANA").
-final_disc_category("rock").
-final_disc_tracks("[Smells Like Teen Spirit, In Bloom, Come As You Are, Breed, Lithium, Polly, Territorial Pissings]").
+final_disc_dtitle(7769,"NEVERMIND").
+final_disc_cid(7769,"a70deb0c").
+final_disc_artist(7769,"NIRVANA").
+final_disc_category(7769,"rock").
+final_disc_tracks(7769,"[Smells Like Teen Spirit, In Bloom, Come As You Are, Breed, Lithium, Polly, Territorial Pissings]").
 
 final_disc_id(3931).
-final_disc_dtitle("Hormonally Yours").
-final_disc_cid("a30bba0c").
-final_disc_artist("Shakespears Sister").
-final_disc_category("misc").
-final_disc_tracks("[Goodbye Cruel World, I Don´t Care, My 16th Apology, Are We In Love Yet, Emotional Thing, Stay, Black Sky]").
+final_disc_dtitle(3931,"Hormonally Yours").
+final_disc_cid(3931,"a30bba0c").
+final_disc_artist(3931,"Shakespears Sister").
+final_disc_category(3931,"misc").
+final_disc_tracks(3931,"[Goodbye Cruel World, I Don´t Care, My 16th Apology, Are We In Love Yet, Emotional Thing, Stay, Black Sky]").
 
 final_disc_id(5754).
-final_disc_dtitle("Hormonally Yours").
-final_disc_cid("ad0bc10c").
-final_disc_artist("Shakespears Sister").
-final_disc_category("misc").
-final_disc_tracks("[Goodbye Cruel World, I Don´t Care, My 16th Apology, Are We In Love Yet, Emotional Thing, Stay, Black Sky]").
+final_disc_dtitle(5754,"Hormonally Yours").
+final_disc_cid(5754,"ad0bc10c").
+final_disc_artist(5754,"Shakespears Sister").
+final_disc_category(5754,"misc").
+final_disc_tracks(5754,"[Goodbye Cruel World, I Don´t Care, My 16th Apology, Are We In Love Yet, Emotional Thing, Stay, Black Sky]").
 
 final_disc_id(5780).
-final_disc_dtitle("chant").
-final_disc_cid("ad0ca80e").
-final_disc_artist("Années 80 #1").
-final_disc_category("misc").
-final_disc_tracks("[Africa, Banana split, C´est la ouate, Etienne Etienne, Il jouait du piano debout, Joe le taxi, Libertine, Mademoiselle chante le blues]").
+final_disc_dtitle(5780,"chant").
+final_disc_cid(5780,"ad0ca80e").
+final_disc_artist(5780,"Années 80 #1").
+final_disc_category(5780,"misc").
+final_disc_tracks(5780,"[Africa, Banana split, C´est la ouate, Etienne Etienne, Il jouait du piano debout, Joe le taxi, Libertine, Mademoiselle chante le blues]").
 
 final_disc_id(5782).
-final_disc_dtitle("instrumental").
-final_disc_cid("ad0cae0e").
-final_disc_artist("Années 80").
-final_disc_category("misc").
-final_disc_tracks("[Africa, Banana split, C´est la ouate, Etienne Etienne, Il jouait du piano debout, Joe le taxi, Libertine, Mademoiselle chante le blues]").
+final_disc_dtitle(5782,"instrumental").
+final_disc_cid(5782,"ad0cae0e").
+final_disc_artist(5782,"Années 80").
+final_disc_category(5782,"misc").
+final_disc_tracks(5782,"[Africa, Banana split, C´est la ouate, Etienne Etienne, Il jouait du piano debout, Joe le taxi, Libertine, Mademoiselle chante le blues]").
 
 final_disc_id(3134).
-final_disc_dtitle("Metallica").
-final_disc_cid("ac0ead0c").
-final_disc_artist("Metallica").
-final_disc_category("jazz").
-final_disc_tracks("[Enter Sandman, Sad But True, Holier Than Thou, The Unforgiven, Wherever I May Roam, Don´t Tread On Me, Through the Never]").
+final_disc_dtitle(3134,"Metallica").
+final_disc_cid(3134,"ac0ead0c").
+final_disc_artist(3134,"Metallica").
+final_disc_category(3134,"jazz").
+final_disc_tracks(3134,"[Enter Sandman, Sad But True, Holier Than Thou, The Unforgiven, Wherever I May Roam, Don´t Tread On Me, Through the Never]").
 
 final_disc_id(6210).
-final_disc_dtitle("METALLICA").
-final_disc_cid("af0e970c").
-final_disc_artist("METALLICA").
-final_disc_category("misc").
-final_disc_tracks("[Enter Sandman, Sad But True, Holier Than Thou, The Unforgiven, Wherever I May Roam, Don´t Tread On Me, Through The Never]").
+final_disc_dtitle(6210,"METALLICA").
+final_disc_cid(6210,"af0e970c").
+final_disc_artist(6210,"METALLICA").
+final_disc_category(6210,"misc").
+final_disc_tracks(6210,"[Enter Sandman, Sad But True, Holier Than Thou, The Unforgiven, Wherever I May Roam, Don´t Tread On Me, Through The Never]").
 
 final_disc_id(4876).
-final_disc_dtitle("International DeeJay Gigolos CD Five").
-final_disc_cid("a80cd80c").
-final_disc_artist("Various Artists").
-final_disc_category("misc").
-final_disc_tracks("[Inform3r / Random Jazz, Mitsu / Shylight, Tuxedomoon / What Use, Filippo Naughty Moscatello / Final Signal, Terence Fixmer / Body Pressure, Advent, The / World Tonight]").
+final_disc_dtitle(4876,"International DeeJay Gigolos CD Five").
+final_disc_cid(4876,"a80cd80c").
+final_disc_artist(4876,"Various Artists").
+final_disc_category(4876,"misc").
+final_disc_tracks(4876,"[Inform3r / Random Jazz, Mitsu / Shylight, Tuxedomoon / What Use, Filippo Naughty Moscatello / Final Signal, Terence Fixmer / Body Pressure, Advent, The / World Tonight]").
 
 final_disc_id(6762).
-final_disc_dtitle("various Artists CD 1").
-final_disc_cid("a20d130c").
-final_disc_artist("International DeeJay Gigolos CD Five").
-final_disc_category("rock").
-final_disc_tracks("[Inform3r - Random Jazz, Mitsu - Shylight, Tuxedomoon - What Use, Filippo Naughty Moscatello - Final Signal, Terence Fixmer - Body Pressure, The Advent - World Tonight, Steril - Grey]").
+final_disc_dtitle(6762,"various Artists CD 1").
+final_disc_cid(6762,"a20d130c").
+final_disc_artist(6762,"International DeeJay Gigolos CD Five").
+final_disc_category(6762,"rock").
+final_disc_tracks(6762,"[Inform3r - Random Jazz, Mitsu - Shylight, Tuxedomoon - What Use, Filippo Naughty Moscatello - Final Signal, Terence Fixmer - Body Pressure, The Advent - World Tonight, Steril - Grey]").
 
 final_disc_id(5052).
-final_disc_dtitle("la era de la boludez").
-final_disc_cid("a90c120e").
-final_disc_artist("divididos").
-final_disc_category("misc").
-final_disc_tracks("[Pista 01, Pista 02, Pista 03, Pista 04, Pista 05, Pista 06, Pista 07, Pista 08]").
+final_disc_dtitle(5052,"la era de la boludez").
+final_disc_cid(5052,"a90c120e").
+final_disc_artist(5052,"divididos").
+final_disc_category(5052,"misc").
+final_disc_tracks(5052,"[Pista 01, Pista 02, Pista 03, Pista 04, Pista 05, Pista 06, Pista 07, Pista 08]").
 
 final_disc_id(7347).
-final_disc_dtitle("La Era De La Boludez").
-final_disc_cid("a50c100e").
-final_disc_artist("Divididos").
-final_disc_category("rock").
-final_disc_tracks("[Salir A Asustar, Ortega Y Gases, El Arriero, Salir A Comprar, Que Ves?, Pestana De Camello, Rasputin / Hey Jude, Dame Un Limon]").
+final_disc_dtitle(7347,"La Era De La Boludez").
+final_disc_cid(7347,"a50c100e").
+final_disc_artist(7347,"Divididos").
+final_disc_category(7347,"rock").
+final_disc_tracks(7347,"[Salir A Asustar, Ortega Y Gases, El Arriero, Salir A Comprar, Que Ves?, Pestana De Camello, Rasputin / Hey Jude, Dame Un Limon]").
 
 final_disc_id(6423).
-final_disc_dtitle("8-16-02 Houston, TX - The Woodlands - Disc 1").
-final_disc_cid("a0102c0c").
-final_disc_artist("Rush").
-final_disc_category("rock").
-final_disc_tracks("[Intro - Tom Sawyer, Distant Early Warning, New World Man, Roll The Bones, Earthshine, YYZ, The Pass]").
+final_disc_dtitle(6423,"8-16-02 Houston, TX - The Woodlands - Disc 1").
+final_disc_cid(6423,"a0102c0c").
+final_disc_artist(6423,"Rush").
+final_disc_category(6423,"rock").
+final_disc_tracks(6423,"[Intro - Tom Sawyer, Distant Early Warning, New World Man, Roll The Bones, Earthshine, YYZ, The Pass]").
 
 final_disc_id(7428).
-final_disc_dtitle("Sin City Flames(Disc 1)").
-final_disc_cid("a5104d0d").
-final_disc_artist("Rush (LIVE)").
-final_disc_category("rock").
-final_disc_tracks("[Three Stooges Intro, Tom Sawyer, Distant Early Warning, New World Man, Roll The Bones, Earthshine, YYZ]").
+final_disc_dtitle(7428,"Sin City Flames(Disc 1)").
+final_disc_cid(7428,"a5104d0d").
+final_disc_artist(7428,"Rush (LIVE)").
+final_disc_category(7428,"rock").
+final_disc_tracks(7428,"[Three Stooges Intro, Tom Sawyer, Distant Early Warning, New World Man, Roll The Bones, Earthshine, YYZ]").
 
 final_disc_id(6811).
-final_disc_dtitle("Speak Of The Devil").
-final_disc_cid("a210790c").
-final_disc_artist("Ozzy Osbourne").
-final_disc_category("rock").
-final_disc_tracks("[Symptom Of The Universe, Snowblind, Black Sabbath, Fairies Wear Boots, War Pigs, Wizard, The, N. I. B]").
+final_disc_dtitle(6811,"Speak Of The Devil").
+final_disc_cid(6811,"a210790c").
+final_disc_artist(6811,"Ozzy Osbourne").
+final_disc_category(6811,"rock").
+final_disc_tracks(6811,"[Symptom Of The Universe, Snowblind, Black Sabbath, Fairies Wear Boots, War Pigs, Wizard, The, N. I. B]").
 
 final_disc_id(7429).
-final_disc_dtitle("Talk Of The Devil").
-final_disc_cid("a510680c").
-final_disc_artist("Ozzy Osbourne").
-final_disc_category("rock").
-final_disc_tracks("[Symptom of the Universe, Snowblind, Black Sabbath, Fairies Wear Boots, War Pigs, The Wizard, N.I.B.]").
+final_disc_dtitle(7429,"Talk Of The Devil").
+final_disc_cid(7429,"a510680c").
+final_disc_artist(7429,"Ozzy Osbourne").
+final_disc_category(7429,"rock").
+final_disc_tracks(7429,"[Symptom of the Universe, Snowblind, Black Sabbath, Fairies Wear Boots, War Pigs, The Wizard, N.I.B.]").
 
 final_disc_id(5204).
-final_disc_dtitle("Foo Fighters").
-final_disc_cid("aa0ac40d").
-final_disc_artist("Foo Fighters").
-final_disc_category("misc").
-final_disc_tracks("[Doll, Monkey Wrench, Hey. Johnny Prak!, My Poor Brain, Wind Up, Up In Arms, My Hero]").
+final_disc_dtitle(5204,"Foo Fighters").
+final_disc_cid(5204,"aa0ac40d").
+final_disc_artist(5204,"Foo Fighters").
+final_disc_category(5204,"misc").
+final_disc_tracks(5204,"[Doll, Monkey Wrench, Hey. Johnny Prak!, My Poor Brain, Wind Up, Up In Arms, My Hero]").
 
 final_disc_id(7514).
-final_disc_dtitle("The Colour and the Shape").
-final_disc_cid("a60b330d").
-final_disc_artist("Foo Fighters").
-final_disc_category("rock").
-final_disc_tracks("[Doll, Monkey Wrench, Hey Johnny Park!, My Poor Brain, Wind Up, Up In Arms, My Hero]").
+final_disc_dtitle(7514,"The Colour and the Shape").
+final_disc_cid(7514,"a60b330d").
+final_disc_artist(7514,"Foo Fighters").
+final_disc_category(7514,"rock").
+final_disc_tracks(7514,"[Doll, Monkey Wrench, Hey Johnny Park!, My Poor Brain, Wind Up, Up In Arms, My Hero]").
 
 final_disc_id(6788).
-final_disc_dtitle("A Little South Of Sanity - Disc 1").
-final_disc_cid("a20e6b0c").
-final_disc_artist("Aerosmith").
-final_disc_category("rock").
-final_disc_tracks("[eat the rich, love in an elevator, falling in love (is hard on the knees), same old song and dance, hole in my soul, monkey on my back, livin´ on the edge]").
+final_disc_dtitle(6788,"A Little South Of Sanity - Disc 1").
+final_disc_cid(6788,"a20e6b0c").
+final_disc_artist(6788,"Aerosmith").
+final_disc_category(6788,"rock").
+final_disc_tracks(6788,"[eat the rich, love in an elevator, falling in love (is hard on the knees), same old song and dance, hole in my soul, monkey on my back, livin´ on the edge]").
 
 final_disc_id(7563).
-final_disc_dtitle("a little south of sanity").
-final_disc_cid("a60cc50b").
-final_disc_artist("Aerosmith").
-final_disc_category("rock").
-final_disc_tracks("[Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend)]").
+final_disc_dtitle(7563,"a little south of sanity").
+final_disc_cid(7563,"a60cc50b").
+final_disc_artist(7563,"Aerosmith").
+final_disc_category(7563,"rock").
+final_disc_tracks(7563,"[Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend), Onbekend (Onbekend)]").
 
 final_disc_id(7731).
-final_disc_dtitle("the will to live(live 2 cd) - cd 1").
-final_disc_cid("a70c850c").
-final_disc_artist("ben harper").
-final_disc_category("rock").
-final_disc_tracks("[faded, homeless child, number three, roses are my friends, jah work, i want to be ready, the will to live]").
+final_disc_dtitle(7731,"the will to live(live 2 cd) - cd 1").
+final_disc_cid(7731,"a70c850c").
+final_disc_artist(7731,"ben harper").
+final_disc_category(7731,"rock").
+final_disc_tracks(7731,"[faded, homeless child, number three, roses are my friends, jah work, i want to be ready, the will to live]").
 
 final_disc_id(7192).
-final_disc_dtitle("Meltdown").
-final_disc_cid("a40e8f0d").
-final_disc_artist("Judas Priest").
-final_disc_category("rock").
-final_disc_tracks("[The Hellion, Electric Eye, Metal Gods, Grinder, Rapid Fire, Blood Stained, The Sentenial]").
+final_disc_dtitle(7192,"Meltdown").
+final_disc_cid(7192,"a40e8f0d").
+final_disc_artist(7192,"Judas Priest").
+final_disc_category(7192,"rock").
+final_disc_tracks(7192,"[The Hellion, Electric Eye, Metal Gods, Grinder, Rapid Fire, Blood Stained, The Sentenial]").
 
 final_disc_id(7778).
-final_disc_dtitle("'98 Live Meltdown (CD 1/2)").
-final_disc_cid("a70e780d").
-final_disc_artist("Judas Priest").
-final_disc_category("rock").
-final_disc_tracks("[The Hellion, Electric Eye, Metal Gods, Grinder, Rapid Fire, Blood Stained, The Sentinel]").
+final_disc_dtitle(7778,"'98 Live Meltdown (CD 1/2)").
+final_disc_cid(7778,"a70e780d").
+final_disc_artist(7778,"Judas Priest").
+final_disc_category(7778,"rock").
+final_disc_tracks(7778,"[The Hellion, Electric Eye, Metal Gods, Grinder, Rapid Fire, Blood Stained, The Sentinel]").
 
 final_disc_id(2950).
-final_disc_dtitle("Donde Hay Musica").
-final_disc_cid("a70d7f0c").
-final_disc_artist("Eros Ramazzotti").
-final_disc_category("jazz").
-final_disc_tracks("[Donde Hay Musica, Estrella Gemela, La Cosa Mas Bella, La Aurora, Carta Al Futuro, Yo Amare´, Este Inmenso Show]").
+final_disc_dtitle(2950,"Donde Hay Musica").
+final_disc_cid(2950,"a70d7f0c").
+final_disc_artist(2950,"Eros Ramazzotti").
+final_disc_category(2950,"jazz").
+final_disc_tracks(2950,"[Donde Hay Musica, Estrella Gemela, La Cosa Mas Bella, La Aurora, Carta Al Futuro, Yo Amare´, Este Inmenso Show]").
 
 final_disc_id(8135).
-final_disc_dtitle("DOVE C'E MUSICA").
-final_disc_cid("a90d6a0c").
-final_disc_artist("EROS RAMAZZOTTI").
-final_disc_category("rock").
-final_disc_tracks("[DOVE C´E MUSICA, STELLA GEMELLA, PIU BELLA COSA, L´ AURORA, LETTERA AL FUTURO, IO AMERO, QUESTO IMMENSO SHOW]").
+final_disc_dtitle(8135,"DOVE C'E MUSICA").
+final_disc_cid(8135,"a90d6a0c").
+final_disc_artist(8135,"EROS RAMAZZOTTI").
+final_disc_category(8135,"rock").
+final_disc_tracks(8135,"[DOVE C´E MUSICA, STELLA GEMELLA, PIU BELLA COSA, L´ AURORA, LETTERA AL FUTURO, IO AMERO, QUESTO IMMENSO SHOW]").
 
 final_disc_id(8120).
-final_disc_dtitle("hitchhiking to radio city CD2").
-final_disc_cid("a90cbb0c").
-final_disc_artist("Roger Waters").
-final_disc_category("rock").
-final_disc_tracks("[apparently they were travelling abroad, running shoes, arabs with knives and west german skies, for the first time today pt2, the remains of our love, go fishing, for the first time today pt1, dunroamin]").
+final_disc_dtitle(8120,"hitchhiking to radio city CD2").
+final_disc_cid(8120,"a90cbb0c").
+final_disc_artist(8120,"Roger Waters").
+final_disc_category(8120,"rock").
+final_disc_tracks(8120,"[apparently they were travelling abroad, running shoes, arabs with knives and west german skies, for the first time today pt2, the remains of our love, go fishing, for the first time today pt1, dunroamin]").
 
 final_disc_id(6314).
-final_disc_dtitle("Lenny").
-final_disc_cid("a00a560c").
-final_disc_artist("Lenny Kravitz").
-final_disc_category("rock").
-final_disc_tracks("[Battlefield of love, If i could fall in love, Yesterday is gone (My dear Kay), Stillness of heart, Believe in me, Pay to pay, A million miles away]").
+final_disc_dtitle(6314,"Lenny").
+final_disc_cid(6314,"a00a560c").
+final_disc_artist(6314,"Lenny Kravitz").
+final_disc_category(6314,"rock").
+final_disc_tracks(6314,"[Battlefield of love, If i could fall in love, Yesterday is gone (My dear Kay), Stillness of heart, Believe in me, Pay to pay, A million miles away]").
 
 final_disc_id(8464).
-final_disc_dtitle("Lenny").
-final_disc_cid("ab0bb60c").
-final_disc_artist("Lenny Kravitz").
-final_disc_category("rock").
-final_disc_tracks("[Battlefield Of Love, If I Could Fall In Love, Yesterday Is Gone (My Dear Kay), Stillness Of Heart, Believe In Me, Pay To Play, A Million Miles Away]").
+final_disc_dtitle(8464,"Lenny").
+final_disc_cid(8464,"ab0bb60c").
+final_disc_artist(8464,"Lenny Kravitz").
+final_disc_category(8464,"rock").
+final_disc_tracks(8464,"[Battlefield Of Love, If I Could Fall In Love, Yesterday Is Gone (My Dear Kay), Stillness Of Heart, Believe In Me, Pay To Play, A Million Miles Away]").
 
 final_disc_id(8718).
-final_disc_dtitle("Live at the United Center - 11/29/00").
-final_disc_cid("ac10b00c").
-final_disc_artist("Smashing Pumpkins").
-final_disc_category("rock").
-final_disc_tracks("[Glass and the Ghost Children, Today, Stand Inside your Love, Thirty Three, To Sheila, Drown, Glass´ Theme]").
+final_disc_dtitle(8718,"Live at the United Center - 11/29/00").
+final_disc_cid(8718,"ac10b00c").
+final_disc_artist(8718,"Smashing Pumpkins").
+final_disc_category(8718,"rock").
+final_disc_tracks(8718,"[Glass and the Ghost Children, Today, Stand Inside your Love, Thirty Three, To Sheila, Drown, Glass´ Theme]").
 
 final_disc_id(8908).
-final_disc_dtitle("Live @ United Center, Chicago (29.11.2000) CD1").
-final_disc_cid("ad10c70d").
-final_disc_artist("Smashing Pumpkins").
-final_disc_category("rock").
-final_disc_tracks("[Smashing Pumpkins / 01 - Glass And The Ghost Children, Smashing Pumpkins / 02 - Today, Smashing Pumpkins / 03 - Stand Inside Your Love, Smashing Pumpkins / 04 - Thirty-Three, Smashing Pumpkins / 05 - To Sheila, Smashing Pumpkins / 06 - Drown, Smashing Pumpkins / 07 - Drum Solo]").
+final_disc_dtitle(8908,"Live @ United Center, Chicago (29.11.2000) CD1").
+final_disc_cid(8908,"ad10c70d").
+final_disc_artist(8908,"Smashing Pumpkins").
+final_disc_category(8908,"rock").
+final_disc_tracks(8908,"[Smashing Pumpkins / 01 - Glass And The Ghost Children, Smashing Pumpkins / 02 - Today, Smashing Pumpkins / 03 - Stand Inside Your Love, Smashing Pumpkins / 04 - Thirty-Three, Smashing Pumpkins / 05 - To Sheila, Smashing Pumpkins / 06 - Drown, Smashing Pumpkins / 07 - Drum Solo]").
 
 final_disc_id(7123).
-final_disc_dtitle("Fever").
-final_disc_cid("a40bbc0d").
-final_disc_artist("Kylie Minogue").
-final_disc_category("rock").
-final_disc_tracks("[More More More, Love at first sight, Can´t get you out of my head, Fever, Give it to me, Fragile, Come into my world]").
+final_disc_dtitle(7123,"Fever").
+final_disc_cid(7123,"a40bbc0d").
+final_disc_artist(7123,"Kylie Minogue").
+final_disc_category(7123,"rock").
+final_disc_tracks(7123,"[More More More, Love at first sight, Can´t get you out of my head, Fever, Give it to me, Fragile, Come into my world]").
 
 final_disc_id(9038).
-final_disc_dtitle("Fever").
-final_disc_cid("ae0e170e").
-final_disc_artist("Kylie Minogue").
-final_disc_category("rock").
-final_disc_tracks("[More More More, Love At First Sight, Can´t Get You Out Of My Head, Fever, Give It To Me, Fragile, Come Into My World, In Your Eyes]").
+final_disc_dtitle(9038,"Fever").
+final_disc_cid(9038,"ae0e170e").
+final_disc_artist(9038,"Kylie Minogue").
+final_disc_category(9038,"rock").
+final_disc_tracks(9038,"[More More More, Love At First Sight, Can´t Get You Out Of My Head, Fever, Give It To Me, Fragile, Come Into My World, In Your Eyes]").
 
 final_disc_id(6798).
-final_disc_dtitle("Exciter Tour Live In L.A 2001 Disc 1").
-final_disc_cid("a20f5a0c").
-final_disc_artist("Depeche Mode").
-final_disc_category("rock").
-final_disc_tracks("[Intro:Easy Tiger & Dream On (Acoustic Instr), The Dead Of Night, The Sweetest Condition, Halo, Walking In My Shows, Dream On, When The Body Speaks]").
+final_disc_dtitle(6798,"Exciter Tour Live In L.A 2001 Disc 1").
+final_disc_cid(6798,"a20f5a0c").
+final_disc_artist(6798,"Depeche Mode").
+final_disc_category(6798,"rock").
+final_disc_tracks(6798,"[Intro:Easy Tiger & Dream On (Acoustic Instr), The Dead Of Night, The Sweetest Condition, Halo, Walking In My Shows, Dream On, When The Body Speaks]").
 
 final_disc_id(9068).
-final_disc_dtitle("opening old wounds").
-final_disc_cid("ae10300d").
-final_disc_artist("Depeche Mode").
-final_disc_category("rock").
-final_disc_tracks("[Easy Tiger / Dream On - Intro, Dead Of Night, Sweetest Condition, Halo, Walking In My Shoes, Dream On, When The Body Speaks]").
+final_disc_dtitle(9068,"opening old wounds").
+final_disc_cid(9068,"ae10300d").
+final_disc_artist(9068,"Depeche Mode").
+final_disc_category(9068,"rock").
+final_disc_tracks(9068,"[Easy Tiger / Dream On - Intro, Dead Of Night, Sweetest Condition, Halo, Walking In My Shoes, Dream On, When The Body Speaks]").
 
 final_disc_id(3793).
-final_disc_dtitle("outrospective remixes").
-final_disc_cid("a20f8d0c").
-final_disc_artist("faithless").
-final_disc_category("misc").
-final_disc_tracks("[one step too far remix, we come 1 remix, lotus remix, crazy english summer remix, giving myself away remix, evergreen remix, not enuff love remix]").
+final_disc_dtitle(3793,"outrospective remixes").
+final_disc_cid(3793,"a20f8d0c").
+final_disc_artist(3793,"faithless").
+final_disc_category(3793,"misc").
+final_disc_tracks(3793,"[one step too far remix, we come 1 remix, lotus remix, crazy english summer remix, giving myself away remix, evergreen remix, not enuff love remix]").
 
 final_disc_id(1823).
-final_disc_dtitle("Carlos").
-final_disc_cid("a3107b0c").
-final_disc_artist("Carlos Santana").
-final_disc_category("data").
-final_disc_tracks("[(Da Le) Yaleo, Love Of My Life, Put You Love Lights On, Smooth, Do You Like The Way?, Maria Maria, Maria]").
+final_disc_dtitle(1823,"Carlos").
+final_disc_cid(1823,"a3107b0c").
+final_disc_artist(1823,"Carlos Santana").
+final_disc_category(1823,"data").
+final_disc_tracks(1823,"[(Da Le) Yaleo, Love Of My Life, Put You Love Lights On, Smooth, Do You Like The Way?, Maria Maria, Maria]").
 
 final_disc_id(9257).
-final_disc_dtitle("Supernatura").
-final_disc_cid("af10860c").
-final_disc_artist("Santana").
-final_disc_category("rock").
-final_disc_tracks("[Love Of My Life, Put Your Light On, (Da Le) Yaleo, Maria Maria, Migra, Wishing It Was, Do You Like The Way]").
+final_disc_dtitle(9257,"Supernatura").
+final_disc_cid(9257,"af10860c").
+final_disc_artist(9257,"Santana").
+final_disc_category(9257,"rock").
+final_disc_tracks(9257,"[Love Of My Life, Put Your Light On, (Da Le) Yaleo, Maria Maria, Migra, Wishing It Was, Do You Like The Way]").
 
 final_disc_id(1884).
-final_disc_dtitle("Up a Lazy River").
-final_disc_cid("a008400c").
-final_disc_artist("Leon Redbone").
-final_disc_category("folk").
-final_disc_tracks("[01 Play Gipsy Play, 02 At the Chocolate Bon Bon Ball, 03 Lazy River, 04 When Dixie Stars Are Playing Peek-A-Boo, 05 Mr Jelly Roll Baker, 06 Gotta Shake That Thing, 07 You´re a Heartbreaker]").
+final_disc_dtitle(1884,"Up a Lazy River").
+final_disc_cid(1884,"a008400c").
+final_disc_artist(1884,"Leon Redbone").
+final_disc_category(1884,"folk").
+final_disc_tracks(1884,"[01 Play Gipsy Play, 02 At the Chocolate Bon Bon Ball, 03 Lazy River, 04 When Dixie Stars Are Playing Peek-A-Boo, 05 Mr Jelly Roll Baker, 06 Gotta Shake That Thing, 07 You´re a Heartbreaker]").
 
 final_disc_id(9542).
-final_disc_dtitle("Leon Redbone/Up a Lazy River").
-final_disc_cid("a008400c").
-final_disc_artist("Leon Redbone/Up a Lazy River").
-final_disc_category("blues").
-final_disc_tracks("[Play Gypsy Play, At the Chocolate Bon Bon Ball, Lazy River, When Dixie Stars Are Playing Peek-a-Boo, Mr. Jelly Roll Baker, Gotta Shake that Thing, You´re a Heartbreaker]").
+final_disc_dtitle(9542,"Leon Redbone/Up a Lazy River").
+final_disc_cid(9542,"a008400c").
+final_disc_artist(9542,"Leon Redbone/Up a Lazy River").
+final_disc_category(9542,"blues").
+final_disc_tracks(9542,"[Play Gypsy Play, At the Chocolate Bon Bon Ball, Lazy River, When Dixie Stars Are Playing Peek-a-Boo, Mr. Jelly Roll Baker, Gotta Shake that Thing, You´re a Heartbreaker]").
 
 final_disc_id(9601).
-final_disc_dtitle("Forever Classics").
-final_disc_cid("a10f4f0b").
-final_disc_artist("Grieg").
-final_disc_category("blues").
-final_disc_tracks("[Pno Con in a, Op.16: Allegro molto moderato, Pno Con in a, Op.16: Adagio, Pno Con in a, Op.16:Allegro molto e marcato - Quasi presto -, Andante maest oso, Ste No.1, Op.46: Morning, Ste No.1, Op.46: Death of Ase, Ste No.1]").
+final_disc_dtitle(9601,"Forever Classics").
+final_disc_cid(9601,"a10f4f0b").
+final_disc_artist(9601,"Grieg").
+final_disc_category(9601,"blues").
+final_disc_tracks(9601,"[Pno Con in a, Op.16: Allegro molto moderato, Pno Con in a, Op.16: Adagio, Pno Con in a, Op.16:Allegro molto e marcato - Quasi presto -, Andante maest oso, Ste No.1, Op.46: Morning, Ste No.1, Op.46: Death of Ase, Ste No.1]").
 
 final_disc_id(6374).
-final_disc_dtitle("NOW").
-final_disc_cid("a00ce30c").
-final_disc_artist("Maxwell").
-final_disc_category("rock").
-final_disc_tracks("[Temporary, No one, Was my girl, Get to know ya, Lifetime, Now at the party, Changed]").
+final_disc_dtitle(6374,"NOW").
+final_disc_cid(6374,"a00ce30c").
+final_disc_artist(6374,"Maxwell").
+final_disc_category(6374,"rock").
+final_disc_tracks(6374,"[Temporary, No one, Was my girl, Get to know ya, Lifetime, Now at the party, Changed]").
 
 final_disc_id(9777).
-final_disc_dtitle("Now").
-final_disc_cid("a70bcc0c").
-final_disc_artist("Maxwell").
-final_disc_category("blues").
-final_disc_tracks("[Get To Know Ya, Lifetime, W/As My Girl, Changed, NoOne, For Lovers Only]").
+final_disc_dtitle(9777,"Now").
+final_disc_cid(9777,"a70bcc0c").
+final_disc_artist(9777,"Maxwell").
+final_disc_category(9777,"blues").
+final_disc_tracks(9777,"[Get To Know Ya, Lifetime, W/As My Girl, Changed, NoOne, For Lovers Only]").
 
 final_disc_id(7223).
-final_disc_dtitle("Out Of This World London 20-10-94 Disc 2").
-final_disc_cid("a4110f0c").
-final_disc_artist("Pink Floyd").
-final_disc_category("rock").
-final_disc_tracks("[Speak To Me / Breathe, On The Run, Time, The Great Gig In The Sky, Money, Us & Them, Any Colour You Like]").
+final_disc_dtitle(7223,"Out Of This World London 20-10-94 Disc 2").
+final_disc_cid(7223,"a4110f0c").
+final_disc_artist(7223,"Pink Floyd").
+final_disc_category(7223,"rock").
+final_disc_tracks(7223,"[Speak To Me / Breathe, On The Run, Time, The Great Gig In The Sky, Money, Us & Them, Any Colour You Like]").
 
 final_disc_id(9793).
-final_disc_dtitle("Pulse (2)").
-final_disc_cid("a710d30d").
-final_disc_artist("Pink Floyd").
-final_disc_category("blues").
-final_disc_tracks("[Speak To Me, Breathe, On The Run, Time, The Great Gig In The Sky, Money, Us And Them]").
+final_disc_dtitle(9793,"Pulse (2)").
+final_disc_cid(9793,"a710d30d").
+final_disc_artist(9793,"Pink Floyd").
+final_disc_category(9793,"blues").
+final_disc_tracks(9793,"[Speak To Me, Breathe, On The Run, Time, The Great Gig In The Sky, Money, Us And Them]").
 
 final_disc_id(8370).
-final_disc_dtitle("Ninteenninetyfour").
-final_disc_cid("aa0fe10c").
-final_disc_artist("Alvin Lee").
-final_disc_category("rock").
-final_disc_tracks("[Keep On Rockin4, Long Legs, I Hear You Knockin4, Aint4t Nobody4s Business, The Bluest Blues, Boogie All Day, My Baby4s Come Back To Me]").
+final_disc_dtitle(8370,"Ninteenninetyfour").
+final_disc_cid(8370,"aa0fe10c").
+final_disc_artist(8370,"Alvin Lee").
+final_disc_category(8370,"rock").
+final_disc_tracks(8370,"[Keep On Rockin4, Long Legs, I Hear You Knockin4, Aint4t Nobody4s Business, The Bluest Blues, Boogie All Day, My Baby4s Come Back To Me]").
 
 final_disc_id(9876).
-final_disc_dtitle("I Hear You Rockin'").
-final_disc_cid("aa0fe00c").
-final_disc_artist("Alvin Lee").
-final_disc_category("blues").
-final_disc_tracks("[Keep On Rockin´, Long Legs, I Hear You Knockin´, Aint´t Nobody´s Business, Bluest Blues, Boogie All Day, My Baby´s Come Back To Me]").
+final_disc_dtitle(9876,"I Hear You Rockin'").
+final_disc_cid(9876,"aa0fe00c").
+final_disc_artist(9876,"Alvin Lee").
+final_disc_category(9876,"blues").
+final_disc_tracks(9876,"[Keep On Rockin´, Long Legs, I Hear You Knockin´, Aint´t Nobody´s Business, Bluest Blues, Boogie All Day, My Baby´s Come Back To Me]").
 
 final_disc_id(7664).
-final_disc_dtitle("Reconstruction of the Fables").
-final_disc_cid("9909510b,a7094e0b").
-final_disc_artist("R.E.M.").
-final_disc_category("rock").
-final_disc_tracks("[Feeling Gravitys Pull, Maps And Legends, Driver 8, Life And How To Live It, Old Man Kensey, Cant Get There From Here]").
+final_disc_dtitle(7664,"Reconstruction of the Fables").
+final_disc_cid(7664,"9909510b,a7094e0b").
+final_disc_artist(7664,"R.E.M.").
+final_disc_category(7664,"rock").
+final_disc_tracks(7664,"[Feeling Gravitys Pull, Maps And Legends, Driver 8, Life And How To Live It, Old Man Kensey, Cant Get There From Here]").
 
 final_disc_id(10119).
-final_disc_dtitle("Fables of the reconstruction").
-final_disc_cid("a30b9b0e").
-final_disc_artist("R.E.M.").
-final_disc_category("newage").
-final_disc_tracks("[Feeling gravitys pull, Maps and legends, Driver 8, Life and how to live it, Old man kensey, Cant get there from here, Green grow the rushes, Kohoutek]").
+final_disc_dtitle(10119,"Fables of the reconstruction").
+final_disc_cid(10119,"a30b9b0e").
+final_disc_artist(10119,"R.E.M.").
+final_disc_category(10119,"newage").
+final_disc_tracks(10119,"[Feeling gravitys pull, Maps and legends, Driver 8, Life and how to live it, Old man kensey, Cant get there from here, Green grow the rushes, Kohoutek]").
 
 final_disc_id(5549).
-final_disc_dtitle("United").
-final_disc_cid("ac0ab00c").
-final_disc_artist("Superstars").
-final_disc_category("misc").
-final_disc_tracks("[Superstars / We have a dream, Superstars / Tonight, Superstars / Cry on my Shoulder, Superstars / A Young Generation, Superstars / Here we stand again, Superstars / Superman, Superstars / How can we mend your lonely He, Superstars / Today]").
+final_disc_dtitle(5549,"United").
+final_disc_cid(5549,"ac0ab00c").
+final_disc_artist(5549,"Superstars").
+final_disc_category(5549,"misc").
+final_disc_tracks(5549,"[Superstars / We have a dream, Superstars / Tonight, Superstars / Cry on my Shoulder, Superstars / A Young Generation, Superstars / Here we stand again, Superstars / Superman, Superstars / How can we mend your lonely He, Superstars / Today]").
 
 final_disc_id(10133).
-final_disc_dtitle("UNITED").
-final_disc_cid("a40aa40c").
-final_disc_artist("deutschland sucht den superstar").
-final_disc_category("newage").
-final_disc_tracks("[we have a dream, tonight, cry on my shoulder, a young generation, here we stand again (stay with me tonight), superman (daniel k.), how can we mend your lonely heart, today]").
+final_disc_dtitle(10133,"UNITED").
+final_disc_cid(10133,"a40aa40c").
+final_disc_artist(10133,"deutschland sucht den superstar").
+final_disc_category(10133,"newage").
+final_disc_tracks(10133,"[we have a dream, tonight, cry on my shoulder, a young generation, here we stand again (stay with me tonight), superman (daniel k.), how can we mend your lonely heart, today]").
 
 final_disc_id(4804).
-final_disc_dtitle("¯yczenia dla przyjació³").
-final_disc_cid("a809490c").
-final_disc_artist("Bu³at Okud¿awa").
-final_disc_category("misc").
-final_disc_tracks("[Piosenka o Mozarcie, Piosenka o Arbackim Emigrancie, Szybko Mija M³odo¶æ, Znak, Piosenka o M³odym U³anie, O Wo³odii Wysockim, Pisze Powie¶æ Historyczn±]").
+final_disc_dtitle(4804,"¯yczenia dla przyjació³").
+final_disc_cid(4804,"a809490c").
+final_disc_artist(4804,"Bu³at Okud¿awa").
+final_disc_category(4804,"misc").
+final_disc_tracks(4804,"[Piosenka o Mozarcie, Piosenka o Arbackim Emigrancie, Szybko Mija M³odo¶æ, Znak, Piosenka o M³odym U³anie, O Wo³odii Wysockim, Pisze Powie¶æ Historyczn±]").
 
 final_disc_id(10231).
-final_disc_dtitle("Plyta 3 - Bulat").
-final_disc_cid("a90a020d").
-final_disc_artist("42 x Bulat Okudzawa").
-final_disc_category("newage").
-final_disc_tracks("[Piosenka o Mozarcie, Piosenka o arbackim emigrancie, Mlodosc szybko mija, Znak, Piosenka o mlodym ulanie, O Wolodim Wysockim, Pisze powiesz historyczna]").
+final_disc_dtitle(10231,"Plyta 3 - Bulat").
+final_disc_cid(10231,"a90a020d").
+final_disc_artist(10231,"42 x Bulat Okudzawa").
+final_disc_category(10231,"newage").
+final_disc_tracks(10231,"[Piosenka o Mozarcie, Piosenka o arbackim emigrancie, Mlodosc szybko mija, Znak, Piosenka o mlodym ulanie, O Wolodim Wysockim, Pisze powiesz historyczna]").
 
 final_disc_id(9807).
-final_disc_dtitle("Christmas").
-final_disc_cid("a80b280d").
-final_disc_artist("All-4-One").
-final_disc_category("blues").
-final_disc_tracks("[Silent Night, This Christmas, The First Noel, The Christmas Song, Santa Claus Is Coming to Town, Mary´s Boy Child, What Child Is This? (Greensleeves)]").
+final_disc_dtitle(9807,"Christmas").
+final_disc_cid(9807,"a80b280d").
+final_disc_artist(9807,"All-4-One").
+final_disc_category(9807,"blues").
+final_disc_tracks(9807,"[Silent Night, This Christmas, The First Noel, The Christmas Song, Santa Claus Is Coming to Town, Mary´s Boy Child, What Child Is This? (Greensleeves)]").
 
 final_disc_id(10312).
-final_disc_dtitle("An All-4-One Chrismas").
-final_disc_cid("ac0b130c").
-final_disc_artist("ALL-4-ONE").
-final_disc_category("newage").
-final_disc_tracks("[Silent Night, This Christmas, The First Noel, The Christmas Song, Santa Claus Is Coming ToTown, Mary´s Little Boy Child, What Child Is This]").
+final_disc_dtitle(10312,"An All-4-One Chrismas").
+final_disc_cid(10312,"ac0b130c").
+final_disc_artist(10312,"ALL-4-ONE").
+final_disc_category(10312,"newage").
+final_disc_tracks(10312,"[Silent Night, This Christmas, The First Noel, The Christmas Song, Santa Claus Is Coming ToTown, Mary´s Little Boy Child, What Child Is This]").
 
 final_disc_id(10714).
-final_disc_dtitle("L´Oe  uvre D´Orgue (Tome 3)").
-final_disc_cid("a40f500b").
-final_disc_artist("Bach, Johann Sebastian (played by Michel Chapuis)").
-final_disc_category("classical").
-final_disc_tracks("[Toccata et Fugue en ré mineur, BWV 565, Fugue en ut majeur sur un thème de Legrenzi, BWV 574, Toccata en mi majeur, BWV 566, Prélude et Fugue en la mineur, BWV 551, Fantaisie en ut majeur, BWV 570, Fugue en sol mineur, BWV 578]").
+final_disc_dtitle(10714,"L´Oe  uvre D´Orgue (Tome 3)").
+final_disc_cid(10714,"a40f500b").
+final_disc_artist(10714,"Bach, Johann Sebastian (played by Michel Chapuis)").
+final_disc_category(10714,"classical").
+final_disc_tracks(10714,"[Toccata et Fugue en ré mineur, BWV 565, Fugue en ut majeur sur un thème de Legrenzi, BWV 574, Toccata en mi majeur, BWV 566, Prélude et Fugue en la mineur, BWV 551, Fantaisie en ut majeur, BWV 570, Fugue en sol mineur, BWV 578]").
 
 final_disc_id(10715).
-final_disc_dtitle("Bach, J.S., Organ Works (Disk 3)").
-final_disc_cid("a40f520b").
-final_disc_artist("Michel Chapuis").
-final_disc_category("classical").
-final_disc_tracks("[Toccata & Fugue in D minor, BWV565, Fugue in C major on a theme of Legrenzi, BWV574, Toccata in E major, BWV566, Prelude and Fugue in A minor, BWV551, Fantasia in C major, BWV570, Fugue in G minor, BWV578]").
+final_disc_dtitle(10715,"Bach, J.S., Organ Works (Disk 3)").
+final_disc_cid(10715,"a40f520b").
+final_disc_artist(10715,"Michel Chapuis").
+final_disc_category(10715,"classical").
+final_disc_tracks(10715,"[Toccata & Fugue in D minor, BWV565, Fugue in C major on a theme of Legrenzi, BWV574, Toccata in E major, BWV566, Prelude and Fugue in A minor, BWV551, Fantasia in C major, BWV570, Fugue in G minor, BWV578]").
 
 final_disc_id(10785).
-final_disc_dtitle("Bocelli").
-final_disc_cid("a60b250b").
-final_disc_artist("Andrea Bocelli").
-final_disc_category("classical").
-final_disc_tracks("[Con te partiro, Per amore, Macchine da guerra, E chiove, Romanza, The power of love]").
+final_disc_dtitle(10785,"Bocelli").
+final_disc_cid(10785,"a60b250b").
+final_disc_artist(10785,"Andrea Bocelli").
+final_disc_category(10785,"classical").
+final_disc_tracks(10785,"[Con te partiro, Per amore, Macchine da guerra, E chiove, Romanza, The power of love]").
 
 final_disc_id(10833).
-final_disc_dtitle("Sugar").
-final_disc_cid("a70b0a0b").
-final_disc_artist("Andrea Bocelli").
-final_disc_category("classical").
-final_disc_tracks("[Con te partiro, Per armore, Macchine da guerra, E chiove, Romanza, The Power Of Love]").
+final_disc_dtitle(10833,"Sugar").
+final_disc_cid(10833,"a70b0a0b").
+final_disc_artist(10833,"Andrea Bocelli").
+final_disc_category(10833,"classical").
+final_disc_tracks(10833,"[Con te partiro, Per armore, Macchine da guerra, E chiove, Romanza, The Power Of Love]").
 
 final_disc_id(11006).
-final_disc_dtitle("Hollywood Film Classics").
-final_disc_cid("aa11420b").
-final_disc_artist("Hollywood Film Classics").
-final_disc_category("classical").
-final_disc_tracks("[R. Strauss: Thus Spoke Zoroaster, G. Verdi: The Force of Destiny, L. Boccherini: String Quintet op. 13, G. Bizet: Carmen (Habanera), G. Bizet: Carmen (Chant Des Toréadors), W.A. Mozart: The Abduction from the Seraglio]").
+final_disc_dtitle(11006,"Hollywood Film Classics").
+final_disc_cid(11006,"aa11420b").
+final_disc_artist(11006,"Hollywood Film Classics").
+final_disc_category(11006,"classical").
+final_disc_tracks(11006,"[R. Strauss: Thus Spoke Zoroaster, G. Verdi: The Force of Destiny, L. Boccherini: String Quintet op. 13, G. Bizet: Carmen (Habanera), G. Bizet: Carmen (Chant Des Toréadors), W.A. Mozart: The Abduction from the Seraglio]").
 
 final_disc_id(11008).
-final_disc_dtitle("Disk #1").
-final_disc_cid("aa11440b").
-final_disc_artist("Hollywood Film Classics").
-final_disc_category("classical").
-final_disc_tracks("[R. Strauss: Thus Spoke Zoroaster, G. Verdi: The Force of Destiny, L. Boccherini: String Quintet op. 13, G. Bizet: Carmen (Habanera), G. Bizet: Carmen (Chant Des Toréadors), W.A. Mozart: The Abduction from the Seraglio]").
+final_disc_dtitle(11008,"Disk #1").
+final_disc_cid(11008,"aa11440b").
+final_disc_artist(11008,"Hollywood Film Classics").
+final_disc_category(11008,"classical").
+final_disc_tracks(11008,"[R. Strauss: Thus Spoke Zoroaster, G. Verdi: The Force of Destiny, L. Boccherini: String Quintet op. 13, G. Bizet: Carmen (Habanera), G. Bizet: Carmen (Chant Des Toréadors), W.A. Mozart: The Abduction from the Seraglio]").
 
 final_disc_id(9838).
-final_disc_dtitle("Notting Hill").
-final_disc_cid("a90c5a0d").
-final_disc_artist("Various Artists - Notting Hill").
-final_disc_category("blues").
-final_disc_tracks("[Another Level / From The Heart, Ronan Keating / When You Say Nothing At All, Elvis Costello / She, Al Green / How Can You Mend A Broken Heart, Texas / In Our Lifetime, 98 °/ I Do (Cherish You), Pulp / Born To Cry]").
+final_disc_dtitle(9838,"Notting Hill").
+final_disc_cid(9838,"a90c5a0d").
+final_disc_artist(9838,"Various Artists - Notting Hill").
+final_disc_category(9838,"blues").
+final_disc_tracks(9838,"[Another Level / From The Heart, Ronan Keating / When You Say Nothing At All, Elvis Costello / She, Al Green / How Can You Mend A Broken Heart, Texas / In Our Lifetime, 98 °/ I Do (Cherish You), Pulp / Born To Cry]").
 
 final_disc_id(11388).
-final_disc_dtitle("Music From Motion Picture").
-final_disc_cid("a70bfc0d").
-final_disc_artist("Notting Hill").
-final_disc_category("soundtrack").
-final_disc_tracks("[Shania Twain - You´ve Got A Way, 98 Degrees - I Do, Elvis Costello - She, Bill Withers - Ain´t No Sunshine, Al Green - How Can You Mend A Broken Heart, Texas - In Our Lifetime, The Spencer Davis Group - Gimme Some Lovin]").
+final_disc_dtitle(11388,"Music From Motion Picture").
+final_disc_cid(11388,"a70bfc0d").
+final_disc_artist(11388,"Notting Hill").
+final_disc_category(11388,"soundtrack").
+final_disc_tracks(11388,"[Shania Twain - You´ve Got A Way, 98 Degrees - I Do, Elvis Costello - She, Bill Withers - Ain´t No Sunshine, Al Green - How Can You Mend A Broken Heart, Texas - In Our Lifetime, The Spencer Davis Group - Gimme Some Lovin]").
 
 final_disc_id(11531).
-final_disc_dtitle("Black Album").
-final_disc_cid("ae0e990c").
-final_disc_artist("Metallica").
-final_disc_category("soundtrack").
-final_disc_tracks("[Enter Sandman, Sad But True, Holier Than Thou, The Unforgiven, Wherever I May Roam, Don´t Tread On Me, Through The Never]").
+final_disc_dtitle(11531,"Black Album").
+final_disc_cid(11531,"ae0e990c").
+final_disc_artist(11531,"Metallica").
+final_disc_category(11531,"soundtrack").
+final_disc_tracks(11531,"[Enter Sandman, Sad But True, Holier Than Thou, The Unforgiven, Wherever I May Roam, Don´t Tread On Me, Through The Never]").
 
 final_disc(Id,Cid,Artist,Dtitle,Category,Tracks) :-
 	final_disc_id(Id),
