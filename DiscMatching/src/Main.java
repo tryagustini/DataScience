@@ -14,7 +14,7 @@ import info.debatty.java.stringsimilarity.*;
 public class Main {
 	
 	public static double MIN_TRESHOLD = 0.8;
-	public static double MAX_TRESHOLD = 1;
+	public static double MAX_TRESHOLD = 0.9;
 	public static ArrayList<String> probabilityId = new ArrayList<>();
 
 	public static void main(String[] args) {
@@ -62,7 +62,7 @@ public class Main {
 					pairContainer.add(dup);	
 					
 					//Pair of possible duplicates
-					if(similarity > MIN_TRESHOLD && similarity < MAX_TRESHOLD){
+					if(similarity >= MIN_TRESHOLD && similarity < MAX_TRESHOLD){
 						pairList.add(pairContainer);
 					}
 					
