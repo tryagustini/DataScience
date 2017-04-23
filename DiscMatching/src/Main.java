@@ -78,8 +78,8 @@ public class Main {
 		//Non-match discs
 		int nonmatch = discs.disc.size() - consumedId2.size();
 		
-		System.out.println("Number of possible duplicate pairs: " +pairList.size());
 		System.out.println("Number of certain duplicate pairs: " +dupList.size());
+		System.out.println("Number of possible duplicate pairs: " +pairList.size());
 		System.out.println("Number of non duplicates: " +nonmatch);
 		
 		try{
@@ -107,27 +107,27 @@ public class Main {
 				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(0).dtitle+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
 				writer.println("final_disc_dtitle("+pairs.get(0).id+",\""+pairs.get(1).dtitle+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
 				writer.println("final_disc_dtitle("+pairs.get(1).id+",\""+pairs.get(0).dtitle+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
-				writer.println("final_disc_dtitle("+pairs.get(1).id+",\""+pairs.get(1).dtitle+"\")["+partition+"=2].");
+				writer.println("final_disc_dtitle("+pairs.get(1).id+",\""+pairs.get(1).dtitle+"\")[("+partition+"="+1+" and "+partition3+ "=2 and "+partition2+"=2) or "+partition+"=2].");
 				
 				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(0).cid+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
 				writer.println("final_disc_cid("+pairs.get(0).id+",\""+pairs.get(1).cid+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
 				writer.println("final_disc_cid("+pairs.get(1).id+",\""+pairs.get(0).cid+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
-				writer.println("final_disc_cid("+pairs.get(1).id+",\""+pairs.get(1).cid+"\")["+partition+"=2].");
+				writer.println("final_disc_cid("+pairs.get(1).id+",\""+pairs.get(1).cid+"\")[("+partition+"="+1+" and "+partition3+ "=2 and "+partition2+"=2) or "+partition+"=2].");
 
 				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(0).artist+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
 				writer.println("final_disc_artist("+pairs.get(0).id+",\""+pairs.get(1).artist+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
 				writer.println("final_disc_artist("+pairs.get(1).id+",\""+pairs.get(0).artist+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
-				writer.println("final_disc_artist("+pairs.get(1).id+",\""+pairs.get(1).artist+"\")["+partition+"=2].");
+				writer.println("final_disc_artist("+pairs.get(1).id+",\""+pairs.get(1).artist+"\")[("+partition+"="+1+" and "+partition3+ "=2 and "+partition2+"=2) or "+partition+"=2].");
 
 				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(0).category+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
 				writer.println("final_disc_category("+pairs.get(0).id+",\""+pairs.get(1).category+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
 				writer.println("final_disc_category("+pairs.get(1).id+",\""+pairs.get(0).category+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
-				writer.println("final_disc_category("+pairs.get(1).id+",\""+pairs.get(1).category+"\")["+partition+"=2].");
+				writer.println("final_disc_category("+pairs.get(1).id+",\""+pairs.get(1).category+"\")[("+partition+"="+1+" and "+partition3+ "=2 and "+partition2+"=2) or "+partition+"=2].");
 
 				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(0).tracks+"\")[("+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=1) or "+partition+"=2].");
 				writer.println("final_disc_tracks("+pairs.get(0).id+",\""+pairs.get(1).tracks+"\")["+partition+"="+1+" and "+partition3+ "=1 and "+partition2+"=2].");
 				writer.println("final_disc_tracks("+pairs.get(1).id+",\""+pairs.get(0).tracks+"\")["+partition+"="+1+" and "+partition3+"=2 and "+  partition2+"=1].");
-				writer.println("final_disc_tracks("+pairs.get(1).id+",\""+pairs.get(1).tracks+"\")["+partition+"=2].");
+				writer.println("final_disc_tracks("+pairs.get(1).id+",\""+pairs.get(1).tracks+"\")[("+partition+"="+1+" and "+partition3+ "=2 and "+partition2+"=2) or "+partition+"=2].");
 
 				writer.println("@p("+partition+"=1)="+(Precision.round(pairs.get(1).probability,2))+".");
 				writer.println("@p("+partition+"=2)="+(Precision.round(1-pairs.get(1).probability,2))+".");
@@ -136,7 +136,6 @@ public class Main {
 				writer.println("");
 		    }
 		    
-		    c = 1;
 		    for (ArrayList<Disc> dups : dupList){
 		    	String partition = "preferredID" + c;
 		    	c++;
